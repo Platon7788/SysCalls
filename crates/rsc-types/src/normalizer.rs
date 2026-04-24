@@ -28,8 +28,14 @@ pub fn normalize(raw: &str) -> String {
         return format!("*const {}", normalize(inner));
     }
     match trimmed {
-        // Handles / pointers
-        "HANDLE" | "PHANDLE" => "HANDLE".into(),
+        // Handles / pointers.
+        // NOTE: `PHANDLE` in ntdef is `typedef HANDLE *PHANDLE`, so it must
+        // emit `*mut HANDLE` — collapsing it to bare `HANDLE` (as an earlier
+        // version did) silently broke every `_Out_ PHANDLE` parameter on
+        // ~97 NT functions including NtCreate*/NtOpen* for keys, files,
+        // processes, threads, events, sections, …
+        "HANDLE" => "HANDLE".into(),
+        "PHANDLE" => "*mut HANDLE".into(),
         "PVOID" | "LPVOID" | "LPCVOID" => "*mut c_void".into(),
         "PCSTR" | "LPCSTR" => "*const u8".into(),
         "PCWSTR" | "LPCWSTR" => "*const u16".into(),
@@ -122,6 +128,15 @@ mod tests {
         assert_eq!(normalize("PVOID*"), "*mut *mut c_void");
         assert_eq!(normalize("PULONG"), "*mut u32");
         assert_eq!(normalize("PULONG*"), "*mut *mut u32");
+    }
+
+    /// Regression: `PHANDLE` used to collapse to `HANDLE`, silently breaking
+    /// every `_Out_ PHANDLE` parameter in Create*/Open* NT functions.
+    #[test]
+    fn phandle_is_a_pointer() {
+        assert_eq!(normalize("HANDLE"), "HANDLE");
+        assert_eq!(normalize("PHANDLE"), "*mut HANDLE");
+        assert_eq!(normalize("PHANDLE*"), "*mut *mut HANDLE");
     }
 
     #[test]

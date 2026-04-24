@@ -1,6 +1,6 @@
 [meta]
 schema_version = 1
-generated_at = "2026-04-24T07:34:48.2930863Z"
+generated_at = "2026-04-24T10:40:10.2660331Z"
 merge_tool_version = "0.0.0"
 baseline_build = "11_26200_8246"
 phnt_commit = "53fbbdc5b5d2b08761db1c7b26bfa8c820924356"
@@ -32,7 +32,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -706,7 +706,7 @@ min_phnt_version = "PHNT_WINDOWS_10_RS2"
 
 [[syscall.params]]
 name = "ActivityReferenceHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -1083,7 +1083,7 @@ min_phnt_version = "PHNT_WINDOWS_11"
 
 [[syscall.params]]
 name = "MultipleThreadId"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "in"
 
 [[syscall.params]]
@@ -1253,7 +1253,7 @@ category = "other"
 
 [[syscall.params]]
 name = "MemoryReserveHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -1509,7 +1509,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -1611,7 +1611,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -1693,7 +1693,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -1774,7 +1774,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -2201,7 +2201,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -2250,7 +2250,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3418,7 +3418,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3652,7 +3652,7 @@ min_phnt_version = "PHNT_WINDOWS_11_22H2"
 
 [[syscall.params]]
 name = "CpuPartitionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3688,7 +3688,7 @@ min_phnt_version = "PHNT_WINDOWS_10_20H1"
 
 [[syscall.params]]
 name = "CrossVmEvent"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3739,7 +3739,7 @@ min_phnt_version = "PHNT_WINDOWS_10_20H1"
 
 [[syscall.params]]
 name = "EventHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3789,7 +3789,7 @@ category = "other"
 
 [[syscall.params]]
 name = "DebugObjectHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3829,7 +3829,7 @@ category = "other"
 
 [[syscall.params]]
 name = "DirectoryHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3864,7 +3864,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "DirectoryHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -3974,7 +3974,7 @@ category = "other"
 
 [[syscall.params]]
 name = "EnlistmentHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4036,7 +4036,7 @@ category = "sync"
 
 [[syscall.params]]
 name = "EventHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4081,7 +4081,7 @@ category = "sync"
 
 [[syscall.params]]
 name = "EventPairHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4116,7 +4116,7 @@ category = "file"
 
 [[syscall.params]]
 name = "FileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4192,7 +4192,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "TimerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4226,7 +4226,7 @@ category = "other"
 
 [[syscall.params]]
 name = "IoCompletionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4265,7 +4265,7 @@ min_phnt_version = "PHNT_WINDOWS_11"
 
 [[syscall.params]]
 name = "IoRingHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4309,7 +4309,7 @@ category = "other"
 
 [[syscall.params]]
 name = "JobHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4378,7 +4378,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4434,7 +4434,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4495,7 +4495,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyedEventHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4536,7 +4536,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4601,7 +4601,7 @@ category = "other"
 
 [[syscall.params]]
 name = "FileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4660,7 +4660,7 @@ category = "sync"
 
 [[syscall.params]]
 name = "MutantHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4700,7 +4700,7 @@ category = "other"
 
 [[syscall.params]]
 name = "FileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4835,7 +4835,7 @@ optional = true
 
 [[syscall.params]]
 name = "PartitionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4870,7 +4870,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4916,7 +4916,7 @@ category = "other"
 
 [[syscall.params]]
 name = "NamespaceHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -4956,7 +4956,7 @@ category = "process"
 
 [[syscall.params]]
 name = "ProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5019,7 +5019,7 @@ category = "process"
 
 [[syscall.params]]
 name = "ProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5085,7 +5085,7 @@ min_phnt_version = "PHNT_WINDOWS_11"
 
 [[syscall.params]]
 name = "ProcessStateChangeHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5131,7 +5131,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ProfileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5196,7 +5196,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ProfileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5307,7 +5307,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ResourceManagerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5364,7 +5364,7 @@ category = "memory"
 
 [[syscall.params]]
 name = "SectionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5422,7 +5422,7 @@ min_phnt_version = "PHNT_WINDOWS_10_RS5"
 
 [[syscall.params]]
 name = "SectionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5489,7 +5489,7 @@ category = "sync"
 
 [[syscall.params]]
 name = "SemaphoreHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5534,7 +5534,7 @@ category = "other"
 
 [[syscall.params]]
 name = "LinkHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5573,7 +5573,7 @@ category = "thread"
 
 [[syscall.params]]
 name = "ThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5633,7 +5633,7 @@ category = "thread"
 
 [[syscall.params]]
 name = "ThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5708,7 +5708,7 @@ min_phnt_version = "PHNT_WINDOWS_11"
 
 [[syscall.params]]
 name = "ThreadStateChangeHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5754,7 +5754,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TimerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5795,7 +5795,7 @@ min_phnt_version = "PHNT_WINDOWS_10"
 
 [[syscall.params]]
 name = "TimerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5841,7 +5841,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -5929,7 +5929,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6040,7 +6040,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TransactionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6117,7 +6117,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TmHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6170,12 +6170,12 @@ category = "other"
 
 [[syscall.params]]
 name = "ProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
 name = "ThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6249,7 +6249,7 @@ min_phnt_version = "PHNT_WINDOWS_8"
 
 [[syscall.params]]
 name = "WaitCompletionPacketHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6284,7 +6284,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -6386,7 +6386,7 @@ category = "other"
 
 [[syscall.params]]
 name = "WorkerFactoryHandleReturn"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -7017,7 +7017,7 @@ optional = true
 
 [[syscall.params]]
 name = "TargetHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 optional = true
 
@@ -7083,7 +7083,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "NewTokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -7464,7 +7464,7 @@ optional = true
 
 [[syscall.params]]
 name = "NewTokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -7563,7 +7563,7 @@ optional = true
 
 [[syscall.params]]
 name = "NewTokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -8325,7 +8325,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "NewProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -8376,7 +8376,7 @@ optional = true
 
 [[syscall.params]]
 name = "NewThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -9075,7 +9075,7 @@ optional = true
 
 [[syscall.params]]
 name = "RootHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 optional = true
 
@@ -9138,7 +9138,7 @@ optional = true
 
 [[syscall.params]]
 name = "RootHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 optional = true
 
@@ -10127,7 +10127,7 @@ min_phnt_version = "PHNT_WINDOWS_11_22H2"
 
 [[syscall.params]]
 name = "CpuPartitionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10162,7 +10162,7 @@ category = "other"
 
 [[syscall.params]]
 name = "DirectoryHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10196,7 +10196,7 @@ category = "other"
 
 [[syscall.params]]
 name = "EnlistmentHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10241,7 +10241,7 @@ category = "other"
 
 [[syscall.params]]
 name = "EventHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10275,7 +10275,7 @@ category = "other"
 
 [[syscall.params]]
 name = "EventPairHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10309,7 +10309,7 @@ category = "file"
 
 [[syscall.params]]
 name = "FileHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10358,7 +10358,7 @@ category = "other"
 
 [[syscall.params]]
 name = "IoCompletionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10392,7 +10392,7 @@ category = "other"
 
 [[syscall.params]]
 name = "JobHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10426,7 +10426,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10460,7 +10460,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10499,7 +10499,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10538,7 +10538,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10582,7 +10582,7 @@ category = "registry"
 
 [[syscall.params]]
 name = "KeyedEventHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10616,7 +10616,7 @@ category = "other"
 
 [[syscall.params]]
 name = "MutantHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10733,7 +10733,7 @@ min_phnt_version = "PHNT_WINDOWS_10"
 
 [[syscall.params]]
 name = "PartitionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10767,7 +10767,7 @@ category = "other"
 
 [[syscall.params]]
 name = "NamespaceHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10807,7 +10807,7 @@ category = "process"
 
 [[syscall.params]]
 name = "ProcessHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -10857,7 +10857,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -10896,7 +10896,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -10955,7 +10955,7 @@ category = "other"
 
 [[syscall.params]]
 name = "ResourceManagerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11001,7 +11001,7 @@ category = "memory"
 
 [[syscall.params]]
 name = "SectionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11035,7 +11035,7 @@ category = "other"
 
 [[syscall.params]]
 name = "SemaphoreHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11069,7 +11069,7 @@ category = "other"
 
 [[syscall.params]]
 name = "SessionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11103,7 +11103,7 @@ category = "other"
 
 [[syscall.params]]
 name = "LinkHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11137,7 +11137,7 @@ category = "thread"
 
 [[syscall.params]]
 name = "ThreadHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11192,7 +11192,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -11236,7 +11236,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "TokenHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall]]
@@ -11260,7 +11260,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TimerHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11294,7 +11294,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TransactionHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -11340,7 +11340,7 @@ category = "other"
 
 [[syscall.params]]
 name = "TmHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -16142,7 +16142,7 @@ category = "other"
 
 [[syscall.params]]
 name = "PortHandle"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "out"
 
 [[syscall.params]]
@@ -16300,7 +16300,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "SourceFiles"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "in"
 
 [[syscall.params]]
@@ -16346,7 +16346,7 @@ direction = "in"
 
 [[syscall.params]]
 name = "SourceFiles"
-type = "HANDLE"
+type = "*mut HANDLE"
 direction = "in"
 
 [[syscall.params]]

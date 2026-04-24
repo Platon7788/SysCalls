@@ -1,0 +1,104 @@
+# =============================================================================
+# Rust build artifacts
+# =============================================================================
+target/
+**/target/
+
+# Cargo.lock — KEEP (workspace with binaries → reproducibility).
+# Explicit whitelist in case a consumer merges a template that ignores it.
+!Cargo.lock
+
+# Incremental, per-package build metadata
+**/*.rs.bk
+**/.cargo-ok
+
+# =============================================================================
+# Canonical DB is COMMITTED (Path A) — consumers get zero-setup builds.
+# Regenerate via `scripts/refresh.bat` when the supported Windows set changes.
+# =============================================================================
+
+# PDB / symbol server cache from the collector
+*.pdb
+*.pdb.tmp
+*.cab
+*.cab.tmp
+rsc-cache/
+
+# Vendored PDB snapshots — compressed only
+vendor/pdb-snapshots/**/*.pdb
+!vendor/pdb-snapshots/**/*.pdb.zip
+!vendor/pdb-snapshots/**/*.pdb.lz4
+
+# =============================================================================
+# Build output binaries (also covered by target/, explicit for hygiene)
+# =============================================================================
+*.exe
+*.dll
+*.lib
+*.a
+*.exp
+*.so
+*.dylib
+*.rlib
+*.staticlib
+*.o
+*.obj
+
+# Generated C header copies outside of crates/rsc-c/include (source of truth)
+**/rsc.h.bak
+
+# =============================================================================
+# Editors / IDEs
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*~
+.code-workspace
+
+# rustc-generated
+*.fir
+.rust-analyzer/
+
+# =============================================================================
+# OS cruft
+# =============================================================================
+Thumbs.db
+Desktop.ini
+desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# =============================================================================
+# AI assistant briefs — local maintainer context, not for public repo
+# =============================================================================
+CLAUDE.md
+.claude/
+
+# =============================================================================
+# Local env / secrets
+# =============================================================================
+.env
+.env.local
+.envrc
+*.pem
+*.key
+
+# =============================================================================
+# Test / bench output
+# =============================================================================
+*.profraw
+*.profdata
+perf.data*
+flamegraph.svg
+tarpaulin-report.html
+coverage/
+
+# =============================================================================
+# Generated / transient from tools
+# =============================================================================
+/tmp/
+/scratch/
+*.log

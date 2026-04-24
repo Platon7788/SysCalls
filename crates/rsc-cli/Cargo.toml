@@ -1,0 +1,28 @@
+[package]
+name = "rsc-cli"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "RSC CLI — unified `rsc` binary (collect / merge / verify / diff / stats)"
+
+# Phase 5: merge / verify / diff / stats over the DB layers.
+# Binary is spelled `rsc` (no `-cli` suffix) so users invoke
+# `rsc merge`, `rsc verify`, etc.
+[[bin]]
+name = "rsc"
+path = "src/main.rs"
+
+[dependencies]
+clap = { workspace = true }
+toml = { workspace = true }
+serde = { workspace = true }
+anyhow = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+time = { workspace = true }
+
+# Re-used to avoid duplicating the hash algorithm.
+rsc-runtime = { path = "../rsc-runtime" }

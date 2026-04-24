@@ -1,0 +1,32 @@
+[package]
+name = "rsc-runtime"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "RSC runtime — direct NT syscalls (#![no_std], zero runtime deps)"
+
+[lib]
+name = "rsc_runtime"
+
+# Runtime deps in the final binary: still zero (hard invariant, D-17).
+# `rsc-codegen` is a proc-macro — it runs at compile time and emits naked
+# stubs. Nothing from it ends up in the produced .rlib/.staticlib/.cdylib.
+[dependencies]
+rsc-codegen = { path = "../rsc-codegen" }
+
+[build-dependencies]
+toml = { workspace = true }
+serde = { workspace = true }
+
+# No features. Everything users wanted from old flags is on by default:
+#
+#   * JUMPER through a random ntdll slide on every call
+#   * Essential NTSTATUS constants with human-readable names
+#   * Stable hash seed (RSC_SEED = 0x5253_4300)
+#
+# If a use-case demands a knob, add it here consciously — historic
+# unwired flags (`status-names-full`, `debug-breakpoints`, `random-seed`,
+# `no-jumper`) were removed during the v1.0 refactor.

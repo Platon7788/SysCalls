@@ -1,0 +1,23 @@
+# Manual overrides — highest priority in rsc merge.
+# Hand-edit as needed. Every override requires a `reason` field.
+# Schema: Docs/DATABASE.md §3.
+
+[meta]
+schema_version = 1
+
+# No overrides yet. Examples:
+#
+# [[override]]
+# kind = "fix_signature"
+# name = "NtSomeFunction"
+# return_type = "NTSTATUS"
+# params = [
+#     { name = "Handle", type = "HANDLE", direction = "in" },
+# ]
+# reason = "Phnt declares X; Win11 24H2 actually uses Y. Verified via WinDbg."
+# verified_on = ["11_26100_2314"]
+#
+# [[override]]
+# kind = "exclude"
+# name = "NtDeprecatedCall"
+# reason = "Not used by this project; reduces binary size."

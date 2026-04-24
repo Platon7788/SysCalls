@@ -1,0 +1,83 @@
+[workspace]
+resolver = "2"
+# Two factors — see `crates/README.md`:
+#
+#   Core  (consumer imports):
+#     crates/rsc-runtime    — no_std syscall stubs
+#     crates/rsc-codegen    — proc-macro, build-time only
+#     crates/rsc-c          — C bindings (cdylib + staticlib)
+#
+#   Tools (maintainer / CI only):
+#     crates/rsc-collector  — PDB harvester
+#     crates/rsc-types      — phnt parser
+#     crates/rsc-cli        — unified `rsc` binary
+members = ["crates/*"]
+
+[workspace.package]
+version = "0.0.0"
+edition = "2021"
+rust-version = "1.88"
+license = "MIT"
+authors = ["Platon7788"]
+repository = "https://github.com/Platon7788/syscalls-rust"
+description = "SysCalls (RSC) — direct NT syscall library for Windows, self-contained"
+readme = "README.md"
+
+# Workspace-level dependencies. Crates opt in via `workspace = true`.
+# Rationale and alternatives: maintainer dependencies doc.
+[workspace.dependencies]
+# Serialization (build-time in rsc-runtime, runtime in tool crates)
+toml = { version = "0.8", default-features = false, features = ["parse", "display"] }
+serde = { version = "1.0", default-features = false, features = ["derive"] }
+
+# Error handling (binaries)
+anyhow = "1.0"
+
+# CLI parsing
+clap = { version = "4.5", features = ["derive"] }
+
+# Logging / observability
+tracing = "0.1"
+tracing-subscriber = { version = "0.3", features = ["env-filter", "fmt"] }
+
+# Proc-macro stack (rsc-codegen)
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+proc-macro2 = "1.0"
+proc-macro-error2 = "2.0"
+
+# Collector
+windows = { version = "0.62", features = [
+    "Win32_Foundation",
+    "Win32_System_Diagnostics_Debug",
+    "Win32_System_SystemInformation",
+    "Win32_Storage_FileSystem",
+] }
+ureq = "3.0"
+winreg = "0.56"
+iced-x86 = { version = "1.21", default-features = false, features = ["std", "decoder"] }
+sha2 = { version = "0.10", default-features = false }
+time = { version = "0.3", default-features = false, features = ["formatting", "std"] }
+
+# Phnt parser
+regex = { version = "1.10", default-features = false, features = ["perf", "std"] }
+
+# Dev / test
+tempfile = "3.10"
+
+# -----------------------------------------------------------------------------
+# Profiles (see §S-09)
+# -----------------------------------------------------------------------------
+
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
+
+# Troubleshooting profile — release optimizations, but with debug symbols.
+[profile.release-debug]
+inherits = "release"
+debug = true
+strip = false

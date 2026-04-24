@@ -1,0 +1,22 @@
+[package]
+name = "rsc-c"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "RSC C bindings — cdylib + staticlib + generated rsc.h"
+
+[lib]
+name = "rsc"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+# Phase 7: C bindings — re-export `rsc-runtime` stubs with a `Rsc*` prefix
+# and emit `include/rsc.h` from `db/canonical.toml` at build time.
+[dependencies]
+rsc-runtime = { path = "../rsc-runtime" }
+
+[build-dependencies]
+toml = { workspace = true }
+serde = { workspace = true }

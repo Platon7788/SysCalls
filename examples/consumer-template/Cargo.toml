@@ -1,0 +1,29 @@
+[package]
+name = "rsc-consumer-template"
+version = "0.0.1"
+edition = "2021"
+rust-version = "1.88"
+publish = false
+description = "Minimal external consumer of rsc-runtime — copy-paste friendly"
+
+[dependencies]
+# Path dep points at the SysCalls workspace. If you copy this template
+# out of the tree, change the path to wherever you cloned SysCalls to —
+# e.g. `path = "C:/code/syscalls-rust/SysCalls/crates/rsc-runtime"`.
+rsc-runtime = { path = "../../crates/rsc-runtime" }
+
+# Stand-alone workspace — keeps this crate independent so its lockfile /
+# target dir doesn't clash with the parent SysCalls workspace. Remove
+# this empty `[workspace]` block if you'd rather fold the consumer into
+# an existing workspace of your own.
+[workspace]
+
+# The SysCalls workspace-wide release profile is size-oriented
+# (opt-level = "z", LTO, strip). Keep that here too; a pen-test tool
+# benefits from small binaries.
+[profile.release]
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true

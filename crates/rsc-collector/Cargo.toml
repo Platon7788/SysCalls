@@ -1,0 +1,31 @@
+[package]
+name = "rsc-collector"
+version.workspace = true
+edition.workspace = true
+rust-version.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "RSC collector — fetches ntdll.pdb and emits db/auto/<build>.toml"
+
+[[bin]]
+name = "rsc-collector"
+path = "src/main.rs"
+
+# Phase 3: full PDB collector — Symbol Server + DbgHelp + stub disasm.
+[dependencies]
+windows = { workspace = true }
+ureq = { workspace = true }
+anyhow = { workspace = true }
+winreg = { workspace = true }
+toml = { workspace = true }
+serde = { workspace = true }
+clap = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+iced-x86 = { workspace = true }
+sha2 = { workspace = true }
+time = { workspace = true }
+
+[dev-dependencies]
+tempfile = { workspace = true }

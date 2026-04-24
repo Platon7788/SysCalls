@@ -1,0 +1,2 @@
+# Workspace-level examples. Phase 6+ — basic_syscall.rs, memory_alloc.rs,
+# process_enum.rs. Crate-specific examples live in crates/<name>/examples/.

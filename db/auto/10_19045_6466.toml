@@ -1,0 +1,4883 @@
+[meta]
+schema_version = 1
+build_id = "10_19045_6466"
+windows_version = "10 (build 19045.6466)"
+collected_at = "2026-04-24T07:03:57.7166491Z"
+collector_version = "0.0.0"
+function_count = 492
+function_count_x64 = 472
+function_count_x86 = 492
+
+[meta.ntdll_x64]
+path = 'C:\Windows\System32\ntdll.dll'
+file_size = 2029496
+pdb_name = "ntdll.pdb"
+pdb_guid = "180BF1B9-0AA7-5697-D0EF-EA5E5630AC7E"
+pdb_age = 1
+pdb_sha256 = "36b1a62e4bf6bf7d68458fff6e8a33b39f6527ec6a46e55ecdd12cde83894c8d"
+
+[meta.ntdll_x86]
+path = 'C:\Windows\SysWOW64\ntdll.dll'
+file_size = 1700440
+pdb_name = "wntdll.pdb"
+pdb_guid = "A9F8BCE9-412D-59F7-716E-6C8DB6CB6F3F"
+pdb_age = 1
+pdb_sha256 = "baeb10cd5b9a00a47f6fc53cf088f6cf708d18a499fbb66457f8dd82f641b368"
+
+[[syscall]]
+name = "NtAcceptConnectPort"
+ssn_x64 = 2
+ssn_x86 = 2
+arity_x86 = 6
+rva_x64 = 644560
+rva_x86 = 471520
+stub_x64 = "4C8BD1B802000000F604250803FE7F0175030F05"
+stub_x86 = "B802000000BAF091304BFFD2C2180090B803000A"
+
+[[syscall]]
+name = "NtAccessCheck"
+ssn_x64 = 0
+ssn_x86 = 0
+arity_x86 = 8
+rva_x64 = 644496
+rva_x86 = 471488
+stub_x64 = "4C8BD1B800000000F604250803FE7F0175030F05"
+stub_x86 = "B800000000BAF091304BFFD2C2200090B8010003"
+
+[[syscall]]
+name = "NtAccessCheckAndAuditAlarm"
+ssn_x64 = 41
+ssn_x86 = 41
+arity_x86 = 11
+rva_x64 = 645808
+rva_x86 = 472176
+stub_x64 = "4C8BD1B829000000F604250803FE7F0175030F05"
+stub_x86 = "B829000000BAF091304BFFD2C22C0090B82A0000"
+
+[[syscall]]
+name = "NtAccessCheckByType"
+ssn_x64 = 99
+ssn_x86 = 99
+arity_x86 = 11
+rva_x64 = 647648
+rva_x86 = 473104
+stub_x64 = "4C8BD1B863000000F604250803FE7F0175030F05"
+stub_x86 = "B863000000BAF091304BFFD2C22C0090B8640000"
+
+[[syscall]]
+name = "NtAccessCheckByTypeAndAuditAlarm"
+ssn_x64 = 89
+ssn_x86 = 89
+arity_x86 = 1
+rva_x64 = 647344
+rva_x86 = 472944
+stub_x64 = "4C8BD1B859000000F604250803FE7F0175030F05"
+stub_x86 = "B859000000BAF091304BFFD2C2400090B85A0018"
+
+[[syscall]]
+name = "NtAccessCheckByTypeResultList"
+ssn_x64 = 100
+ssn_x86 = 100
+arity_x86 = 11
+rva_x64 = 647680
+rva_x86 = 473120
+stub_x64 = "4C8BD1B864000000F604250803FE7F0175030F05"
+stub_x86 = "B864000000BAF091304BFFD2C22C0090B8650000"
+
+[[syscall]]
+name = "NtAccessCheckByTypeResultListAndAuditAlarm"
+ssn_x64 = 101
+ssn_x86 = 101
+rva_x64 = 647712
+rva_x86 = 473136
+stub_x64 = "4C8BD1B865000000F604250803FE7F0175030F05"
+stub_x86 = "B865000000BAF091304BFFD2C2400090B8660000"
+
+[[syscall]]
+name = "NtAccessCheckByTypeResultListAndAuditAlarmByHandle"
+ssn_x64 = 102
+ssn_x86 = 102
+arity_x86 = 2
+rva_x64 = 647744
+rva_x86 = 473152
+stub_x64 = "4C8BD1B866000000F604250803FE7F0175030F05"
+stub_x86 = "B866000000BAF091304BFFD2C2440090B8670000"
+
+[[syscall]]
+name = "NtAcquireCrossVmMutant"
+ssn_x64 = 103
+ssn_x86 = 103
+arity_x86 = 2
+rva_x64 = 647776
+rva_x86 = 473168
+stub_x64 = "4C8BD1B867000000F604250803FE7F0175030F05"
+stub_x86 = "B867000000BAF091304BFFD2C2080090B8680000"
+
+[[syscall]]
+name = "NtAcquireProcessActivityReference"
+ssn_x64 = 104
+ssn_x86 = 104
+arity_x86 = 3
+rva_x64 = 647808
+rva_x86 = 473184
+stub_x64 = "4C8BD1B868000000F604250803FE7F0175030F05"
+stub_x86 = "B868000000BAF091304BFFD2C20C0090B8690011"
+
+[[syscall]]
+name = "NtAddAtom"
+ssn_x64 = 71
+ssn_x86 = 655431
+arity_x86 = 3
+rva_x64 = 646768
+rva_x86 = 472656
+stub_x64 = "4C8BD1B847000000F604250803FE7F0175030F05"
+stub_x86 = "B847000A00BAF091304BFFD2C20C0090B8480000"
+
+[[syscall]]
+name = "NtAddAtomEx"
+ssn_x64 = 105
+ssn_x86 = 1114217
+arity_x86 = 4
+rva_x64 = 647840
+rva_x86 = 473200
+stub_x64 = "4C8BD1B869000000F604250803FE7F0175030F05"
+stub_x86 = "B869001100BAF091304BFFD2C2100090B86A0000"
+
+[[syscall]]
+name = "NtAddBootEntry"
+ssn_x64 = 106
+ssn_x86 = 106
+arity_x86 = 2
+rva_x64 = 647872
+rva_x86 = 473216
+stub_x64 = "4C8BD1B86A000000F604250803FE7F0175030F05"
+stub_x86 = "B86A000000BAF091304BFFD2C2080090B86B0000"
+
+[[syscall]]
+name = "NtAddDriverEntry"
+ssn_x64 = 107
+ssn_x86 = 107
+arity_x86 = 2
+rva_x64 = 647904
+rva_x86 = 473232
+stub_x64 = "4C8BD1B86B000000F604250803FE7F0175030F05"
+stub_x86 = "B86B000000BAF091304BFFD2C2080090B86C0000"
+
+[[syscall]]
+name = "NtAdjustGroupsToken"
+ssn_x64 = 108
+ssn_x86 = 108
+arity_x86 = 6
+rva_x64 = 647936
+rva_x86 = 473248
+stub_x64 = "4C8BD1B86C000000F604250803FE7F0175030F05"
+stub_x86 = "B86C000000BAF091304BFFD2C2180090B86D0000"
+
+[[syscall]]
+name = "NtAdjustPrivilegesToken"
+ssn_x64 = 65
+ssn_x86 = 65
+arity_x86 = 6
+rva_x64 = 646576
+rva_x86 = 472560
+stub_x64 = "4C8BD1B841000000F604250803FE7F0175030F05"
+stub_x86 = "B841000000BAF091304BFFD2C2180090B8420000"
+
+[[syscall]]
+name = "NtAdjustTokenClaimsAndDeviceGroups"
+ssn_x64 = 109
+ssn_x86 = 109
+arity_x86 = 2
+rva_x64 = 647968
+rva_x86 = 473264
+stub_x64 = "4C8BD1B86D000000F604250803FE7F0175030F05"
+stub_x86 = "B86D000000BAF091304BFFD2C2400090B86E0007"
+
+[[syscall]]
+name = "NtAlertResumeThread"
+ssn_x64 = 110
+ssn_x86 = 458862
+arity_x86 = 2
+rva_x64 = 648000
+rva_x86 = 473280
+stub_x64 = "4C8BD1B86E000000F604250803FE7F0175030F05"
+stub_x86 = "B86E000700BAF091304BFFD2C2080090B86F0003"
+
+[[syscall]]
+name = "NtAlertThread"
+ssn_x64 = 111
+ssn_x86 = 196719
+arity_x86 = 1
+rva_x64 = 648032
+rva_x86 = 473296
+stub_x64 = "4C8BD1B86F000000F604250803FE7F0175030F05"
+stub_x86 = "B86F000300BAF091304BFFD2C2040090B8700004"
+
+[[syscall]]
+name = "NtAlertThreadByThreadId"
+ssn_x64 = 112
+ssn_x86 = 262256
+arity_x86 = 1
+rva_x64 = 648064
+rva_x86 = 473312
+stub_x64 = "4C8BD1B870000000F604250803FE7F0175030F05"
+stub_x86 = "B870000400BAF091304BFFD2C2040090B8710004"
+
+[[syscall]]
+name = "NtAllocateLocallyUniqueId"
+ssn_x64 = 113
+ssn_x86 = 262257
+arity_x86 = 1
+rva_x64 = 648096
+rva_x86 = 473328
+stub_x64 = "4C8BD1B871000000F604250803FE7F0175030F05"
+stub_x86 = "B871000400BAF091304BFFD2C2040090B8720000"
+
+[[syscall]]
+name = "NtAllocateReserveObject"
+ssn_x64 = 114
+ssn_x86 = 114
+arity_x86 = 3
+rva_x64 = 648128
+rva_x86 = 473344
+stub_x64 = "4C8BD1B872000000F604250803FE7F0175030F05"
+stub_x86 = "B872000000BAF091304BFFD2C20C0090B8730000"
+
+[[syscall]]
+name = "NtAllocateUserPhysicalPages"
+ssn_x64 = 115
+ssn_x86 = 115
+arity_x86 = 3
+rva_x64 = 648160
+rva_x86 = 473360
+stub_x64 = "4C8BD1B873000000F604250803FE7F0175030F05"
+stub_x86 = "B873000000BAF091304BFFD2C20C0090B8740000"
+
+[[syscall]]
+name = "NtAllocateUserPhysicalPagesEx"
+ssn_x64 = 116
+ssn_x86 = 116
+arity_x86 = 5
+rva_x64 = 648192
+rva_x86 = 473376
+stub_x64 = "4C8BD1B874000000F604250803FE7F0175030F05"
+stub_x86 = "B874000000BAF091304BFFD2C2140090B8750011"
+
+[[syscall]]
+name = "NtAllocateUuids"
+ssn_x64 = 117
+ssn_x86 = 1114229
+arity_x86 = 4
+rva_x64 = 648224
+rva_x86 = 473392
+stub_x64 = "4C8BD1B875000000F604250803FE7F0175030F05"
+stub_x86 = "B875001100BAF091304BFFD2C2100090B8760000"
+
+[[syscall]]
+name = "NtAllocateVirtualMemory"
+ssn_x64 = 24
+ssn_x86 = 24
+arity_x86 = 6
+rva_x64 = 645264
+rva_x86 = 471872
+stub_x64 = "4C8BD1B818000000F604250803FE7F0175030F05"
+stub_x86 = "B818000000BAF091304BFFD2C2180090B8190000"
+
+[[syscall]]
+name = "NtAllocateVirtualMemoryEx"
+ssn_x64 = 118
+ssn_x86 = 118
+arity_x86 = 7
+rva_x64 = 648256
+rva_x86 = 473408
+stub_x64 = "4C8BD1B876000000F604250803FE7F0175030F05"
+stub_x86 = "B876000000BAF091304BFFD2C21C0090B8770000"
+
+[[syscall]]
+name = "NtAlpcAcceptConnectPort"
+ssn_x64 = 119
+ssn_x86 = 119
+arity_x86 = 9
+rva_x64 = 648288
+rva_x86 = 473424
+stub_x64 = "4C8BD1B877000000F604250803FE7F0175030F05"
+stub_x86 = "B877000000BAF091304BFFD2C2240090B8780000"
+
+[[syscall]]
+name = "NtAlpcCancelMessage"
+ssn_x64 = 120
+ssn_x86 = 120
+arity_x86 = 3
+rva_x64 = 648320
+rva_x86 = 473440
+stub_x64 = "4C8BD1B878000000F604250803FE7F0175030F05"
+stub_x86 = "B878000000BAF091304BFFD2C20C0090B8790000"
+
+[[syscall]]
+name = "NtAlpcConnectPort"
+ssn_x64 = 121
+ssn_x86 = 121
+arity_x86 = 11
+rva_x64 = 648352
+rva_x86 = 473456
+stub_x64 = "4C8BD1B879000000F604250803FE7F0175030F05"
+stub_x86 = "B879000000BAF091304BFFD2C22C0090B87A0000"
+
+[[syscall]]
+name = "NtAlpcConnectPortEx"
+ssn_x64 = 122
+ssn_x86 = 122
+arity_x86 = 11
+rva_x64 = 648384
+rva_x86 = 473472
+stub_x64 = "4C8BD1B87A000000F604250803FE7F0175030F05"
+stub_x86 = "B87A000000BAF091304BFFD2C22C0090B87B0000"
+
+[[syscall]]
+name = "NtAlpcCreatePort"
+ssn_x64 = 123
+ssn_x86 = 123
+arity_x86 = 3
+rva_x64 = 648416
+rva_x86 = 473488
+stub_x64 = "4C8BD1B87B000000F604250803FE7F0175030F05"
+stub_x86 = "B87B000000BAF091304BFFD2C20C0090B87C0000"
+
+[[syscall]]
+name = "NtAlpcCreatePortSection"
+ssn_x64 = 124
+ssn_x86 = 124
+arity_x86 = 6
+rva_x64 = 648448
+rva_x86 = 473504
+stub_x64 = "4C8BD1B87C000000F604250803FE7F0175030F05"
+stub_x86 = "B87C000000BAF091304BFFD2C2180090B87D0000"
+
+[[syscall]]
+name = "NtAlpcCreateResourceReserve"
+ssn_x64 = 125
+ssn_x86 = 125
+arity_x86 = 4
+rva_x64 = 648480
+rva_x86 = 473520
+stub_x64 = "4C8BD1B87D000000F604250803FE7F0175030F05"
+stub_x86 = "B87D000000BAF091304BFFD2C2100090B87E0000"
+
+[[syscall]]
+name = "NtAlpcCreateSectionView"
+ssn_x64 = 126
+ssn_x86 = 126
+arity_x86 = 3
+rva_x64 = 648512
+rva_x86 = 473536
+stub_x64 = "4C8BD1B87E000000F604250803FE7F0175030F05"
+stub_x86 = "B87E000000BAF091304BFFD2C20C0090B87F0000"
+
+[[syscall]]
+name = "NtAlpcCreateSecurityContext"
+ssn_x64 = 127
+ssn_x86 = 127
+arity_x86 = 3
+rva_x64 = 648544
+rva_x86 = 473552
+stub_x64 = "4C8BD1B87F000000F604250803FE7F0175030F05"
+stub_x86 = "B87F000000BAF091304BFFD2C20C0090B8800000"
+
+[[syscall]]
+name = "NtAlpcDeletePortSection"
+ssn_x64 = 128
+ssn_x86 = 128
+arity_x86 = 3
+rva_x64 = 648576
+rva_x86 = 473568
+stub_x64 = "4C8BD1B880000000F604250803FE7F0175030F05"
+stub_x86 = "B880000000BAF091304BFFD2C20C0090B8810000"
+
+[[syscall]]
+name = "NtAlpcDeleteResourceReserve"
+ssn_x64 = 129
+ssn_x86 = 129
+arity_x86 = 3
+rva_x64 = 648608
+rva_x86 = 473584
+stub_x64 = "4C8BD1B881000000F604250803FE7F0175030F05"
+stub_x86 = "B881000000BAF091304BFFD2C20C0090B8820000"
+
+[[syscall]]
+name = "NtAlpcDeleteSectionView"
+ssn_x64 = 130
+ssn_x86 = 130
+arity_x86 = 3
+rva_x64 = 648640
+rva_x86 = 473600
+stub_x64 = "4C8BD1B882000000F604250803FE7F0175030F05"
+stub_x86 = "B882000000BAF091304BFFD2C20C0090B8830000"
+
+[[syscall]]
+name = "NtAlpcDeleteSecurityContext"
+ssn_x64 = 131
+ssn_x86 = 131
+arity_x86 = 3
+rva_x64 = 648672
+rva_x86 = 473616
+stub_x64 = "4C8BD1B883000000F604250803FE7F0175030F05"
+stub_x86 = "B883000000BAF091304BFFD2C20C0090B8840000"
+
+[[syscall]]
+name = "NtAlpcDisconnectPort"
+ssn_x64 = 132
+ssn_x86 = 132
+arity_x86 = 2
+rva_x64 = 648704
+rva_x86 = 473632
+stub_x64 = "4C8BD1B884000000F604250803FE7F0175030F05"
+stub_x86 = "B884000000BAF091304BFFD2C2080090B8850000"
+
+[[syscall]]
+name = "NtAlpcImpersonateClientContainerOfPort"
+ssn_x64 = 133
+ssn_x86 = 133
+arity_x86 = 3
+rva_x64 = 648736
+rva_x86 = 473648
+stub_x64 = "4C8BD1B885000000F604250803FE7F0175030F05"
+stub_x86 = "B885000000BAF091304BFFD2C20C0090B8860000"
+
+[[syscall]]
+name = "NtAlpcImpersonateClientOfPort"
+ssn_x64 = 134
+ssn_x86 = 134
+arity_x86 = 3
+rva_x64 = 648768
+rva_x86 = 473664
+stub_x64 = "4C8BD1B886000000F604250803FE7F0175030F05"
+stub_x86 = "B886000000BAF091304BFFD2C20C0090B8870000"
+
+[[syscall]]
+name = "NtAlpcOpenSenderProcess"
+ssn_x64 = 135
+ssn_x86 = 135
+arity_x86 = 6
+rva_x64 = 648800
+rva_x86 = 473680
+stub_x64 = "4C8BD1B887000000F604250803FE7F0175030F05"
+stub_x86 = "B887000000BAF091304BFFD2C2180090B8880000"
+
+[[syscall]]
+name = "NtAlpcOpenSenderThread"
+ssn_x64 = 136
+ssn_x86 = 136
+arity_x86 = 6
+rva_x64 = 648832
+rva_x86 = 473696
+stub_x64 = "4C8BD1B888000000F604250803FE7F0175030F05"
+stub_x86 = "B888000000BAF091304BFFD2C2180090B8890000"
+
+[[syscall]]
+name = "NtAlpcQueryInformation"
+ssn_x64 = 137
+ssn_x86 = 137
+arity_x86 = 5
+rva_x64 = 648864
+rva_x86 = 473712
+stub_x64 = "4C8BD1B889000000F604250803FE7F0175030F05"
+stub_x86 = "B889000000BAF091304BFFD2C2140090B88A0000"
+
+[[syscall]]
+name = "NtAlpcQueryInformationMessage"
+ssn_x64 = 138
+ssn_x86 = 138
+arity_x86 = 6
+rva_x64 = 648896
+rva_x86 = 473728
+stub_x64 = "4C8BD1B88A000000F604250803FE7F0175030F05"
+stub_x86 = "B88A000000BAF091304BFFD2C2180090B88B0000"
+
+[[syscall]]
+name = "NtAlpcRevokeSecurityContext"
+ssn_x64 = 139
+ssn_x86 = 139
+arity_x86 = 3
+rva_x64 = 648928
+rva_x86 = 473744
+stub_x64 = "4C8BD1B88B000000F604250803FE7F0175030F05"
+stub_x86 = "B88B000000BAF091304BFFD2C20C0090B88C0000"
+
+[[syscall]]
+name = "NtAlpcSendWaitReceivePort"
+ssn_x64 = 140
+ssn_x86 = 140
+arity_x86 = 8
+rva_x64 = 648960
+rva_x86 = 473760
+stub_x64 = "4C8BD1B88C000000F604250803FE7F0175030F05"
+stub_x86 = "B88C000000BAF091304BFFD2C2200090B88D0000"
+
+[[syscall]]
+name = "NtAlpcSetInformation"
+ssn_x64 = 141
+ssn_x86 = 141
+arity_x86 = 4
+rva_x64 = 648992
+rva_x86 = 473776
+stub_x64 = "4C8BD1B88D000000F604250803FE7F0175030F05"
+stub_x86 = "B88D000000BAF091304BFFD2C2100090B88E0005"
+
+[[syscall]]
+name = "NtApphelpCacheControl"
+ssn_x64 = 76
+ssn_x86 = 76
+arity_x86 = 2
+rva_x64 = 646928
+rva_x86 = 472736
+stub_x64 = "4C8BD1B84C000000F604250803FE7F0175030F05"
+stub_x86 = "B84C000000BAF091304BFFD2C2080090B84D0000"
+
+[[syscall]]
+name = "NtAreMappedFilesTheSame"
+ssn_x64 = 142
+ssn_x86 = 327822
+arity_x86 = 2
+rva_x64 = 649024
+rva_x86 = 473792
+stub_x64 = "4C8BD1B88E000000F604250803FE7F0175030F05"
+stub_x86 = "B88E000500BAF091304BFFD2C2080090B88F0008"
+
+[[syscall]]
+name = "NtAssignProcessToJobObject"
+ssn_x64 = 143
+ssn_x86 = 524431
+arity_x86 = 2
+rva_x64 = 649056
+rva_x86 = 473808
+stub_x64 = "4C8BD1B88F000000F604250803FE7F0175030F05"
+stub_x86 = "B88F000800BAF091304BFFD2C2080090B8900000"
+
+[[syscall]]
+name = "NtAssociateWaitCompletionPacket"
+ssn_x64 = 144
+ssn_x86 = 144
+arity_x86 = 8
+rva_x64 = 649088
+rva_x86 = 473824
+stub_x64 = "4C8BD1B890000000F604250803FE7F0175030F05"
+stub_x86 = "B890000000BAF091304BFFD2C2200090B8910000"
+
+[[syscall]]
+name = "NtCallEnclave"
+ssn_x64 = 145
+ssn_x86 = 145
+arity_x86 = 4
+rva_x64 = 649120
+rva_x86 = 473840
+stub_x64 = "4C8BD1B891000000F604250803FE7F0175030F05"
+stub_x86 = "B891000000BAF091304BFFD2C2100090B8920000"
+
+[[syscall]]
+name = "NtCallbackReturn"
+ssn_x64 = 5
+ssn_x86 = 5
+arity_x86 = 3
+rva_x64 = 644656
+rva_x86 = 471568
+stub_x64 = "4C8BD1B805000000F604250803FE7F0175030F05"
+stub_x86 = "B805000000BAF091304BFFD2C20C0090B806001A"
+
+[[syscall]]
+name = "NtCancelIoFile"
+ssn_x64 = 93
+ssn_x86 = 93
+arity_x86 = 2
+rva_x64 = 647456
+rva_x86 = 473008
+stub_x64 = "4C8BD1B85D000000F604250803FE7F0175030F05"
+stub_x86 = "B85D000000BAF091304BFFD2C2080090B85E0000"
+
+[[syscall]]
+name = "NtCancelIoFileEx"
+ssn_x64 = 146
+ssn_x86 = 146
+arity_x86 = 3
+rva_x64 = 649152
+rva_x86 = 473856
+stub_x64 = "4C8BD1B892000000F604250803FE7F0175030F05"
+stub_x86 = "B892000000BAF091304BFFD2C20C0090B8930000"
+
+[[syscall]]
+name = "NtCancelSynchronousIoFile"
+ssn_x64 = 147
+ssn_x86 = 147
+arity_x86 = 3
+rva_x64 = 649184
+rva_x86 = 473872
+stub_x64 = "4C8BD1B893000000F604250803FE7F0175030F05"
+stub_x86 = "B893000000BAF091304BFFD2C20C0090B8940000"
+
+[[syscall]]
+name = "NtCancelTimer"
+ssn_x64 = 97
+ssn_x86 = 458849
+arity_x86 = 2
+rva_x64 = 647584
+rva_x86 = 473072
+stub_x64 = "4C8BD1B861000000F604250803FE7F0175030F05"
+stub_x86 = "B861000700BAF091304BFFD2C2080090B8620000"
+
+[[syscall]]
+name = "NtCancelTimer2"
+ssn_x64 = 148
+ssn_x86 = 148
+arity_x86 = 2
+rva_x64 = 649216
+rva_x86 = 473888
+stub_x64 = "4C8BD1B894000000F604250803FE7F0175030F05"
+stub_x86 = "B894000000BAF091304BFFD2C2080090B8950000"
+
+[[syscall]]
+name = "NtCancelWaitCompletionPacket"
+ssn_x64 = 149
+ssn_x86 = 149
+arity_x86 = 2
+rva_x64 = 649248
+rva_x86 = 473904
+stub_x64 = "4C8BD1B895000000F604250803FE7F0175030F05"
+stub_x86 = "B895000000BAF091304BFFD2C2080090B8960000"
+
+[[syscall]]
+name = "NtClearEvent"
+ssn_x64 = 62
+ssn_x86 = 196670
+arity_x86 = 1
+rva_x64 = 646480
+rva_x86 = 472512
+stub_x64 = "4C8BD1B83E000000F604250803FE7F0175030F05"
+stub_x86 = "B83E000300BAF091304BFFD2C2040090B83F0000"
+
+[[syscall]]
+name = "NtClose"
+ssn_x64 = 15
+ssn_x86 = 196623
+arity_x86 = 1
+rva_x64 = 644976
+rva_x86 = 471728
+stub_x64 = "4C8BD1B80F000000F604250803FE7F0175030F05"
+stub_x86 = "B80F000300BAF091304BFFD2C2040090B8100000"
+
+[[syscall]]
+name = "NtCloseObjectAuditAlarm"
+ssn_x64 = 59
+ssn_x86 = 59
+arity_x86 = 3
+rva_x64 = 646384
+rva_x86 = 472464
+stub_x64 = "4C8BD1B83B000000F604250803FE7F0175030F05"
+stub_x86 = "B83B000000BAF091304BFFD2C20C0090B83C0000"
+
+[[syscall]]
+name = "NtCommitComplete"
+ssn_x64 = 150
+ssn_x86 = 150
+arity_x86 = 2
+rva_x64 = 649280
+rva_x86 = 473920
+stub_x64 = "4C8BD1B896000000F604250803FE7F0175030F05"
+stub_x86 = "B896000000BAF091304BFFD2C2080090B8970000"
+
+[[syscall]]
+name = "NtCommitEnlistment"
+ssn_x64 = 151
+ssn_x86 = 151
+arity_x86 = 2
+rva_x64 = 649312
+rva_x86 = 473936
+stub_x64 = "4C8BD1B897000000F604250803FE7F0175030F05"
+stub_x86 = "B897000000BAF091304BFFD2C2080090B8980000"
+
+[[syscall]]
+name = "NtCommitRegistryTransaction"
+ssn_x64 = 152
+ssn_x86 = 152
+arity_x86 = 2
+rva_x64 = 649344
+rva_x86 = 473952
+stub_x64 = "4C8BD1B898000000F604250803FE7F0175030F05"
+stub_x86 = "B898000000BAF091304BFFD2C2080090B8990000"
+
+[[syscall]]
+name = "NtCommitTransaction"
+ssn_x64 = 153
+ssn_x86 = 153
+arity_x86 = 2
+rva_x64 = 649376
+rva_x86 = 473968
+stub_x64 = "4C8BD1B899000000F604250803FE7F0175030F05"
+stub_x86 = "B899000000BAF091304BFFD2C2080090B89A0000"
+
+[[syscall]]
+name = "NtCompactKeys"
+ssn_x64 = 154
+ssn_x86 = 154
+arity_x86 = 2
+rva_x64 = 649408
+rva_x86 = 473984
+stub_x64 = "4C8BD1B89A000000F604250803FE7F0175030F05"
+stub_x86 = "B89A000000BAF091304BFFD2C2080090B89B0000"
+
+[[syscall]]
+name = "NtCompareObjects"
+ssn_x64 = 155
+ssn_x86 = 155
+arity_x86 = 2
+rva_x64 = 649440
+rva_x86 = 474000
+stub_x64 = "4C8BD1B89B000000F604250803FE7F0175030F05"
+stub_x86 = "B89B000000BAF091304BFFD2C2080090B89C0000"
+
+[[syscall]]
+name = "NtCompareSigningLevels"
+ssn_x64 = 156
+ssn_x86 = 156
+arity_x86 = 2
+rva_x64 = 649472
+rva_x86 = 474016
+stub_x64 = "4C8BD1B89C000000F604250803FE7F0175030F05"
+stub_x86 = "B89C000000BAF091304BFFD2C2080090B89D0000"
+
+[[syscall]]
+name = "NtCompareTokens"
+ssn_x64 = 157
+ssn_x86 = 157
+arity_x86 = 3
+rva_x64 = 649504
+rva_x86 = 474032
+stub_x64 = "4C8BD1B89D000000F604250803FE7F0175030F05"
+stub_x86 = "B89D000000BAF091304BFFD2C20C0090B89E0000"
+
+[[syscall]]
+name = "NtCompleteConnectPort"
+ssn_x64 = 158
+ssn_x86 = 158
+arity_x86 = 1
+rva_x64 = 649536
+rva_x86 = 474048
+stub_x64 = "4C8BD1B89E000000F604250803FE7F0175030F05"
+stub_x86 = "B89E000000BAF091304BFFD2C2040090B89F0003"
+
+[[syscall]]
+name = "NtCompressKey"
+ssn_x64 = 159
+ssn_x86 = 196767
+arity_x86 = 1
+rva_x64 = 649568
+rva_x86 = 474064
+stub_x64 = "4C8BD1B89F000000F604250803FE7F0175030F05"
+stub_x86 = "B89F000300BAF091304BFFD2C2040090B8A00000"
+
+[[syscall]]
+name = "NtConnectPort"
+ssn_x64 = 160
+ssn_x86 = 160
+arity_x86 = 8
+rva_x64 = 649600
+rva_x86 = 474080
+stub_x64 = "4C8BD1B8A0000000F604250803FE7F0175030F05"
+stub_x86 = "B8A0000000BAF091304BFFD2C2200090B8A10000"
+
+[[syscall]]
+name = "NtContinue"
+ssn_x64 = 67
+ssn_x86 = 67
+arity_x86 = 2
+rva_x64 = 646640
+rva_x86 = 472592
+stub_x64 = "4C8BD1B843000000F604250803FE7F0175030F05"
+stub_x86 = "B843000000BAF091304BFFD2C2080090B8440004"
+
+[[syscall]]
+name = "NtContinueEx"
+ssn_x64 = 161
+ssn_x86 = 161
+arity_x86 = 2
+rva_x64 = 649632
+rva_x86 = 474096
+stub_x64 = "4C8BD1B8A1000000F604250803FE7F0175030F05"
+stub_x86 = "B8A1000000BAF091304BFFD2C2080090B8A20000"
+
+[[syscall]]
+name = "NtConvertBetweenAuxiliaryCounterAndPerformanceCounter"
+ssn_x64 = 162
+ssn_x86 = 162
+arity_x86 = 4
+rva_x64 = 649664
+rva_x86 = 474112
+stub_x64 = "4C8BD1B8A2000000F604250803FE7F0175030F05"
+stub_x86 = "B8A2000000BAF091304BFFD2C2100090B8A30000"
+
+[[syscall]]
+name = "NtCopyFileChunk"
+ssn_x64 = 163
+ssn_x86 = 163
+arity_x86 = 10
+rva_x64 = 649696
+rva_x86 = 474128
+stub_x64 = "4C8BD1B8A3000000F604250803FE7F0175030F05"
+stub_x86 = "B8A3000000BAF091304BFFD2C2280090B8A40000"
+
+[[syscall]]
+name = "NtCreateCrossVmEvent"
+ssn_x64 = 164
+ssn_x86 = 164
+arity_x86 = 6
+rva_x64 = 649728
+rva_x86 = 474144
+stub_x64 = "4C8BD1B8A4000000F604250803FE7F0175030F05"
+stub_x86 = "B8A4000000BAF091304BFFD2C2180090B8A50000"
+
+[[syscall]]
+name = "NtCreateCrossVmMutant"
+ssn_x64 = 165
+ssn_x86 = 165
+arity_x86 = 6
+rva_x64 = 649760
+rva_x86 = 474160
+stub_x64 = "4C8BD1B8A5000000F604250803FE7F0175030F05"
+stub_x86 = "B8A5000000BAF091304BFFD2C2180090B8A60000"
+
+[[syscall]]
+name = "NtCreateDebugObject"
+ssn_x64 = 166
+ssn_x86 = 166
+arity_x86 = 4
+rva_x64 = 649792
+rva_x86 = 474176
+stub_x64 = "4C8BD1B8A6000000F604250803FE7F0175030F05"
+stub_x86 = "B8A6000000BAF091304BFFD2C2100090B8A70000"
+
+[[syscall]]
+name = "NtCreateDirectoryObject"
+ssn_x64 = 167
+ssn_x86 = 167
+arity_x86 = 3
+rva_x64 = 649824
+rva_x86 = 474192
+stub_x64 = "4C8BD1B8A7000000F604250803FE7F0175030F05"
+stub_x86 = "B8A7000000BAF091304BFFD2C20C0090B8A80000"
+
+[[syscall]]
+name = "NtCreateDirectoryObjectEx"
+ssn_x64 = 168
+ssn_x86 = 168
+arity_x86 = 5
+rva_x64 = 649856
+rva_x86 = 474208
+stub_x64 = "4C8BD1B8A8000000F604250803FE7F0175030F05"
+stub_x86 = "B8A8000000BAF091304BFFD2C2140090B8A90000"
+
+[[syscall]]
+name = "NtCreateEnclave"
+ssn_x64 = 169
+ssn_x86 = 169
+arity_x86 = 9
+rva_x64 = 649888
+rva_x86 = 474224
+stub_x64 = "4C8BD1B8A9000000F604250803FE7F0175030F05"
+stub_x86 = "B8A9000000BAF091304BFFD2C2240090B8AA0000"
+
+[[syscall]]
+name = "NtCreateEnlistment"
+ssn_x64 = 170
+ssn_x86 = 170
+arity_x86 = 8
+rva_x64 = 649920
+rva_x86 = 474240
+stub_x64 = "4C8BD1B8AA000000F604250803FE7F0175030F05"
+stub_x86 = "B8AA000000BAF091304BFFD2C2200090B8AB0000"
+
+[[syscall]]
+name = "NtCreateEvent"
+ssn_x64 = 72
+ssn_x86 = 72
+arity_x86 = 5
+rva_x64 = 646800
+rva_x86 = 472672
+stub_x64 = "4C8BD1B848000000F604250803FE7F0175030F05"
+stub_x86 = "B848000000BAF091304BFFD2C2140090B8490000"
+
+[[syscall]]
+name = "NtCreateEventPair"
+ssn_x64 = 171
+ssn_x86 = 171
+arity_x86 = 3
+rva_x64 = 649952
+rva_x86 = 474256
+stub_x64 = "4C8BD1B8AB000000F604250803FE7F0175030F05"
+stub_x86 = "B8AB000000BAF091304BFFD2C20C0090B8AC0000"
+
+[[syscall]]
+name = "NtCreateFile"
+ssn_x64 = 85
+ssn_x86 = 85
+arity_x86 = 11
+rva_x64 = 647216
+rva_x86 = 472880
+stub_x64 = "4C8BD1B855000000F604250803FE7F0175030F05"
+stub_x86 = "B855000000BAF091304BFFD2C22C0090B8560000"
+
+[[syscall]]
+name = "NtCreateIRTimer"
+ssn_x64 = 172
+ssn_x86 = 172
+arity_x86 = 3
+rva_x64 = 649984
+rva_x86 = 474272
+stub_x64 = "4C8BD1B8AC000000F604250803FE7F0175030F05"
+stub_x86 = "B8AC000000BAF091304BFFD2C20C0090B8AD0000"
+
+[[syscall]]
+name = "NtCreateIoCompletion"
+ssn_x64 = 173
+ssn_x86 = 173
+arity_x86 = 4
+rva_x64 = 650016
+rva_x86 = 474288
+stub_x64 = "4C8BD1B8AD000000F604250803FE7F0175030F05"
+stub_x86 = "B8AD000000BAF091304BFFD2C2100090B8AE0000"
+
+[[syscall]]
+name = "NtCreateJobObject"
+ssn_x64 = 174
+ssn_x86 = 174
+arity_x86 = 3
+rva_x64 = 650048
+rva_x86 = 474304
+stub_x64 = "4C8BD1B8AE000000F604250803FE7F0175030F05"
+stub_x86 = "B8AE000000BAF091304BFFD2C20C0090B8AF0000"
+
+[[syscall]]
+name = "NtCreateJobSet"
+ssn_x64 = 175
+ssn_x86 = 175
+arity_x86 = 3
+rva_x64 = 650080
+rva_x86 = 474320
+stub_x64 = "4C8BD1B8AF000000F604250803FE7F0175030F05"
+stub_x86 = "B8AF000000BAF091304BFFD2C20C0090B8B00000"
+
+[[syscall]]
+name = "NtCreateKey"
+ssn_x64 = 29
+ssn_x86 = 29
+arity_x86 = 7
+rva_x64 = 645424
+rva_x86 = 471984
+stub_x64 = "4C8BD1B81D000000F604250803FE7F0175030F05"
+stub_x86 = "B81D000000BAF091304BFFD2C21C0090B81E0000"
+
+[[syscall]]
+name = "NtCreateKeyTransacted"
+ssn_x64 = 176
+ssn_x86 = 176
+arity_x86 = 8
+rva_x64 = 650112
+rva_x86 = 474336
+stub_x64 = "4C8BD1B8B0000000F604250803FE7F0175030F05"
+stub_x86 = "B8B0000000BAF091304BFFD2C2200090B8B10000"
+
+[[syscall]]
+name = "NtCreateKeyedEvent"
+ssn_x64 = 177
+ssn_x86 = 177
+arity_x86 = 4
+rva_x64 = 650144
+rva_x86 = 474352
+stub_x64 = "4C8BD1B8B1000000F604250803FE7F0175030F05"
+stub_x86 = "B8B1000000BAF091304BFFD2C2100090B8B20000"
+
+[[syscall]]
+name = "NtCreateLowBoxToken"
+ssn_x64 = 178
+ssn_x86 = 178
+arity_x86 = 9
+rva_x64 = 650176
+rva_x86 = 474368
+stub_x64 = "4C8BD1B8B2000000F604250803FE7F0175030F05"
+stub_x86 = "B8B2000000BAF091304BFFD2C2240090B8B30000"
+
+[[syscall]]
+name = "NtCreateMailslotFile"
+ssn_x64 = 179
+ssn_x86 = 179
+arity_x86 = 8
+rva_x64 = 650208
+rva_x86 = 474384
+stub_x64 = "4C8BD1B8B3000000F604250803FE7F0175030F05"
+stub_x86 = "B8B3000000BAF091304BFFD2C2200090B8B40000"
+
+[[syscall]]
+name = "NtCreateMutant"
+ssn_x64 = 180
+ssn_x86 = 180
+arity_x86 = 4
+rva_x64 = 650240
+rva_x86 = 474400
+stub_x64 = "4C8BD1B8B4000000F604250803FE7F0175030F05"
+stub_x86 = "B8B4000000BAF091304BFFD2C2100090B8B50000"
+
+[[syscall]]
+name = "NtCreateNamedPipeFile"
+ssn_x64 = 181
+ssn_x86 = 181
+arity_x86 = 14
+rva_x64 = 650272
+rva_x86 = 474416
+stub_x64 = "4C8BD1B8B5000000F604250803FE7F0175030F05"
+stub_x86 = "B8B5000000BAF091304BFFD2C2380090B8B60000"
+
+[[syscall]]
+name = "NtCreatePagingFile"
+ssn_x64 = 182
+ssn_x86 = 182
+arity_x86 = 4
+rva_x64 = 650304
+rva_x86 = 474432
+stub_x64 = "4C8BD1B8B6000000F604250803FE7F0175030F05"
+stub_x86 = "B8B6000000BAF091304BFFD2C2100090B8B70000"
+
+[[syscall]]
+name = "NtCreatePartition"
+ssn_x64 = 183
+ssn_x86 = 183
+arity_x86 = 4
+rva_x64 = 650336
+rva_x86 = 474448
+stub_x64 = "4C8BD1B8B7000000F604250803FE7F0175030F05"
+stub_x86 = "B8B7000000BAF091304BFFD2C2100090B8B80000"
+
+[[syscall]]
+name = "NtCreatePort"
+ssn_x64 = 184
+ssn_x86 = 184
+arity_x86 = 5
+rva_x64 = 650368
+rva_x86 = 474464
+stub_x64 = "4C8BD1B8B8000000F604250803FE7F0175030F05"
+stub_x86 = "B8B8000000BAF091304BFFD2C2140090B8B90000"
+
+[[syscall]]
+name = "NtCreatePrivateNamespace"
+ssn_x64 = 185
+ssn_x86 = 185
+arity_x86 = 4
+rva_x64 = 650400
+rva_x86 = 474480
+stub_x64 = "4C8BD1B8B9000000F604250803FE7F0175030F05"
+stub_x86 = "B8B9000000BAF091304BFFD2C2100090B8BA0000"
+
+[[syscall]]
+name = "NtCreateProcess"
+ssn_x64 = 186
+ssn_x86 = 186
+arity_x86 = 8
+rva_x64 = 650432
+rva_x86 = 474496
+stub_x64 = "4C8BD1B8BA000000F604250803FE7F0175030F05"
+stub_x86 = "B8BA000000BAF091304BFFD2C2200090B8BB0000"
+
+[[syscall]]
+name = "NtCreateProcessEx"
+ssn_x64 = 77
+ssn_x86 = 77
+arity_x86 = 9
+rva_x64 = 646960
+rva_x86 = 472752
+stub_x64 = "4C8BD1B84D000000F604250803FE7F0175030F05"
+stub_x86 = "B84D000000BAF091304BFFD2C2240090B84E0000"
+
+[[syscall]]
+name = "NtCreateProfile"
+ssn_x64 = 187
+ssn_x86 = 187
+arity_x86 = 9
+rva_x64 = 650464
+rva_x86 = 474512
+stub_x64 = "4C8BD1B8BB000000F604250803FE7F0175030F05"
+stub_x86 = "B8BB000000BAF091304BFFD2C2240090B8BC0000"
+
+[[syscall]]
+name = "NtCreateProfileEx"
+ssn_x64 = 188
+ssn_x86 = 188
+arity_x86 = 10
+rva_x64 = 650496
+rva_x86 = 474528
+stub_x64 = "4C8BD1B8BC000000F604250803FE7F0175030F05"
+stub_x86 = "B8BC000000BAF091304BFFD2C2280090B8BD0000"
+
+[[syscall]]
+name = "NtCreateRegistryTransaction"
+ssn_x64 = 189
+ssn_x86 = 189
+arity_x86 = 4
+rva_x64 = 650528
+rva_x86 = 474544
+stub_x64 = "4C8BD1B8BD000000F604250803FE7F0175030F05"
+stub_x86 = "B8BD000000BAF091304BFFD2C2100090B8BE0000"
+
+[[syscall]]
+name = "NtCreateResourceManager"
+ssn_x64 = 190
+ssn_x86 = 190
+arity_x86 = 7
+rva_x64 = 650560
+rva_x86 = 474560
+stub_x64 = "4C8BD1B8BE000000F604250803FE7F0175030F05"
+stub_x86 = "B8BE000000BAF091304BFFD2C21C0090B8BF0000"
+
+[[syscall]]
+name = "NtCreateSection"
+ssn_x64 = 74
+ssn_x86 = 74
+arity_x86 = 7
+rva_x64 = 646864
+rva_x86 = 472704
+stub_x64 = "4C8BD1B84A000000F604250803FE7F0175030F05"
+stub_x86 = "B84A000000BAF091304BFFD2C21C0090B84B0000"
+
+[[syscall]]
+name = "NtCreateSectionEx"
+ssn_x64 = 191
+ssn_x86 = 191
+arity_x86 = 9
+rva_x64 = 650592
+rva_x86 = 474576
+stub_x64 = "4C8BD1B8BF000000F604250803FE7F0175030F05"
+stub_x86 = "B8BF000000BAF091304BFFD2C2240090B8C00000"
+
+[[syscall]]
+name = "NtCreateSemaphore"
+ssn_x64 = 192
+ssn_x86 = 192
+arity_x86 = 5
+rva_x64 = 650624
+rva_x86 = 474592
+stub_x64 = "4C8BD1B8C0000000F604250803FE7F0175030F05"
+stub_x86 = "B8C0000000BAF091304BFFD2C2140090B8C10000"
+
+[[syscall]]
+name = "NtCreateSymbolicLinkObject"
+ssn_x64 = 193
+ssn_x86 = 193
+arity_x86 = 4
+rva_x64 = 650656
+rva_x86 = 474608
+stub_x64 = "4C8BD1B8C1000000F604250803FE7F0175030F05"
+stub_x86 = "B8C1000000BAF091304BFFD2C2100090B8C20000"
+
+[[syscall]]
+name = "NtCreateThread"
+ssn_x64 = 78
+ssn_x86 = 78
+arity_x86 = 8
+rva_x64 = 646992
+rva_x86 = 472768
+stub_x64 = "4C8BD1B84E000000F604250803FE7F0175030F05"
+stub_x86 = "B84E000000BAF091304BFFD2C2200090B84F0008"
+
+[[syscall]]
+name = "NtCreateThreadEx"
+ssn_x64 = 194
+ssn_x86 = 194
+arity_x86 = 0
+rva_x64 = 650688
+rva_x86 = 474624
+stub_x64 = "4C8BD1B8C2000000F604250803FE7F0175030F05"
+stub_x86 = "B8C2000000BAF091304BFFD2C22C0090B8C30000"
+
+[[syscall]]
+name = "NtCreateTimer"
+ssn_x64 = 195
+ssn_x86 = 195
+arity_x86 = 4
+rva_x64 = 650720
+rva_x86 = 474640
+stub_x64 = "4C8BD1B8C3000000F604250803FE7F0175030F05"
+stub_x86 = "B8C3000000BAF091304BFFD2C2100090B8C40000"
+
+[[syscall]]
+name = "NtCreateTimer2"
+ssn_x64 = 196
+ssn_x86 = 196
+arity_x86 = 5
+rva_x64 = 650752
+rva_x86 = 474656
+stub_x64 = "4C8BD1B8C4000000F604250803FE7F0175030F05"
+stub_x86 = "B8C4000000BAF091304BFFD2C2140090B8C50000"
+
+[[syscall]]
+name = "NtCreateToken"
+ssn_x64 = 197
+ssn_x86 = 197
+arity_x86 = 13
+rva_x64 = 650784
+rva_x86 = 474672
+stub_x64 = "4C8BD1B8C5000000F604250803FE7F0175030F05"
+stub_x86 = "B8C5000000BAF091304BFFD2C2340090B8C60000"
+
+[[syscall]]
+name = "NtCreateTokenEx"
+ssn_x64 = 198
+ssn_x86 = 198
+arity_x86 = 10
+rva_x64 = 650816
+rva_x86 = 474688
+stub_x64 = "4C8BD1B8C6000000F604250803FE7F0175030F05"
+stub_x86 = "B8C6000000BAF091304BFFD2C2440090B8C70000"
+
+[[syscall]]
+name = "NtCreateTransaction"
+ssn_x64 = 199
+ssn_x86 = 199
+arity_x86 = 10
+rva_x64 = 650848
+rva_x86 = 474704
+stub_x64 = "4C8BD1B8C7000000F604250803FE7F0175030F05"
+stub_x86 = "B8C7000000BAF091304BFFD2C2280090B8C80000"
+
+[[syscall]]
+name = "NtCreateTransactionManager"
+ssn_x64 = 200
+ssn_x86 = 200
+arity_x86 = 6
+rva_x64 = 650880
+rva_x86 = 474720
+stub_x64 = "4C8BD1B8C8000000F604250803FE7F0175030F05"
+stub_x86 = "B8C8000000BAF091304BFFD2C2180090B8C90000"
+
+[[syscall]]
+name = "NtCreateUserProcess"
+ssn_x64 = 201
+ssn_x86 = 201
+arity_x86 = 11
+rva_x64 = 650912
+rva_x86 = 474736
+stub_x64 = "4C8BD1B8C9000000F604250803FE7F0175030F05"
+stub_x86 = "B8C9000000BAF091304BFFD2C22C0090B8CA0000"
+
+[[syscall]]
+name = "NtCreateWaitCompletionPacket"
+ssn_x64 = 202
+ssn_x86 = 202
+arity_x86 = 3
+rva_x64 = 650944
+rva_x86 = 474752
+stub_x64 = "4C8BD1B8CA000000F604250803FE7F0175030F05"
+stub_x86 = "B8CA000000BAF091304BFFD2C20C0090B8CB0000"
+
+[[syscall]]
+name = "NtCreateWaitablePort"
+ssn_x64 = 203
+ssn_x86 = 203
+arity_x86 = 5
+rva_x64 = 650976
+rva_x86 = 474768
+stub_x64 = "4C8BD1B8CB000000F604250803FE7F0175030F05"
+stub_x86 = "B8CB000000BAF091304BFFD2C2140090B8CC0000"
+
+[[syscall]]
+name = "NtCreateWnfStateName"
+ssn_x64 = 204
+ssn_x86 = 204
+arity_x86 = 7
+rva_x64 = 651008
+rva_x86 = 474784
+stub_x64 = "4C8BD1B8CC000000F604250803FE7F0175030F05"
+stub_x86 = "B8CC000000BAF091304BFFD2C21C0090B8CD0000"
+
+[[syscall]]
+name = "NtCreateWorkerFactory"
+ssn_x64 = 205
+ssn_x86 = 205
+arity_x86 = 10
+rva_x64 = 651040
+rva_x86 = 474800
+stub_x64 = "4C8BD1B8CD000000F604250803FE7F0175030F05"
+stub_x86 = "B8CD000000BAF091304BFFD2C2280090B8CE0008"
+
+[[syscall]]
+name = "NtDebugActiveProcess"
+ssn_x64 = 206
+ssn_x86 = 524494
+arity_x86 = 2
+rva_x64 = 651072
+rva_x86 = 474816
+stub_x64 = "4C8BD1B8CE000000F604250803FE7F0175030F05"
+stub_x86 = "B8CE000800BAF091304BFFD2C2080090B8CF0000"
+
+[[syscall]]
+name = "NtDebugContinue"
+ssn_x64 = 207
+ssn_x86 = 207
+arity_x86 = 3
+rva_x64 = 651104
+rva_x86 = 474832
+stub_x64 = "4C8BD1B8CF000000F604250803FE7F0175030F05"
+stub_x86 = "B8CF000000BAF091304BFFD2C20C0090B8D00004"
+
+[[syscall]]
+name = "NtDelayExecution"
+ssn_x64 = 52
+ssn_x86 = 393268
+arity_x86 = 2
+rva_x64 = 646160
+rva_x86 = 472352
+stub_x64 = "4C8BD1B834000000F604250803FE7F0175030F05"
+stub_x86 = "B834000600BAF091304BFFD2C2080090B8350000"
+
+[[syscall]]
+name = "NtDeleteAtom"
+ssn_x64 = 208
+ssn_x86 = 262352
+arity_x86 = 1
+rva_x64 = 651136
+rva_x86 = 474848
+stub_x64 = "4C8BD1B8D0000000F604250803FE7F0175030F05"
+stub_x86 = "B8D0000400BAF091304BFFD2C2040090B8D10000"
+
+[[syscall]]
+name = "NtDeleteBootEntry"
+ssn_x64 = 209
+ssn_x86 = 209
+arity_x86 = 1
+rva_x64 = 651168
+rva_x86 = 474864
+stub_x64 = "4C8BD1B8D1000000F604250803FE7F0175030F05"
+stub_x86 = "B8D1000000BAF091304BFFD2C2040090B8D20000"
+
+[[syscall]]
+name = "NtDeleteDriverEntry"
+ssn_x64 = 210
+ssn_x86 = 210
+arity_x86 = 1
+rva_x64 = 651200
+rva_x86 = 474880
+stub_x64 = "4C8BD1B8D2000000F604250803FE7F0175030F05"
+stub_x86 = "B8D2000000BAF091304BFFD2C2040090B8D30000"
+
+[[syscall]]
+name = "NtDeleteFile"
+ssn_x64 = 211
+ssn_x86 = 211
+arity_x86 = 1
+rva_x64 = 651232
+rva_x86 = 474896
+stub_x64 = "4C8BD1B8D3000000F604250803FE7F0175030F05"
+stub_x86 = "B8D3000000BAF091304BFFD2C2040090B8D40000"
+
+[[syscall]]
+name = "NtDeleteKey"
+ssn_x64 = 212
+ssn_x86 = 212
+arity_x86 = 1
+rva_x64 = 651264
+rva_x86 = 474912
+stub_x64 = "4C8BD1B8D4000000F604250803FE7F0175030F05"
+stub_x86 = "B8D4000000BAF091304BFFD2C2040090B8D50000"
+
+[[syscall]]
+name = "NtDeleteObjectAuditAlarm"
+ssn_x64 = 213
+ssn_x86 = 213
+arity_x86 = 3
+rva_x64 = 651296
+rva_x86 = 474928
+stub_x64 = "4C8BD1B8D5000000F604250803FE7F0175030F05"
+stub_x86 = "B8D5000000BAF091304BFFD2C20C0090B8D60000"
+
+[[syscall]]
+name = "NtDeletePrivateNamespace"
+ssn_x64 = 214
+ssn_x86 = 214
+arity_x86 = 1
+rva_x64 = 651328
+rva_x86 = 474944
+stub_x64 = "4C8BD1B8D6000000F604250803FE7F0175030F05"
+stub_x86 = "B8D6000000BAF091304BFFD2C2040090B8D70000"
+
+[[syscall]]
+name = "NtDeleteValueKey"
+ssn_x64 = 215
+ssn_x86 = 215
+arity_x86 = 2
+rva_x64 = 651360
+rva_x86 = 474960
+stub_x64 = "4C8BD1B8D7000000F604250803FE7F0175030F05"
+stub_x86 = "B8D7000000BAF091304BFFD2C2080090B8D80000"
+
+[[syscall]]
+name = "NtDeleteWnfStateData"
+ssn_x64 = 216
+ssn_x86 = 216
+arity_x86 = 2
+rva_x64 = 651392
+rva_x86 = 474976
+stub_x64 = "4C8BD1B8D8000000F604250803FE7F0175030F05"
+stub_x86 = "B8D8000000BAF091304BFFD2C2080090B8D90000"
+
+[[syscall]]
+name = "NtDeleteWnfStateName"
+ssn_x64 = 217
+ssn_x86 = 217
+arity_x86 = 1
+rva_x64 = 651424
+rva_x86 = 474992
+stub_x64 = "4C8BD1B8D9000000F604250803FE7F0175030F05"
+stub_x86 = "B8D9000000BAF091304BFFD2C2040090B8DA0000"
+
+[[syscall]]
+name = "NtDeviceIoControlFile"
+ssn_x64 = 7
+ssn_x86 = 1769479
+arity_x86 = 10
+rva_x64 = 644720
+rva_x86 = 471600
+stub_x64 = "4C8BD1B807000000F604250803FE7F0175030F05"
+stub_x86 = "B807001B00BAF091304BFFD2C2280090B808001A"
+
+[[syscall]]
+name = "NtDirectGraphicsCall"
+ssn_x64 = 218
+ssn_x86 = 218
+arity_x86 = 5
+rva_x64 = 651456
+rva_x86 = 475008
+stub_x64 = "4C8BD1B8DA000000F604250803FE7F0175030F05"
+stub_x86 = "B8DA000000BAF091304BFFD2C2140090B8DB0000"
+
+[[syscall]]
+name = "NtDisableLastKnownGood"
+ssn_x64 = 219
+ssn_x86 = 219
+arity_x86 = 1
+rva_x64 = 651488
+rva_x86 = 475024
+stub_x64 = "4C8BD1B8DB000000F604250803FE7F0175030F05"
+stub_x86 = "B8DB000000BAF091304BFFD2C38D4900B8DC0000"
+
+[[syscall]]
+name = "NtDisplayString"
+ssn_x64 = 220
+ssn_x86 = 220
+arity_x86 = 1
+rva_x64 = 651520
+rva_x86 = 475040
+stub_x64 = "4C8BD1B8DC000000F604250803FE7F0175030F05"
+stub_x86 = "B8DC000000BAF091304BFFD2C2040090B8DD0000"
+
+[[syscall]]
+name = "NtDrawText"
+ssn_x64 = 221
+ssn_x86 = 221
+arity_x86 = 1
+rva_x64 = 651552
+rva_x86 = 475056
+stub_x64 = "4C8BD1B8DD000000F604250803FE7F0175030F05"
+stub_x86 = "B8DD000000BAF091304BFFD2C2040090B8DE0000"
+
+[[syscall]]
+name = "NtDuplicateObject"
+ssn_x64 = 60
+ssn_x86 = 60
+arity_x86 = 7
+rva_x64 = 646416
+rva_x86 = 472480
+stub_x64 = "4C8BD1B83C000000F604250803FE7F0175030F05"
+stub_x86 = "B83C000000BAF091304BFFD2C21C0090B83D0000"
+
+[[syscall]]
+name = "NtDuplicateToken"
+ssn_x64 = 66
+ssn_x86 = 66
+arity_x86 = 6
+rva_x64 = 646608
+rva_x86 = 472576
+stub_x64 = "4C8BD1B842000000F604250803FE7F0175030F05"
+stub_x86 = "B842000000BAF091304BFFD2C2180090B8430000"
+
+[[syscall]]
+name = "NtEnableLastKnownGood"
+ssn_x64 = 222
+ssn_x86 = 222
+arity_x86 = 2
+rva_x64 = 651584
+rva_x86 = 475072
+stub_x64 = "4C8BD1B8DE000000F604250803FE7F0175030F05"
+stub_x86 = "B8DE000000BAF091304BFFD2C38D4900B8DF0000"
+
+[[syscall]]
+name = "NtEnumerateBootEntries"
+ssn_x64 = 223
+ssn_x86 = 223
+arity_x86 = 2
+rva_x64 = 651616
+rva_x86 = 475088
+stub_x64 = "4C8BD1B8DF000000F604250803FE7F0175030F05"
+stub_x86 = "B8DF000000BAF091304BFFD2C2080090B8E00000"
+
+[[syscall]]
+name = "NtEnumerateDriverEntries"
+ssn_x64 = 224
+ssn_x86 = 224
+arity_x86 = 2
+rva_x64 = 651648
+rva_x86 = 475104
+stub_x64 = "4C8BD1B8E0000000F604250803FE7F0175030F05"
+stub_x86 = "B8E0000000BAF091304BFFD2C2080090B8E10000"
+
+[[syscall]]
+name = "NtEnumerateKey"
+ssn_x64 = 50
+ssn_x86 = 50
+arity_x86 = 6
+rva_x64 = 646096
+rva_x86 = 472320
+stub_x64 = "4C8BD1B832000000F604250803FE7F0175030F05"
+stub_x86 = "B832000000BAF091304BFFD2C2180090B8330000"
+
+[[syscall]]
+name = "NtEnumerateSystemEnvironmentValuesEx"
+ssn_x64 = 225
+ssn_x86 = 225
+arity_x86 = 3
+rva_x64 = 651680
+rva_x86 = 475120
+stub_x64 = "4C8BD1B8E1000000F604250803FE7F0175030F05"
+stub_x86 = "B8E1000000BAF091304BFFD2C20C0090B8E20000"
+
+[[syscall]]
+name = "NtEnumerateTransactionObject"
+ssn_x64 = 226
+ssn_x86 = 226
+arity_x86 = 5
+rva_x64 = 651712
+rva_x86 = 475136
+stub_x64 = "4C8BD1B8E2000000F604250803FE7F0175030F05"
+stub_x86 = "B8E2000000BAF091304BFFD2C2140090B8E30000"
+
+[[syscall]]
+name = "NtEnumerateValueKey"
+ssn_x64 = 19
+ssn_x86 = 19
+arity_x86 = 6
+rva_x64 = 645104
+rva_x86 = 471792
+stub_x64 = "4C8BD1B813000000F604250803FE7F0175030F05"
+stub_x86 = "B813000000BAF091304BFFD2C2180090B814000A"
+
+[[syscall]]
+name = "NtExtendSection"
+ssn_x64 = 227
+ssn_x86 = 227
+arity_x86 = 2
+rva_x64 = 651744
+rva_x86 = 475152
+stub_x64 = "4C8BD1B8E3000000F604250803FE7F0175030F05"
+stub_x86 = "B8E3000000BAF091304BFFD2C2080090B8E40000"
+
+[[syscall]]
+name = "NtFilterBootOption"
+ssn_x64 = 228
+ssn_x86 = 228
+arity_x86 = 5
+rva_x64 = 651776
+rva_x86 = 475168
+stub_x64 = "4C8BD1B8E4000000F604250803FE7F0175030F05"
+stub_x86 = "B8E4000000BAF091304BFFD2C2140090B8E50000"
+
+[[syscall]]
+name = "NtFilterToken"
+ssn_x64 = 229
+ssn_x86 = 229
+arity_x86 = 6
+rva_x64 = 651808
+rva_x86 = 475184
+stub_x64 = "4C8BD1B8E5000000F604250803FE7F0175030F05"
+stub_x86 = "B8E5000000BAF091304BFFD2C2180090B8E60000"
+
+[[syscall]]
+name = "NtFilterTokenEx"
+ssn_x64 = 230
+ssn_x86 = 230
+arity_x86 = 14
+rva_x64 = 651840
+rva_x86 = 475200
+stub_x64 = "4C8BD1B8E6000000F604250803FE7F0175030F05"
+stub_x86 = "B8E6000000BAF091304BFFD2C2380090B8E70000"
+
+[[syscall]]
+name = "NtFindAtom"
+ssn_x64 = 20
+ssn_x86 = 655380
+arity_x86 = 3
+rva_x64 = 645136
+rva_x86 = 471808
+stub_x64 = "4C8BD1B814000000F604250803FE7F0175030F05"
+stub_x86 = "B814000A00BAF091304BFFD2C20C0090B8150005"
+
+[[syscall]]
+name = "NtFlushBuffersFile"
+ssn_x64 = 75
+ssn_x86 = 75
+arity_x86 = 2
+rva_x64 = 646896
+rva_x86 = 472720
+stub_x64 = "4C8BD1B84B000000F604250803FE7F0175030F05"
+stub_x86 = "B84B000000BAF091304BFFD2C2080090B84C0000"
+
+[[syscall]]
+name = "NtFlushBuffersFileEx"
+ssn_x64 = 231
+ssn_x86 = 231
+arity_x86 = 5
+rva_x64 = 651872
+rva_x86 = 475216
+stub_x64 = "4C8BD1B8E7000000F604250803FE7F0175030F05"
+stub_x86 = "B8E7000000BAF091304BFFD2C2140090B8E80000"
+
+[[syscall]]
+name = "NtFlushInstallUILanguage"
+ssn_x64 = 232
+ssn_x86 = 232
+arity_x86 = 2
+rva_x64 = 651904
+rva_x86 = 475232
+stub_x64 = "4C8BD1B8E8000000F604250803FE7F0175030F05"
+stub_x86 = "B8E8000000BAF091304BFFD2C2080090B8E9000C"
+
+[[syscall]]
+name = "NtFlushInstructionCache"
+ssn_x64 = 233
+ssn_x86 = 786665
+arity_x86 = 3
+rva_x64 = 651936
+rva_x86 = 475248
+stub_x64 = "4C8BD1B8E9000000F604250803FE7F0175030F05"
+stub_x86 = "B8E9000C00BAF091304BFFD2C20C0090B8EA0003"
+
+[[syscall]]
+name = "NtFlushKey"
+ssn_x64 = 234
+ssn_x86 = 196842
+arity_x86 = 1
+rva_x64 = 651968
+rva_x86 = 475264
+stub_x64 = "4C8BD1B8EA000000F604250803FE7F0175030F05"
+stub_x86 = "B8EA000300BAF091304BFFD2C2040090B8EB0000"
+
+[[syscall]]
+name = "NtFlushProcessWriteBuffers"
+ssn_x64 = 235
+ssn_x86 = 235
+arity_x86 = 4
+rva_x64 = 652000
+rva_x86 = 475280
+stub_x64 = "4C8BD1B8EB000000F604250803FE7F0175030F05"
+stub_x86 = "B8EB000000BAF091304BFFD2C38D4900B8EC0000"
+
+[[syscall]]
+name = "NtFlushVirtualMemory"
+ssn_x64 = 236
+ssn_x86 = 236
+arity_x86 = 4
+rva_x64 = 652032
+rva_x86 = 475296
+stub_x64 = "4C8BD1B8EC000000F604250803FE7F0175030F05"
+stub_x86 = "B8EC000000BAF091304BFFD2C2100090B8ED0001"
+
+[[syscall]]
+name = "NtFlushWriteBuffer"
+ssn_x64 = 237
+ssn_x86 = 65773
+arity_x86 = 3
+rva_x64 = 652064
+rva_x86 = 475312
+stub_x64 = "4C8BD1B8ED000000F604250803FE7F0175030F05"
+stub_x86 = "B8ED000100BAF091304BFFD2C38D4900B8EE0000"
+
+[[syscall]]
+name = "NtFreeUserPhysicalPages"
+ssn_x64 = 238
+ssn_x86 = 238
+arity_x86 = 3
+rva_x64 = 652096
+rva_x86 = 475328
+stub_x64 = "4C8BD1B8EE000000F604250803FE7F0175030F05"
+stub_x86 = "B8EE000000BAF091304BFFD2C20C0090B8EF0000"
+
+[[syscall]]
+name = "NtFreeVirtualMemory"
+ssn_x64 = 30
+ssn_x86 = 30
+arity_x86 = 4
+rva_x64 = 645456
+rva_x86 = 472000
+stub_x64 = "4C8BD1B81E000000F604250803FE7F0175030F05"
+stub_x86 = "B81E000000BAF091304BFFD2C2100090B81F0007"
+
+[[syscall]]
+name = "NtFreezeRegistry"
+ssn_x64 = 239
+ssn_x86 = 239
+arity_x86 = 1
+rva_x64 = 652128
+rva_x86 = 475344
+stub_x64 = "4C8BD1B8EF000000F604250803FE7F0175030F05"
+stub_x86 = "B8EF000000BAF091304BFFD2C2040090B8F00000"
+
+[[syscall]]
+name = "NtFreezeTransactions"
+ssn_x64 = 240
+ssn_x86 = 240
+arity_x86 = 2
+rva_x64 = 652160
+rva_x86 = 475360
+stub_x64 = "4C8BD1B8F0000000F604250803FE7F0175030F05"
+stub_x86 = "B8F0000000BAF091304BFFD2C2080090B8F10000"
+
+[[syscall]]
+name = "NtFsControlFile"
+ssn_x64 = 57
+ssn_x86 = 1769529
+arity_x86 = 10
+rva_x64 = 646320
+rva_x86 = 472432
+stub_x64 = "4C8BD1B839000000F604250803FE7F0175030F05"
+stub_x86 = "B839001B00BAF091304BFFD2C2280090B83A0000"
+
+[[syscall]]
+name = "NtGetCachedSigningLevel"
+ssn_x64 = 241
+ssn_x86 = 241
+arity_x86 = 6
+rva_x64 = 652192
+rva_x86 = 475376
+stub_x64 = "4C8BD1B8F1000000F604250803FE7F0175030F05"
+stub_x86 = "B8F1000000BAF091304BFFD2C2180090B8F20000"
+
+[[syscall]]
+name = "NtGetCompleteWnfStateSubscription"
+ssn_x64 = 242
+ssn_x86 = 242
+arity_x86 = 6
+rva_x64 = 652224
+rva_x86 = 475392
+stub_x64 = "4C8BD1B8F2000000F604250803FE7F0175030F05"
+stub_x86 = "B8F2000000BAF091304BFFD2C2180090B8F30000"
+
+[[syscall]]
+name = "NtGetContextThread"
+ssn_x64 = 243
+ssn_x86 = 243
+arity_x86 = 2
+rva_x64 = 652256
+rva_x86 = 475408
+stub_x64 = "4C8BD1B8F3000000F604250803FE7F0175030F05"
+stub_x86 = "B8F3000000BAF091304BFFD2C2080090B8F40019"
+
+[[syscall]]
+name = "NtGetCurrentProcessorNumber"
+ssn_x64 = 244
+ssn_x86 = 1638644
+arity_x86 = 1
+rva_x64 = 652288
+rva_x86 = 475424
+stub_x64 = "4C8BD1B8F4000000F604250803FE7F0175030F05"
+stub_x86 = "B8F4001900BAF091304BFFD2C38D4900B8F50000"
+
+[[syscall]]
+name = "NtGetCurrentProcessorNumberEx"
+ssn_x64 = 245
+ssn_x86 = 245
+arity_x86 = 1
+rva_x64 = 652320
+rva_x86 = 475440
+stub_x64 = "4C8BD1B8F5000000F604250803FE7F0175030F05"
+stub_x86 = "B8F5000000BAF091304BFFD2C2040090B8F60007"
+
+[[syscall]]
+name = "NtGetDevicePowerState"
+ssn_x64 = 246
+ssn_x86 = 458998
+arity_x86 = 2
+rva_x64 = 652352
+rva_x86 = 475456
+stub_x64 = "4C8BD1B8F6000000F604250803FE7F0175030F05"
+stub_x86 = "B8F6000700BAF091304BFFD2C2080090B8F70000"
+
+[[syscall]]
+name = "NtGetMUIRegistryInfo"
+ssn_x64 = 247
+ssn_x86 = 247
+arity_x86 = 3
+rva_x64 = 652384
+rva_x86 = 475472
+stub_x64 = "4C8BD1B8F7000000F604250803FE7F0175030F05"
+stub_x86 = "B8F7000000BAF091304BFFD2C20C0090B8F80000"
+
+[[syscall]]
+name = "NtGetNextProcess"
+ssn_x64 = 248
+ssn_x86 = 248
+arity_x86 = 5
+rva_x64 = 652416
+rva_x86 = 475488
+stub_x64 = "4C8BD1B8F8000000F604250803FE7F0175030F05"
+stub_x86 = "B8F8000000BAF091304BFFD2C2140090B8F90000"
+
+[[syscall]]
+name = "NtGetNextThread"
+ssn_x64 = 249
+ssn_x86 = 249
+arity_x86 = 6
+rva_x64 = 652448
+rva_x86 = 475504
+stub_x64 = "4C8BD1B8F9000000F604250803FE7F0175030F05"
+stub_x86 = "B8F9000000BAF091304BFFD2C2180090B8FA0000"
+
+[[syscall]]
+name = "NtGetNlsSectionPtr"
+ssn_x64 = 250
+ssn_x86 = 250
+arity_x86 = 5
+rva_x64 = 652480
+rva_x86 = 475520
+stub_x64 = "4C8BD1B8FA000000F604250803FE7F0175030F05"
+stub_x86 = "B8FA000000BAF091304BFFD2C2140090B8FB0000"
+
+[[syscall]]
+name = "NtGetNotificationResourceManager"
+ssn_x64 = 251
+ssn_x86 = 251
+arity_x86 = 7
+rva_x64 = 652512
+rva_x86 = 475536
+stub_x64 = "4C8BD1B8FB000000F604250803FE7F0175030F05"
+stub_x86 = "B8FB000000BAF091304BFFD2C21C0090B8FC0000"
+
+[[syscall]]
+name = "NtGetWriteWatch"
+ssn_x64 = 252
+ssn_x86 = 252
+arity_x86 = 7
+rva_x64 = 652544
+rva_x86 = 475552
+stub_x64 = "4C8BD1B8FC000000F604250803FE7F0175030F05"
+stub_x86 = "B8FC000000BAF091304BFFD2C21C0090B8FD0003"
+
+[[syscall]]
+name = "NtImpersonateAnonymousToken"
+ssn_x64 = 253
+ssn_x86 = 196861
+arity_x86 = 1
+rva_x64 = 652576
+rva_x86 = 475568
+stub_x64 = "4C8BD1B8FD000000F604250803FE7F0175030F05"
+stub_x86 = "B8FD000300BAF091304BFFD2C2040090B8FE0000"
+
+[[syscall]]
+name = "NtImpersonateClientOfPort"
+ssn_x64 = 31
+ssn_x86 = 458783
+arity_x86 = 2
+rva_x64 = 645488
+rva_x86 = 472016
+stub_x64 = "4C8BD1B81F000000F604250803FE7F0175030F05"
+stub_x86 = "B81F000700BAF091304BFFD2C2080090B8200007"
+
+[[syscall]]
+name = "NtImpersonateThread"
+ssn_x64 = 254
+ssn_x86 = 254
+arity_x86 = 3
+rva_x64 = 652608
+rva_x86 = 475584
+stub_x64 = "4C8BD1B8FE000000F604250803FE7F0175030F05"
+stub_x86 = "B8FE000000BAF091304BFFD2C20C0090B8FF0000"
+
+[[syscall]]
+name = "NtInitializeEnclave"
+ssn_x64 = 255
+ssn_x86 = 255
+arity_x86 = 5
+rva_x64 = 652640
+rva_x86 = 475600
+stub_x64 = "4C8BD1B8FF000000F604250803FE7F0175030F05"
+stub_x86 = "B8FF000000BAF091304BFFD2C2140090B8000100"
+
+[[syscall]]
+name = "NtInitializeNlsFiles"
+ssn_x64 = 256
+ssn_x86 = 256
+arity_x86 = 3
+rva_x64 = 652672
+rva_x86 = 475616
+stub_x64 = "4C8BD1B800010000F604250803FE7F0175030F05"
+stub_x86 = "B800010000BAF091304BFFD2C20C0090B8010100"
+
+[[syscall]]
+name = "NtInitializeRegistry"
+ssn_x64 = 257
+ssn_x86 = 257
+arity_x86 = 1
+rva_x64 = 652704
+rva_x86 = 475632
+stub_x64 = "4C8BD1B801010000F604250803FE7F0175030F05"
+stub_x86 = "B801010000BAF091304BFFD2C2040090B8020111"
+
+[[syscall]]
+name = "NtInitiatePowerAction"
+ssn_x64 = 258
+ssn_x86 = 1114370
+arity_x86 = 4
+rva_x64 = 652736
+rva_x86 = 475648
+stub_x64 = "4C8BD1B802010000F604250803FE7F0175030F05"
+stub_x86 = "B802011100BAF091304BFFD2C2100090B8030101"
+
+[[syscall]]
+name = "NtIsProcessInJob"
+ssn_x64 = 79
+ssn_x86 = 524367
+arity_x86 = 2
+rva_x64 = 647024
+rva_x86 = 472784
+stub_x64 = "4C8BD1B84F000000F604250803FE7F0175030F05"
+stub_x86 = "B84F000800BAF091304BFFD2C2080090B8500000"
+
+[[syscall]]
+name = "NtIsSystemResumeAutomatic"
+ssn_x64 = 259
+ssn_x86 = 65795
+rva_x64 = 652768
+rva_x86 = 475664
+stub_x64 = "4C8BD1B803010000F604250803FE7F0175030F05"
+stub_x86 = "B803010100BAF091304BFFD2C38D4900B8040100"
+
+[[syscall]]
+name = "NtIsUILanguageComitted"
+ssn_x64 = 260
+ssn_x86 = 260
+arity_x86 = 2
+rva_x64 = 652800
+rva_x86 = 475680
+stub_x64 = "4C8BD1B804010000F604250803FE7F0175030F05"
+stub_x86 = "B804010000BAF091304BFFD2C38D4900B8050100"
+
+[[syscall]]
+name = "NtListenPort"
+ssn_x64 = 261
+ssn_x86 = 261
+arity_x86 = 2
+rva_x64 = 652832
+rva_x86 = 475696
+stub_x64 = "4C8BD1B805010000F604250803FE7F0175030F05"
+stub_x86 = "B805010000BAF091304BFFD2C2080090B8060100"
+
+[[syscall]]
+name = "NtLoadDriver"
+ssn_x64 = 262
+ssn_x86 = 262
+arity_x86 = 1
+rva_x64 = 652864
+rva_x86 = 475712
+stub_x64 = "4C8BD1B806010000F604250803FE7F0175030F05"
+stub_x86 = "B806010000BAF091304BFFD2C2040090B8070100"
+
+[[syscall]]
+name = "NtLoadEnclaveData"
+ssn_x64 = 263
+ssn_x86 = 263
+arity_x86 = 9
+rva_x64 = 652896
+rva_x86 = 475728
+stub_x64 = "4C8BD1B807010000F604250803FE7F0175030F05"
+stub_x86 = "B807010000BAF091304BFFD2C2240090B8080100"
+
+[[syscall]]
+name = "NtLoadKey"
+ssn_x64 = 264
+ssn_x86 = 264
+arity_x86 = 2
+rva_x64 = 652928
+rva_x86 = 475744
+stub_x64 = "4C8BD1B808010000F604250803FE7F0175030F05"
+stub_x86 = "B808010000BAF091304BFFD2C2080090B8090100"
+
+[[syscall]]
+name = "NtLoadKey2"
+ssn_x64 = 265
+ssn_x86 = 265
+arity_x86 = 3
+rva_x64 = 652960
+rva_x86 = 475760
+stub_x64 = "4C8BD1B809010000F604250803FE7F0175030F05"
+stub_x86 = "B809010000BAF091304BFFD2C20C0090B80A0100"
+
+[[syscall]]
+name = "NtLoadKey3"
+ssn_x64 = 471
+ssn_x86 = 471
+arity_x86 = 8
+rva_x64 = 659552
+rva_x86 = 479056
+stub_x64 = "4C8BD1B8D7010000F604250803FE7F0175030F05"
+stub_x86 = "B8D7010000BAF091304BFFD2C2200090B8D80103"
+
+[[syscall]]
+name = "NtLoadKeyEx"
+ssn_x64 = 266
+ssn_x86 = 266
+arity_x86 = 8
+rva_x64 = 652992
+rva_x86 = 475776
+stub_x64 = "4C8BD1B80A010000F604250803FE7F0175030F05"
+stub_x86 = "B80A010000BAF091304BFFD2C2200090B80B0100"
+
+[[syscall]]
+name = "NtLockFile"
+ssn_x64 = 267
+ssn_x86 = 267
+arity_x86 = 10
+rva_x64 = 653024
+rva_x86 = 475792
+stub_x64 = "4C8BD1B80B010000F604250803FE7F0175030F05"
+stub_x86 = "B80B010000BAF091304BFFD2C2280090B80C0105"
+
+[[syscall]]
+name = "NtLockProductActivationKeys"
+ssn_x64 = 268
+ssn_x86 = 327948
+arity_x86 = 2
+rva_x64 = 653056
+rva_x86 = 475808
+stub_x64 = "4C8BD1B80C010000F604250803FE7F0175030F05"
+stub_x86 = "B80C010500BAF091304BFFD2C2080090B80D0103"
+
+[[syscall]]
+name = "NtLockRegistryKey"
+ssn_x64 = 269
+ssn_x86 = 196877
+arity_x86 = 1
+rva_x64 = 653088
+rva_x86 = 475824
+stub_x64 = "4C8BD1B80D010000F604250803FE7F0175030F05"
+stub_x86 = "B80D010300BAF091304BFFD2C2040090B80E0100"
+
+[[syscall]]
+name = "NtLockVirtualMemory"
+ssn_x64 = 270
+ssn_x86 = 270
+arity_x86 = 4
+rva_x64 = 653120
+rva_x86 = 475840
+stub_x64 = "4C8BD1B80E010000F604250803FE7F0175030F05"
+stub_x86 = "B80E010000BAF091304BFFD2C2100090B80F0103"
+
+[[syscall]]
+name = "NtMakePermanentObject"
+ssn_x64 = 271
+ssn_x86 = 196879
+arity_x86 = 1
+rva_x64 = 653152
+rva_x86 = 475856
+stub_x64 = "4C8BD1B80F010000F604250803FE7F0175030F05"
+stub_x86 = "B80F010300BAF091304BFFD2C2040090B8100103"
+
+[[syscall]]
+name = "NtMakeTemporaryObject"
+ssn_x64 = 272
+ssn_x86 = 196880
+arity_x86 = 1
+rva_x64 = 653184
+rva_x86 = 475872
+stub_x64 = "4C8BD1B810010000F604250803FE7F0175030F05"
+stub_x86 = "B810010300BAF091304BFFD2C2040090B8110100"
+
+[[syscall]]
+name = "NtManageHotPatch"
+ssn_x64 = 273
+ssn_x86 = 273
+arity_x86 = 4
+rva_x64 = 653216
+rva_x86 = 475888
+stub_x64 = "4C8BD1B811010000F604250803FE7F0175030F05"
+stub_x86 = "B811010000BAF091304BFFD2C2100090B8120100"
+
+[[syscall]]
+name = "NtManagePartition"
+ssn_x64 = 274
+ssn_x86 = 274
+arity_x86 = 5
+rva_x64 = 653248
+rva_x86 = 475904
+stub_x64 = "4C8BD1B812010000F604250803FE7F0175030F05"
+stub_x86 = "B812010000BAF091304BFFD2C2140090B8130100"
+
+[[syscall]]
+name = "NtMapCMFModule"
+ssn_x64 = 275
+ssn_x86 = 275
+arity_x86 = 6
+rva_x64 = 653280
+rva_x86 = 475920
+stub_x64 = "4C8BD1B813010000F604250803FE7F0175030F05"
+stub_x86 = "B813010000BAF091304BFFD2C2180090B814010A"
+
+[[syscall]]
+name = "NtMapUserPhysicalPages"
+ssn_x64 = 276
+ssn_x86 = 655636
+arity_x86 = 3
+rva_x64 = 653312
+rva_x86 = 475936
+stub_x64 = "4C8BD1B814010000F604250803FE7F0175030F05"
+stub_x86 = "B814010A00BAF091304BFFD2C20C0090B8150100"
+
+[[syscall]]
+name = "NtMapUserPhysicalPagesScatter"
+ssn_x64 = 3
+ssn_x86 = 655363
+arity_x86 = 3
+rva_x64 = 644592
+rva_x86 = 471536
+stub_x64 = "4C8BD1B803000000F604250803FE7F0175030F05"
+stub_x86 = "B803000A00BAF091304BFFD2C20C0090B804000D"
+
+[[syscall]]
+name = "NtMapViewOfSection"
+ssn_x64 = 40
+ssn_x86 = 40
+arity_x86 = 10
+rva_x64 = 645776
+rva_x86 = 472160
+stub_x64 = "4C8BD1B828000000F604250803FE7F0175030F05"
+stub_x86 = "B828000000BAF091304BFFD2C2280090B8290000"
+
+[[syscall]]
+name = "NtMapViewOfSectionEx"
+ssn_x64 = 277
+ssn_x86 = 277
+arity_x86 = 9
+rva_x64 = 653344
+rva_x86 = 475952
+stub_x64 = "4C8BD1B815010000F604250803FE7F0175030F05"
+stub_x86 = "B815010000BAF091304BFFD2C2240090B8160100"
+
+[[syscall]]
+name = "NtModifyBootEntry"
+ssn_x64 = 278
+ssn_x86 = 278
+arity_x86 = 1
+rva_x64 = 653376
+rva_x86 = 475968
+stub_x64 = "4C8BD1B816010000F604250803FE7F0175030F05"
+stub_x86 = "B816010000BAF091304BFFD2C2040090B8170100"
+
+[[syscall]]
+name = "NtModifyDriverEntry"
+ssn_x64 = 279
+ssn_x86 = 279
+arity_x86 = 1
+rva_x64 = 653408
+rva_x86 = 475984
+stub_x64 = "4C8BD1B817010000F604250803FE7F0175030F05"
+stub_x86 = "B817010000BAF091304BFFD2C2040090B8180100"
+
+[[syscall]]
+name = "NtNotifyChangeDirectoryFile"
+ssn_x64 = 280
+ssn_x86 = 280
+arity_x86 = 9
+rva_x64 = 653440
+rva_x86 = 476000
+stub_x64 = "4C8BD1B818010000F604250803FE7F0175030F05"
+stub_x86 = "B818010000BAF091304BFFD2C2240090B8190100"
+
+[[syscall]]
+name = "NtNotifyChangeDirectoryFileEx"
+ssn_x64 = 281
+ssn_x86 = 281
+arity_x86 = 10
+rva_x64 = 653472
+rva_x86 = 476016
+stub_x64 = "4C8BD1B819010000F604250803FE7F0175030F05"
+stub_x86 = "B819010000BAF091304BFFD2C2280090B81A0100"
+
+[[syscall]]
+name = "NtNotifyChangeKey"
+ssn_x64 = 282
+ssn_x86 = 282
+arity_x86 = 10
+rva_x64 = 653504
+rva_x86 = 476032
+stub_x64 = "4C8BD1B81A010000F604250803FE7F0175030F05"
+stub_x86 = "B81A010000BAF091304BFFD2C2280090B81B0100"
+
+[[syscall]]
+name = "NtNotifyChangeMultipleKeys"
+ssn_x64 = 283
+ssn_x86 = 283
+arity_x86 = 12
+rva_x64 = 653536
+rva_x86 = 476048
+stub_x64 = "4C8BD1B81B010000F604250803FE7F0175030F05"
+stub_x86 = "B81B010000BAF091304BFFD2C2300090B81C0100"
+
+[[syscall]]
+name = "NtNotifyChangeSession"
+ssn_x64 = 284
+ssn_x86 = 284
+arity_x86 = 8
+rva_x64 = 653568
+rva_x86 = 476064
+stub_x64 = "4C8BD1B81C010000F604250803FE7F0175030F05"
+stub_x86 = "B81C010000BAF091304BFFD2C2200090B81D0100"
+
+[[syscall]]
+name = "NtOpenDirectoryObject"
+ssn_x64 = 88
+ssn_x86 = 88
+arity_x86 = 3
+rva_x64 = 647312
+rva_x86 = 472928
+stub_x64 = "4C8BD1B858000000F604250803FE7F0175030F05"
+stub_x86 = "B858000000BAF091304BFFD2C20C0090B8590000"
+
+[[syscall]]
+name = "NtOpenEnlistment"
+ssn_x64 = 285
+ssn_x86 = 285
+arity_x86 = 5
+rva_x64 = 653600
+rva_x86 = 476080
+stub_x64 = "4C8BD1B81D010000F604250803FE7F0175030F05"
+stub_x86 = "B81D010000BAF091304BFFD2C2140090B81E0100"
+
+[[syscall]]
+name = "NtOpenEvent"
+ssn_x64 = 64
+ssn_x86 = 64
+arity_x86 = 3
+rva_x64 = 646544
+rva_x86 = 472544
+stub_x64 = "4C8BD1B840000000F604250803FE7F0175030F05"
+stub_x86 = "B840000000BAF091304BFFD2C20C0090B8410000"
+
+[[syscall]]
+name = "NtOpenEventPair"
+ssn_x64 = 286
+ssn_x86 = 286
+arity_x86 = 3
+rva_x64 = 653632
+rva_x86 = 476096
+stub_x64 = "4C8BD1B81E010000F604250803FE7F0175030F05"
+stub_x86 = "B81E010000BAF091304BFFD2C20C0090B81F0100"
+
+[[syscall]]
+name = "NtOpenFile"
+ssn_x64 = 51
+ssn_x86 = 51
+arity_x86 = 6
+rva_x64 = 646128
+rva_x86 = 472336
+stub_x64 = "4C8BD1B833000000F604250803FE7F0175030F05"
+stub_x86 = "B833000000BAF091304BFFD2C2180090B8340006"
+
+[[syscall]]
+name = "NtOpenIoCompletion"
+ssn_x64 = 287
+ssn_x86 = 287
+arity_x86 = 3
+rva_x64 = 653664
+rva_x86 = 476112
+stub_x64 = "4C8BD1B81F010000F604250803FE7F0175030F05"
+stub_x86 = "B81F010000BAF091304BFFD2C20C0090B8200100"
+
+[[syscall]]
+name = "NtOpenJobObject"
+ssn_x64 = 288
+ssn_x86 = 288
+arity_x86 = 3
+rva_x64 = 653696
+rva_x86 = 476128
+stub_x64 = "4C8BD1B820010000F604250803FE7F0175030F05"
+stub_x86 = "B820010000BAF091304BFFD2C20C0090B8210100"
+
+[[syscall]]
+name = "NtOpenKey"
+ssn_x64 = 18
+ssn_x86 = 18
+arity_x86 = 3
+rva_x64 = 645072
+rva_x86 = 471776
+stub_x64 = "4C8BD1B812000000F604250803FE7F0175030F05"
+stub_x86 = "B812000000BAF091304BFFD2C20C0090B8130000"
+
+[[syscall]]
+name = "NtOpenKeyEx"
+ssn_x64 = 289
+ssn_x86 = 289
+arity_x86 = 4
+rva_x64 = 653728
+rva_x86 = 476144
+stub_x64 = "4C8BD1B821010000F604250803FE7F0175030F05"
+stub_x86 = "B821010000BAF091304BFFD2C2100090B8220100"
+
+[[syscall]]
+name = "NtOpenKeyTransacted"
+ssn_x64 = 290
+ssn_x86 = 290
+arity_x86 = 4
+rva_x64 = 653760
+rva_x86 = 476160
+stub_x64 = "4C8BD1B822010000F604250803FE7F0175030F05"
+stub_x86 = "B822010000BAF091304BFFD2C2100090B8230100"
+
+[[syscall]]
+name = "NtOpenKeyTransactedEx"
+ssn_x64 = 291
+ssn_x86 = 291
+arity_x86 = 5
+rva_x64 = 653792
+rva_x86 = 476176
+stub_x64 = "4C8BD1B823010000F604250803FE7F0175030F05"
+stub_x86 = "B823010000BAF091304BFFD2C2140090B8240100"
+
+[[syscall]]
+name = "NtOpenKeyedEvent"
+ssn_x64 = 292
+ssn_x86 = 292
+arity_x86 = 3
+rva_x64 = 653824
+rva_x86 = 476192
+stub_x64 = "4C8BD1B824010000F604250803FE7F0175030F05"
+stub_x86 = "B824010000BAF091304BFFD2C20C0090B8250100"
+
+[[syscall]]
+name = "NtOpenMutant"
+ssn_x64 = 293
+ssn_x86 = 293
+arity_x86 = 3
+rva_x64 = 653856
+rva_x86 = 476208
+stub_x64 = "4C8BD1B825010000F604250803FE7F0175030F05"
+stub_x86 = "B825010000BAF091304BFFD2C20C0090B8260100"
+
+[[syscall]]
+name = "NtOpenObjectAuditAlarm"
+ssn_x64 = 294
+ssn_x86 = 294
+arity_x86 = 12
+rva_x64 = 653888
+rva_x86 = 476224
+stub_x64 = "4C8BD1B826010000F604250803FE7F0175030F05"
+stub_x86 = "B826010000BAF091304BFFD2C2300090B8270100"
+
+[[syscall]]
+name = "NtOpenPartition"
+ssn_x64 = 295
+ssn_x86 = 295
+arity_x86 = 3
+rva_x64 = 653920
+rva_x86 = 476240
+stub_x64 = "4C8BD1B827010000F604250803FE7F0175030F05"
+stub_x86 = "B827010000BAF091304BFFD2C20C0090B8280100"
+
+[[syscall]]
+name = "NtOpenPrivateNamespace"
+ssn_x64 = 296
+ssn_x86 = 296
+arity_x86 = 4
+rva_x64 = 653952
+rva_x86 = 476256
+stub_x64 = "4C8BD1B828010000F604250803FE7F0175030F05"
+stub_x86 = "B828010000BAF091304BFFD2C2100090B8290100"
+
+[[syscall]]
+name = "NtOpenProcess"
+ssn_x64 = 38
+ssn_x86 = 38
+arity_x86 = 4
+rva_x64 = 645712
+rva_x86 = 472128
+stub_x64 = "4C8BD1B826000000F604250803FE7F0175030F05"
+stub_x86 = "B826000000BAF091304BFFD2C2100090B8270000"
+
+[[syscall]]
+name = "NtOpenProcessToken"
+ssn_x64 = 297
+ssn_x86 = 297
+arity_x86 = 3
+rva_x64 = 653984
+rva_x86 = 476272
+stub_x64 = "4C8BD1B829010000F604250803FE7F0175030F05"
+stub_x86 = "B829010000BAF091304BFFD2C20C0090B82A0100"
+
+[[syscall]]
+name = "NtOpenProcessTokenEx"
+ssn_x64 = 48
+ssn_x86 = 48
+arity_x86 = 4
+rva_x64 = 646032
+rva_x86 = 472288
+stub_x64 = "4C8BD1B830000000F604250803FE7F0175030F05"
+stub_x86 = "B830000000BAF091304BFFD2C2100090B8310005"
+
+[[syscall]]
+name = "NtOpenRegistryTransaction"
+ssn_x64 = 298
+ssn_x86 = 298
+arity_x86 = 3
+rva_x64 = 654016
+rva_x86 = 476288
+stub_x64 = "4C8BD1B82A010000F604250803FE7F0175030F05"
+stub_x86 = "B82A010000BAF091304BFFD2C20C0090B82B0100"
+
+[[syscall]]
+name = "NtOpenResourceManager"
+ssn_x64 = 299
+ssn_x86 = 299
+arity_x86 = 5
+rva_x64 = 654048
+rva_x86 = 476304
+stub_x64 = "4C8BD1B82B010000F604250803FE7F0175030F05"
+stub_x86 = "B82B010000BAF091304BFFD2C2140090B82C0100"
+
+[[syscall]]
+name = "NtOpenSection"
+ssn_x64 = 55
+ssn_x86 = 55
+arity_x86 = 3
+rva_x64 = 646256
+rva_x86 = 472400
+stub_x64 = "4C8BD1B837000000F604250803FE7F0175030F05"
+stub_x86 = "B837000000BAF091304BFFD2C20C0090B8380000"
+
+[[syscall]]
+name = "NtOpenSemaphore"
+ssn_x64 = 300
+ssn_x86 = 300
+arity_x86 = 3
+rva_x64 = 654080
+rva_x86 = 476320
+stub_x64 = "4C8BD1B82C010000F604250803FE7F0175030F05"
+stub_x86 = "B82C010000BAF091304BFFD2C20C0090B82D0100"
+
+[[syscall]]
+name = "NtOpenSession"
+ssn_x64 = 301
+ssn_x86 = 301
+arity_x86 = 3
+rva_x64 = 654112
+rva_x86 = 476336
+stub_x64 = "4C8BD1B82D010000F604250803FE7F0175030F05"
+stub_x86 = "B82D010000BAF091304BFFD2C20C0090B82E0100"
+
+[[syscall]]
+name = "NtOpenSymbolicLinkObject"
+ssn_x64 = 302
+ssn_x86 = 302
+arity_x86 = 3
+rva_x64 = 654144
+rva_x86 = 476352
+stub_x64 = "4C8BD1B82E010000F604250803FE7F0175030F05"
+stub_x86 = "B82E010000BAF091304BFFD2C20C0090B82F0100"
+
+[[syscall]]
+name = "NtOpenThread"
+ssn_x64 = 303
+ssn_x86 = 303
+arity_x86 = 4
+rva_x64 = 654176
+rva_x86 = 476368
+stub_x64 = "4C8BD1B82F010000F604250803FE7F0175030F05"
+stub_x86 = "B82F010000BAF091304BFFD2C2100090B8300100"
+
+[[syscall]]
+name = "NtOpenThreadToken"
+ssn_x64 = 36
+ssn_x86 = 36
+arity_x86 = 4
+rva_x64 = 645648
+rva_x86 = 472096
+stub_x64 = "4C8BD1B824000000F604250803FE7F0175030F05"
+stub_x86 = "B824000000BAF091304BFFD2C2100090B8250000"
+
+[[syscall]]
+name = "NtOpenThreadTokenEx"
+ssn_x64 = 47
+ssn_x86 = 47
+arity_x86 = 5
+rva_x64 = 646000
+rva_x86 = 472272
+stub_x64 = "4C8BD1B82F000000F604250803FE7F0175030F05"
+stub_x86 = "B82F000000BAF091304BFFD2C2140090B8300000"
+
+[[syscall]]
+name = "NtOpenTimer"
+ssn_x64 = 304
+ssn_x86 = 304
+arity_x86 = 3
+rva_x64 = 654208
+rva_x86 = 476384
+stub_x64 = "4C8BD1B830010000F604250803FE7F0175030F05"
+stub_x86 = "B830010000BAF091304BFFD2C20C0090B8310100"
+
+[[syscall]]
+name = "NtOpenTransaction"
+ssn_x64 = 305
+ssn_x86 = 305
+arity_x86 = 5
+rva_x64 = 654240
+rva_x86 = 476400
+stub_x64 = "4C8BD1B831010000F604250803FE7F0175030F05"
+stub_x86 = "B831010000BAF091304BFFD2C2140090B8320100"
+
+[[syscall]]
+name = "NtOpenTransactionManager"
+ssn_x64 = 306
+ssn_x86 = 306
+arity_x86 = 6
+rva_x64 = 654272
+rva_x86 = 476416
+stub_x64 = "4C8BD1B832010000F604250803FE7F0175030F05"
+stub_x86 = "B832010000BAF091304BFFD2C2180090B8330100"
+
+[[syscall]]
+name = "NtPlugPlayControl"
+ssn_x64 = 307
+ssn_x86 = 307
+arity_x86 = 3
+rva_x64 = 654304
+rva_x86 = 476432
+stub_x64 = "4C8BD1B833010000F604250803FE7F0175030F05"
+stub_x86 = "B833010000BAF091304BFFD2C20C0090B8340100"
+
+[[syscall]]
+name = "NtPowerInformation"
+ssn_x64 = 95
+ssn_x86 = 95
+arity_x86 = 5
+rva_x64 = 647520
+rva_x86 = 473040
+stub_x64 = "4C8BD1B85F000000F604250803FE7F0175030F05"
+stub_x86 = "B85F000000BAF091304BFFD2C2140090B8600000"
+
+[[syscall]]
+name = "NtPrePrepareComplete"
+ssn_x64 = 308
+ssn_x86 = 308
+arity_x86 = 2
+rva_x64 = 654336
+rva_x86 = 476448
+stub_x64 = "4C8BD1B834010000F604250803FE7F0175030F05"
+stub_x86 = "B834010000BAF091304BFFD2C2080090B8350100"
+
+[[syscall]]
+name = "NtPrePrepareEnlistment"
+ssn_x64 = 309
+ssn_x86 = 309
+arity_x86 = 2
+rva_x64 = 654368
+rva_x86 = 476464
+stub_x64 = "4C8BD1B835010000F604250803FE7F0175030F05"
+stub_x86 = "B835010000BAF091304BFFD2C2080090B8360100"
+
+[[syscall]]
+name = "NtPrepareComplete"
+ssn_x64 = 310
+ssn_x86 = 310
+arity_x86 = 2
+rva_x64 = 654400
+rva_x86 = 476480
+stub_x64 = "4C8BD1B836010000F604250803FE7F0175030F05"
+stub_x86 = "B836010000BAF091304BFFD2C2080090B8370100"
+
+[[syscall]]
+name = "NtPrepareEnlistment"
+ssn_x64 = 311
+ssn_x86 = 311
+arity_x86 = 2
+rva_x64 = 654432
+rva_x86 = 476496
+stub_x64 = "4C8BD1B837010000F604250803FE7F0175030F05"
+stub_x86 = "B837010000BAF091304BFFD2C2080090B838010C"
+
+[[syscall]]
+name = "NtPrivilegeCheck"
+ssn_x64 = 312
+ssn_x86 = 786744
+arity_x86 = 3
+rva_x64 = 654464
+rva_x86 = 476512
+stub_x64 = "4C8BD1B838010000F604250803FE7F0175030F05"
+stub_x86 = "B838010C00BAF091304BFFD2C20C0090B8390100"
+
+[[syscall]]
+name = "NtPrivilegeObjectAuditAlarm"
+ssn_x64 = 313
+ssn_x86 = 313
+arity_x86 = 6
+rva_x64 = 654496
+rva_x86 = 476528
+stub_x64 = "4C8BD1B839010000F604250803FE7F0175030F05"
+stub_x86 = "B839010000BAF091304BFFD2C2180090B83A0100"
+
+[[syscall]]
+name = "NtPrivilegedServiceAuditAlarm"
+ssn_x64 = 314
+ssn_x86 = 314
+arity_x86 = 5
+rva_x64 = 654528
+rva_x86 = 476544
+stub_x64 = "4C8BD1B83A010000F604250803FE7F0175030F05"
+stub_x86 = "B83A010000BAF091304BFFD2C2140090B83B0100"
+
+[[syscall]]
+name = "NtPropagationComplete"
+ssn_x64 = 315
+ssn_x86 = 315
+arity_x86 = 4
+rva_x64 = 654560
+rva_x86 = 476560
+stub_x64 = "4C8BD1B83B010000F604250803FE7F0175030F05"
+stub_x86 = "B83B010000BAF091304BFFD2C2100090B83C0100"
+
+[[syscall]]
+name = "NtPropagationFailed"
+ssn_x64 = 316
+ssn_x86 = 316
+arity_x86 = 3
+rva_x64 = 654592
+rva_x86 = 476576
+stub_x64 = "4C8BD1B83C010000F604250803FE7F0175030F05"
+stub_x86 = "B83C010000BAF091304BFFD2C20C0090B83D0100"
+
+[[syscall]]
+name = "NtProtectVirtualMemory"
+ssn_x64 = 80
+ssn_x86 = 80
+arity_x86 = 5
+rva_x64 = 647056
+rva_x86 = 472800
+stub_x64 = "4C8BD1B850000000F604250803FE7F0175030F05"
+stub_x86 = "B850000000BAF091304BFFD2C2140090B8510000"
+
+[[syscall]]
+name = "NtPssCaptureVaSpaceBulk"
+ssn_x64 = 317
+ssn_x86 = 317
+arity_x86 = 5
+rva_x64 = 654624
+rva_x86 = 476592
+stub_x64 = "4C8BD1B83D010000F604250803FE7F0175030F05"
+stub_x86 = "B83D010000BAF091304BFFD2C2140090B83E0107"
+
+[[syscall]]
+name = "NtPulseEvent"
+ssn_x64 = 318
+ssn_x86 = 459070
+arity_x86 = 2
+rva_x64 = 654656
+rva_x86 = 476608
+stub_x64 = "4C8BD1B83E010000F604250803FE7F0175030F05"
+stub_x86 = "B83E010700BAF091304BFFD2C2080090B83F0100"
+
+[[syscall]]
+name = "NtQueryAttributesFile"
+ssn_x64 = 61
+ssn_x86 = 61
+arity_x86 = 2
+rva_x64 = 646448
+rva_x86 = 472496
+stub_x64 = "4C8BD1B83D000000F604250803FE7F0175030F05"
+stub_x86 = "B83D000000BAF091304BFFD2C2080090B83E0003"
+
+[[syscall]]
+name = "NtQueryAuxiliaryCounterFrequency"
+ssn_x64 = 319
+ssn_x86 = 319
+arity_x86 = 1
+rva_x64 = 654688
+rva_x86 = 476624
+stub_x64 = "4C8BD1B83F010000F604250803FE7F0175030F05"
+stub_x86 = "B83F010000BAF091304BFFD2C2040090B8400100"
+
+[[syscall]]
+name = "NtQueryBootEntryOrder"
+ssn_x64 = 320
+ssn_x86 = 320
+arity_x86 = 2
+rva_x64 = 654720
+rva_x86 = 476640
+stub_x64 = "4C8BD1B840010000F604250803FE7F0175030F05"
+stub_x86 = "B840010000BAF091304BFFD2C2080090B8410100"
+
+[[syscall]]
+name = "NtQueryBootOptions"
+ssn_x64 = 321
+ssn_x86 = 321
+arity_x86 = 2
+rva_x64 = 654752
+rva_x86 = 476656
+stub_x64 = "4C8BD1B841010000F604250803FE7F0175030F05"
+stub_x86 = "B841010000BAF091304BFFD2C2080090B8420105"
+
+[[syscall]]
+name = "NtQueryDebugFilterState"
+ssn_x64 = 322
+ssn_x86 = 328002
+arity_x86 = 2
+rva_x64 = 654784
+rva_x86 = 476672
+stub_x64 = "4C8BD1B842010000F604250803FE7F0175030F05"
+stub_x86 = "B842010500BAF091304BFFD2C2080090B8430100"
+
+[[syscall]]
+name = "NtQueryDefaultLocale"
+ssn_x64 = 21
+ssn_x86 = 327701
+arity_x86 = 2
+rva_x64 = 645168
+rva_x86 = 471824
+stub_x64 = "4C8BD1B815000000F604250803FE7F0175030F05"
+stub_x86 = "B815000500BAF091304BFFD2C2080090B8160000"
+
+[[syscall]]
+name = "NtQueryDefaultUILanguage"
+ssn_x64 = 68
+ssn_x86 = 262212
+arity_x86 = 1
+rva_x64 = 646672
+rva_x86 = 472608
+stub_x64 = "4C8BD1B844000000F604250803FE7F0175030F05"
+stub_x86 = "B844000400BAF091304BFFD2C2040090B8450000"
+
+[[syscall]]
+name = "NtQueryDirectoryFile"
+ssn_x64 = 53
+ssn_x86 = 53
+arity_x86 = 11
+rva_x64 = 646192
+rva_x86 = 472368
+stub_x64 = "4C8BD1B835000000F604250803FE7F0175030F05"
+stub_x86 = "B835000000BAF091304BFFD2C22C0090B8360000"
+
+[[syscall]]
+name = "NtQueryDirectoryFileEx"
+ssn_x64 = 323
+ssn_x86 = 323
+arity_x86 = 10
+rva_x64 = 654816
+rva_x86 = 476688
+stub_x64 = "4C8BD1B843010000F604250803FE7F0175030F05"
+stub_x86 = "B843010000BAF091304BFFD2C2280090B8440100"
+
+[[syscall]]
+name = "NtQueryDirectoryObject"
+ssn_x64 = 324
+ssn_x86 = 324
+arity_x86 = 7
+rva_x64 = 654848
+rva_x86 = 476704
+stub_x64 = "4C8BD1B844010000F604250803FE7F0175030F05"
+stub_x86 = "B844010000BAF091304BFFD2C21C0090B8450100"
+
+[[syscall]]
+name = "NtQueryDriverEntryOrder"
+ssn_x64 = 325
+ssn_x86 = 325
+arity_x86 = 2
+rva_x64 = 654880
+rva_x86 = 476720
+stub_x64 = "4C8BD1B845010000F604250803FE7F0175030F05"
+stub_x86 = "B845010000BAF091304BFFD2C2080090B8460100"
+
+[[syscall]]
+name = "NtQueryEaFile"
+ssn_x64 = 326
+ssn_x86 = 326
+arity_x86 = 9
+rva_x64 = 654912
+rva_x86 = 476736
+stub_x64 = "4C8BD1B846010000F604250803FE7F0175030F05"
+stub_x86 = "B846010000BAF091304BFFD2C2240090B8470100"
+
+[[syscall]]
+name = "NtQueryEvent"
+ssn_x64 = 86
+ssn_x86 = 86
+arity_x86 = 5
+rva_x64 = 647248
+rva_x86 = 472896
+stub_x64 = "4C8BD1B856000000F604250803FE7F0175030F05"
+stub_x86 = "B856000000BAF091304BFFD2C2140090B8570000"
+
+[[syscall]]
+name = "NtQueryFullAttributesFile"
+ssn_x64 = 327
+ssn_x86 = 327
+arity_x86 = 2
+rva_x64 = 654944
+rva_x86 = 476752
+stub_x64 = "4C8BD1B847010000F604250803FE7F0175030F05"
+stub_x86 = "B847010000BAF091304BFFD2C2080090B8480100"
+
+[[syscall]]
+name = "NtQueryInformationAtom"
+ssn_x64 = 328
+ssn_x86 = 328
+arity_x86 = 5
+rva_x64 = 654976
+rva_x86 = 476768
+stub_x64 = "4C8BD1B848010000F604250803FE7F0175030F05"
+stub_x86 = "B848010000BAF091304BFFD2C2140090B8490100"
+
+[[syscall]]
+name = "NtQueryInformationByName"
+ssn_x64 = 329
+ssn_x86 = 329
+arity_x86 = 5
+rva_x64 = 655008
+rva_x86 = 476784
+stub_x64 = "4C8BD1B849010000F604250803FE7F0175030F05"
+stub_x86 = "B849010000BAF091304BFFD2C2140090B84A0100"
+
+[[syscall]]
+name = "NtQueryInformationEnlistment"
+ssn_x64 = 330
+ssn_x86 = 330
+arity_x86 = 5
+rva_x64 = 655040
+rva_x86 = 476800
+stub_x64 = "4C8BD1B84A010000F604250803FE7F0175030F05"
+stub_x86 = "B84A010000BAF091304BFFD2C2140090B84B0100"
+
+[[syscall]]
+name = "NtQueryInformationFile"
+ssn_x64 = 17
+ssn_x86 = 17
+arity_x86 = 5
+rva_x64 = 645040
+rva_x86 = 471760
+stub_x64 = "4C8BD1B811000000F604250803FE7F0175030F05"
+stub_x86 = "B811000000BAF091304BFFD2C2140090B8120000"
+
+[[syscall]]
+name = "NtQueryInformationJobObject"
+ssn_x64 = 331
+ssn_x86 = 331
+arity_x86 = 5
+rva_x64 = 655072
+rva_x86 = 476816
+stub_x64 = "4C8BD1B84B010000F604250803FE7F0175030F05"
+stub_x86 = "B84B010000BAF091304BFFD2C2140090B84C0100"
+
+[[syscall]]
+name = "NtQueryInformationPort"
+ssn_x64 = 332
+ssn_x86 = 332
+arity_x86 = 5
+rva_x64 = 655104
+rva_x86 = 476832
+stub_x64 = "4C8BD1B84C010000F604250803FE7F0175030F05"
+stub_x86 = "B84C010000BAF091304BFFD2C2140090B84D0100"
+
+[[syscall]]
+name = "NtQueryInformationProcess"
+ssn_x64 = 25
+ssn_x86 = 25
+arity_x86 = 5
+rva_x64 = 645296
+rva_x86 = 471888
+stub_x64 = "4C8BD1B819000000F604250803FE7F0175030F05"
+stub_x86 = "B819000000E8000000005A807A144B750E64FF15"
+
+[[syscall]]
+name = "NtQueryInformationResourceManager"
+ssn_x64 = 333
+ssn_x86 = 333
+arity_x86 = 5
+rva_x64 = 655136
+rva_x86 = 476848
+stub_x64 = "4C8BD1B84D010000F604250803FE7F0175030F05"
+stub_x86 = "B84D010000BAF091304BFFD2C2140090B84E0100"
+
+[[syscall]]
+name = "NtQueryInformationThread"
+ssn_x64 = 37
+ssn_x86 = 37
+arity_x86 = 5
+rva_x64 = 645680
+rva_x86 = 472112
+stub_x64 = "4C8BD1B825000000F604250803FE7F0175030F05"
+stub_x86 = "B825000000BAF091304BFFD2C2140090B8260000"
+
+[[syscall]]
+name = "NtQueryInformationToken"
+ssn_x64 = 33
+ssn_x86 = 33
+arity_x86 = 5
+rva_x64 = 645552
+rva_x86 = 472048
+stub_x64 = "4C8BD1B821000000F604250803FE7F0175030F05"
+stub_x86 = "B821000000BAF091304BFFD2C2140090B8220000"
+
+[[syscall]]
+name = "NtQueryInformationTransaction"
+ssn_x64 = 334
+ssn_x86 = 334
+arity_x86 = 5
+rva_x64 = 655168
+rva_x86 = 476864
+stub_x64 = "4C8BD1B84E010000F604250803FE7F0175030F05"
+stub_x86 = "B84E010000BAF091304BFFD2C2140090B84F0100"
+
+[[syscall]]
+name = "NtQueryInformationTransactionManager"
+ssn_x64 = 335
+ssn_x86 = 335
+arity_x86 = 5
+rva_x64 = 655200
+rva_x86 = 476880
+stub_x64 = "4C8BD1B84F010000F604250803FE7F0175030F05"
+stub_x86 = "B84F010000BAF091304BFFD2C2140090B8500100"
+
+[[syscall]]
+name = "NtQueryInformationWorkerFactory"
+ssn_x64 = 336
+ssn_x86 = 336
+arity_x86 = 5
+rva_x64 = 655232
+rva_x86 = 476896
+stub_x64 = "4C8BD1B850010000F604250803FE7F0175030F05"
+stub_x86 = "B850010000BAF091304BFFD2C2140090B8510104"
+
+[[syscall]]
+name = "NtQueryInstallUILanguage"
+ssn_x64 = 337
+ssn_x86 = 262481
+arity_x86 = 1
+rva_x64 = 655264
+rva_x86 = 476912
+stub_x64 = "4C8BD1B851010000F604250803FE7F0175030F05"
+stub_x86 = "B851010400BAF091304BFFD2C2040090B8520105"
+
+[[syscall]]
+name = "NtQueryIntervalProfile"
+ssn_x64 = 338
+ssn_x86 = 328018
+arity_x86 = 2
+rva_x64 = 655296
+rva_x86 = 476928
+stub_x64 = "4C8BD1B852010000F604250803FE7F0175030F05"
+stub_x86 = "B852010500BAF091304BFFD2C2080090B8530100"
+
+[[syscall]]
+name = "NtQueryIoCompletion"
+ssn_x64 = 339
+ssn_x86 = 339
+arity_x86 = 5
+rva_x64 = 655328
+rva_x86 = 476944
+stub_x64 = "4C8BD1B853010000F604250803FE7F0175030F05"
+stub_x86 = "B853010000BAF091304BFFD2C2140090B8540100"
+
+[[syscall]]
+name = "NtQueryKey"
+ssn_x64 = 22
+ssn_x86 = 22
+arity_x86 = 5
+rva_x64 = 645200
+rva_x86 = 471840
+stub_x64 = "4C8BD1B816000000F604250803FE7F0175030F05"
+stub_x86 = "B816000000BAF091304BFFD2C2140090B8170000"
+
+[[syscall]]
+name = "NtQueryLicenseValue"
+ssn_x64 = 340
+ssn_x86 = 340
+arity_x86 = 5
+rva_x64 = 655360
+rva_x86 = 476960
+stub_x64 = "4C8BD1B854010000F604250803FE7F0175030F05"
+stub_x86 = "B854010000BAF091304BFFD2C2140090B8550100"
+
+[[syscall]]
+name = "NtQueryMultipleValueKey"
+ssn_x64 = 341
+ssn_x86 = 341
+arity_x86 = 6
+rva_x64 = 655392
+rva_x86 = 476976
+stub_x64 = "4C8BD1B855010000F604250803FE7F0175030F05"
+stub_x86 = "B855010000BAF091304BFFD2C2180090B8560100"
+
+[[syscall]]
+name = "NtQueryMutant"
+ssn_x64 = 342
+ssn_x86 = 342
+arity_x86 = 5
+rva_x64 = 655424
+rva_x86 = 476992
+stub_x64 = "4C8BD1B856010000F604250803FE7F0175030F05"
+stub_x86 = "B856010000BAF091304BFFD2C2140090B8570100"
+
+[[syscall]]
+name = "NtQueryObject"
+ssn_x64 = 16
+ssn_x86 = 16
+arity_x86 = 5
+rva_x64 = 645008
+rva_x86 = 471744
+stub_x64 = "4C8BD1B810000000F604250803FE7F0175030F05"
+stub_x86 = "B810000000BAF091304BFFD2C2140090B8110000"
+
+[[syscall]]
+name = "NtQueryOpenSubKeys"
+ssn_x64 = 343
+ssn_x86 = 343
+arity_x86 = 2
+rva_x64 = 655456
+rva_x86 = 477008
+stub_x64 = "4C8BD1B857010000F604250803FE7F0175030F05"
+stub_x86 = "B857010000BAF091304BFFD2C2080090B8580100"
+
+[[syscall]]
+name = "NtQueryOpenSubKeysEx"
+ssn_x64 = 344
+ssn_x86 = 344
+arity_x86 = 4
+rva_x64 = 655488
+rva_x86 = 477024
+stub_x64 = "4C8BD1B858010000F604250803FE7F0175030F05"
+stub_x86 = "B858010000BAF091304BFFD2C2100090B8590101"
+
+[[syscall]]
+name = "NtQueryPerformanceCounter"
+ssn_x64 = 49
+ssn_x86 = 327729
+arity_x86 = 2
+rva_x64 = 646064
+rva_x86 = 472304
+stub_x64 = "4C8BD1B831000000F604250803FE7F0175030F05"
+stub_x86 = "B831000500BAF091304BFFD2C2080090B8320000"
+
+[[syscall]]
+name = "NtQueryPortInformationProcess"
+ssn_x64 = 345
+ssn_x86 = 65881
+arity_x86 = 9
+rva_x64 = 655520
+rva_x86 = 477040
+stub_x64 = "4C8BD1B859010000F604250803FE7F0175030F05"
+stub_x86 = "B859010100BAF091304BFFD2C38D4900B85A0100"
+
+[[syscall]]
+name = "NtQueryQuotaInformationFile"
+ssn_x64 = 346
+ssn_x86 = 346
+arity_x86 = 9
+rva_x64 = 655552
+rva_x86 = 477056
+stub_x64 = "4C8BD1B85A010000F604250803FE7F0175030F05"
+stub_x86 = "B85A010000BAF091304BFFD2C2240090B85B0100"
+
+[[syscall]]
+name = "NtQuerySection"
+ssn_x64 = 81
+ssn_x86 = 81
+arity_x86 = 5
+rva_x64 = 647088
+rva_x86 = 472816
+stub_x64 = "4C8BD1B851000000F604250803FE7F0175030F05"
+stub_x86 = "B851000000BAF091304BFFD2C2140090B8520007"
+
+[[syscall]]
+name = "NtQuerySecurityAttributesToken"
+ssn_x64 = 347
+ssn_x86 = 347
+arity_x86 = 6
+rva_x64 = 655584
+rva_x86 = 477072
+stub_x64 = "4C8BD1B85B010000F604250803FE7F0175030F05"
+stub_x86 = "B85B010000BAF091304BFFD2C2180090B85C0100"
+
+[[syscall]]
+name = "NtQuerySecurityObject"
+ssn_x64 = 348
+ssn_x86 = 348
+arity_x86 = 5
+rva_x64 = 655616
+rva_x86 = 477088
+stub_x64 = "4C8BD1B85C010000F604250803FE7F0175030F05"
+stub_x86 = "B85C010000BAF091304BFFD2C2140090B85D0100"
+
+[[syscall]]
+name = "NtQuerySecurityPolicy"
+ssn_x64 = 349
+ssn_x86 = 349
+arity_x86 = 6
+rva_x64 = 655648
+rva_x86 = 477104
+stub_x64 = "4C8BD1B85D010000F604250803FE7F0175030F05"
+stub_x86 = "B85D010000BAF091304BFFD2C2180090B85E0100"
+
+[[syscall]]
+name = "NtQuerySemaphore"
+ssn_x64 = 350
+ssn_x86 = 350
+arity_x86 = 5
+rva_x64 = 655680
+rva_x86 = 477120
+stub_x64 = "4C8BD1B85E010000F604250803FE7F0175030F05"
+stub_x86 = "B85E010000BAF091304BFFD2C2140090B85F0100"
+
+[[syscall]]
+name = "NtQuerySymbolicLinkObject"
+ssn_x64 = 351
+ssn_x86 = 351
+arity_x86 = 3
+rva_x64 = 655712
+rva_x86 = 477136
+stub_x64 = "4C8BD1B85F010000F604250803FE7F0175030F05"
+stub_x86 = "B85F010000BAF091304BFFD2C20C0090B8600100"
+
+[[syscall]]
+name = "NtQuerySystemEnvironmentValue"
+ssn_x64 = 352
+ssn_x86 = 352
+arity_x86 = 4
+rva_x64 = 655744
+rva_x86 = 477152
+stub_x64 = "4C8BD1B860010000F604250803FE7F0175030F05"
+stub_x86 = "B860010000BAF091304BFFD2C2100090B8610100"
+
+[[syscall]]
+name = "NtQuerySystemEnvironmentValueEx"
+ssn_x64 = 353
+ssn_x86 = 353
+arity_x86 = 5
+rva_x64 = 655776
+rva_x86 = 477168
+stub_x64 = "4C8BD1B861010000F604250803FE7F0175030F05"
+stub_x86 = "B861010000BAF091304BFFD2C2140090B8620100"
+
+[[syscall]]
+name = "NtQuerySystemInformation"
+ssn_x64 = 54
+ssn_x86 = 54
+arity_x86 = 4
+rva_x64 = 646224
+rva_x86 = 472384
+stub_x64 = "4C8BD1B836000000F604250803FE7F0175030F05"
+stub_x86 = "B836000000BAF091304BFFD2C2100090B8370000"
+
+[[syscall]]
+name = "NtQuerySystemInformationEx"
+ssn_x64 = 354
+ssn_x86 = 354
+arity_x86 = 6
+rva_x64 = 655808
+rva_x86 = 477184
+stub_x64 = "4C8BD1B862010000F604250803FE7F0175030F05"
+stub_x86 = "B862010000BAF091304BFFD2C2180090B863010A"
+
+[[syscall]]
+name = "NtQuerySystemTime"
+ssn_x86 = 1572954
+arity_x86 = 1
+rva_x64 = 647376
+rva_x86 = 472960
+stub_x64 = "E9AB8EFDFF6666660F1F8400000000004C8BD1B8"
+stub_x86 = "B85A001800BAF091304BFFD2C2040090B85B001D"
+
+[[syscall]]
+name = "NtQueryTimer"
+ssn_x64 = 56
+ssn_x86 = 56
+arity_x86 = 5
+rva_x64 = 646288
+rva_x86 = 472416
+stub_x64 = "4C8BD1B838000000F604250803FE7F0175030F05"
+stub_x86 = "B838000000BAF091304BFFD2C2140090B839001B"
+
+[[syscall]]
+name = "NtQueryTimerResolution"
+ssn_x64 = 355
+ssn_x86 = 655715
+arity_x86 = 3
+rva_x64 = 655840
+rva_x86 = 477200
+stub_x64 = "4C8BD1B863010000F604250803FE7F0175030F05"
+stub_x86 = "B863010A00BAF091304BFFD2C20C0090B8640100"
+
+[[syscall]]
+name = "NtQueryValueKey"
+ssn_x64 = 23
+ssn_x86 = 23
+arity_x86 = 6
+rva_x64 = 645232
+rva_x86 = 471856
+stub_x64 = "4C8BD1B817000000F604250803FE7F0175030F05"
+stub_x86 = "B817000000BAF091304BFFD2C2180090B8180000"
+
+[[syscall]]
+name = "NtQueryVirtualMemory"
+ssn_x64 = 35
+ssn_x86 = 35
+arity_x86 = 6
+rva_x64 = 645616
+rva_x86 = 472080
+stub_x64 = "4C8BD1B823000000F604250803FE7F0175030F05"
+stub_x86 = "B823000000BAF091304BFFD2C2180090B8240000"
+
+[[syscall]]
+name = "NtQueryVolumeInformationFile"
+ssn_x64 = 73
+ssn_x86 = 73
+arity_x86 = 5
+rva_x64 = 646832
+rva_x86 = 472688
+stub_x64 = "4C8BD1B849000000F604250803FE7F0175030F05"
+stub_x86 = "B849000000BAF091304BFFD2C2140090B84A0000"
+
+[[syscall]]
+name = "NtQueryWnfStateData"
+ssn_x64 = 356
+ssn_x86 = 356
+arity_x86 = 6
+rva_x64 = 655872
+rva_x86 = 477216
+stub_x64 = "4C8BD1B864010000F604250803FE7F0175030F05"
+stub_x86 = "B864010000BAF091304BFFD2C2180090B8650100"
+
+[[syscall]]
+name = "NtQueryWnfStateNameInformation"
+ssn_x64 = 357
+ssn_x86 = 357
+arity_x86 = 5
+rva_x64 = 655904
+rva_x86 = 477232
+stub_x64 = "4C8BD1B865010000F604250803FE7F0175030F05"
+stub_x86 = "B865010000BAF091304BFFD2C2140090B8660100"
+
+[[syscall]]
+name = "NtQueueApcThread"
+ssn_x64 = 69
+ssn_x86 = 69
+arity_x86 = 5
+rva_x64 = 646704
+rva_x86 = 472624
+stub_x64 = "4C8BD1B845000000F604250803FE7F0175030F05"
+stub_x86 = "B845000000BAF091304BFFD2C2140090B8460001"
+
+[[syscall]]
+name = "NtQueueApcThreadEx"
+ssn_x64 = 358
+ssn_x86 = 358
+arity_x86 = 6
+rva_x64 = 655936
+rva_x86 = 477248
+stub_x64 = "4C8BD1B866010000F604250803FE7F0175030F05"
+stub_x86 = "B866010000BAF091304BFFD2C2180090B8670100"
+
+[[syscall]]
+name = "NtQueueApcThreadEx2"
+ssn_x64 = 359
+ssn_x86 = 359
+arity_x86 = 7
+rva_x64 = 655968
+rva_x86 = 477264
+stub_x64 = "4C8BD1B867010000F604250803FE7F0175030F05"
+stub_x86 = "B867010000BAF091304BFFD2C21C0090B8680100"
+
+[[syscall]]
+name = "NtRaiseException"
+ssn_x64 = 360
+ssn_x86 = 360
+arity_x86 = 3
+rva_x64 = 656000
+rva_x86 = 477280
+stub_x64 = "4C8BD1B868010000F604250803FE7F0175030F05"
+stub_x86 = "B868010000BAF091304BFFD2C20C0090B8690100"
+
+[[syscall]]
+name = "NtRaiseHardError"
+ssn_x64 = 361
+ssn_x86 = 361
+arity_x86 = 6
+rva_x64 = 656032
+rva_x86 = 477296
+stub_x64 = "4C8BD1B869010000F604250803FE7F0175030F05"
+stub_x86 = "B869010000BAF091304BFFD2C2180090B86A0100"
+
+[[syscall]]
+name = "NtReadFile"
+ssn_x64 = 6
+ssn_x86 = 1703942
+arity_x86 = 9
+rva_x64 = 644688
+rva_x86 = 471584
+stub_x64 = "4C8BD1B806000000F604250803FE7F0175030F05"
+stub_x86 = "B806001A00BAF091304BFFD2C2240090B807001B"
+
+[[syscall]]
+name = "NtReadFileScatter"
+ssn_x64 = 46
+ssn_x86 = 1703982
+arity_x86 = 9
+rva_x64 = 645968
+rva_x86 = 472256
+stub_x64 = "4C8BD1B82E000000F604250803FE7F0175030F05"
+stub_x86 = "B82E001A00BAF091304BFFD2C2240090B82F0000"
+
+[[syscall]]
+name = "NtReadOnlyEnlistment"
+ssn_x64 = 362
+ssn_x86 = 362
+arity_x86 = 2
+rva_x64 = 656064
+rva_x86 = 477312
+stub_x64 = "4C8BD1B86A010000F604250803FE7F0175030F05"
+stub_x86 = "B86A010000BAF091304BFFD2C2080090B86B0100"
+
+[[syscall]]
+name = "NtReadRequestData"
+ssn_x64 = 84
+ssn_x86 = 84
+arity_x86 = 6
+rva_x64 = 647184
+rva_x86 = 472864
+stub_x64 = "4C8BD1B854000000F604250803FE7F0175030F05"
+stub_x86 = "B854000000BAF091304BFFD2C2180090B8550000"
+
+[[syscall]]
+name = "NtReadVirtualMemory"
+ssn_x64 = 63
+ssn_x86 = 63
+arity_x86 = 5
+rva_x64 = 646512
+rva_x86 = 472528
+stub_x64 = "4C8BD1B83F000000F604250803FE7F0175030F05"
+stub_x86 = "B83F000000BAF091304BFFD2C2140090B8400000"
+
+[[syscall]]
+name = "NtRecoverEnlistment"
+ssn_x64 = 363
+ssn_x86 = 363
+arity_x86 = 2
+rva_x64 = 656096
+rva_x86 = 477328
+stub_x64 = "4C8BD1B86B010000F604250803FE7F0175030F05"
+stub_x86 = "B86B010000BAF091304BFFD2C2080090B86C0100"
+
+[[syscall]]
+name = "NtRecoverResourceManager"
+ssn_x64 = 364
+ssn_x86 = 364
+arity_x86 = 1
+rva_x64 = 656128
+rva_x86 = 477344
+stub_x64 = "4C8BD1B86C010000F604250803FE7F0175030F05"
+stub_x86 = "B86C010000BAF091304BFFD2C2040090B86D0100"
+
+[[syscall]]
+name = "NtRecoverTransactionManager"
+ssn_x64 = 365
+ssn_x86 = 365
+arity_x86 = 1
+rva_x64 = 656160
+rva_x86 = 477360
+stub_x64 = "4C8BD1B86D010000F604250803FE7F0175030F05"
+stub_x86 = "B86D010000BAF091304BFFD2C2040090B86E0100"
+
+[[syscall]]
+name = "NtRegisterProtocolAddressInformation"
+ssn_x64 = 366
+ssn_x86 = 366
+arity_x86 = 5
+rva_x64 = 656192
+rva_x86 = 477376
+stub_x64 = "4C8BD1B86E010000F604250803FE7F0175030F05"
+stub_x86 = "B86E010000BAF091304BFFD2C2140090B86F0103"
+
+[[syscall]]
+name = "NtRegisterThreadTerminatePort"
+ssn_x64 = 367
+ssn_x86 = 196975
+arity_x86 = 1
+rva_x64 = 656224
+rva_x86 = 477392
+stub_x64 = "4C8BD1B86F010000F604250803FE7F0175030F05"
+stub_x86 = "B86F010300BAF091304BFFD2C2040090B8700114"
+
+[[syscall]]
+name = "NtReleaseKeyedEvent"
+ssn_x64 = 368
+ssn_x86 = 1311088
+arity_x86 = 4
+rva_x64 = 656256
+rva_x86 = 477408
+stub_x64 = "4C8BD1B870010000F604250803FE7F0175030F05"
+stub_x86 = "B870011400BAF091304BFFD2C2100090B8710103"
+
+[[syscall]]
+name = "NtReleaseMutant"
+ssn_x64 = 32
+ssn_x86 = 458784
+arity_x86 = 2
+rva_x64 = 645520
+rva_x86 = 472032
+stub_x64 = "4C8BD1B820000000F604250803FE7F0175030F05"
+stub_x86 = "B820000700BAF091304BFFD2C2080090B8210000"
+
+[[syscall]]
+name = "NtReleaseSemaphore"
+ssn_x64 = 10
+ssn_x86 = 786442
+arity_x86 = 3
+rva_x64 = 644816
+rva_x86 = 471648
+stub_x64 = "4C8BD1B80A000000F604250803FE7F0175030F05"
+stub_x86 = "B80A000C00BAF091304BFFD2C20C0090B80B0000"
+
+[[syscall]]
+name = "NtReleaseWorkerFactoryWorker"
+ssn_x64 = 369
+ssn_x86 = 196977
+arity_x86 = 1
+rva_x64 = 656288
+rva_x86 = 477424
+stub_x64 = "4C8BD1B871010000F604250803FE7F0175030F05"
+stub_x86 = "B871010300BAF091304BFFD2C2040090B8720100"
+
+[[syscall]]
+name = "NtRemoveIoCompletion"
+ssn_x64 = 9
+ssn_x86 = 1835017
+arity_x86 = 5
+rva_x64 = 644784
+rva_x86 = 471632
+stub_x64 = "4C8BD1B809000000F604250803FE7F0175030F05"
+stub_x86 = "B809001C00BAF091304BFFD2C2140090B80A000C"
+
+[[syscall]]
+name = "NtRemoveIoCompletionEx"
+ssn_x64 = 370
+ssn_x86 = 370
+arity_x86 = 6
+rva_x64 = 656320
+rva_x86 = 477440
+stub_x64 = "4C8BD1B872010000F604250803FE7F0175030F05"
+stub_x86 = "B872010000BAF091304BFFD2C2180090B8730108"
+
+[[syscall]]
+name = "NtRemoveProcessDebug"
+ssn_x64 = 371
+ssn_x86 = 524659
+arity_x86 = 2
+rva_x64 = 656352
+rva_x86 = 477456
+stub_x64 = "4C8BD1B873010000F604250803FE7F0175030F05"
+stub_x86 = "B873010800BAF091304BFFD2C2080090B8740100"
+
+[[syscall]]
+name = "NtRenameKey"
+ssn_x64 = 372
+ssn_x86 = 372
+arity_x86 = 2
+rva_x64 = 656384
+rva_x86 = 477472
+stub_x64 = "4C8BD1B874010000F604250803FE7F0175030F05"
+stub_x86 = "B874010000BAF091304BFFD2C2080090B8750100"
+
+[[syscall]]
+name = "NtRenameTransactionManager"
+ssn_x64 = 373
+ssn_x86 = 373
+arity_x86 = 2
+rva_x64 = 656416
+rva_x86 = 477488
+stub_x64 = "4C8BD1B875010000F604250803FE7F0175030F05"
+stub_x86 = "B875010000BAF091304BFFD2C2080090B8760100"
+
+[[syscall]]
+name = "NtReplaceKey"
+ssn_x64 = 374
+ssn_x86 = 374
+arity_x86 = 3
+rva_x64 = 656448
+rva_x86 = 477504
+stub_x64 = "4C8BD1B876010000F604250803FE7F0175030F05"
+stub_x86 = "B876010000BAF091304BFFD2C20C0090B8770100"
+
+[[syscall]]
+name = "NtReplacePartitionUnit"
+ssn_x64 = 375
+ssn_x86 = 375
+arity_x86 = 3
+rva_x64 = 656480
+rva_x86 = 477520
+stub_x64 = "4C8BD1B877010000F604250803FE7F0175030F05"
+stub_x86 = "B877010000BAF091304BFFD2C20C0090B8780100"
+
+[[syscall]]
+name = "NtReplyPort"
+ssn_x64 = 12
+ssn_x86 = 12
+arity_x86 = 2
+rva_x64 = 644880
+rva_x86 = 471680
+stub_x64 = "4C8BD1B80C000000F604250803FE7F0175030F05"
+stub_x86 = "B80C000000BAF091304BFFD2C2080090B80D0000"
+
+[[syscall]]
+name = "NtReplyWaitReceivePort"
+ssn_x64 = 11
+ssn_x86 = 11
+arity_x86 = 4
+rva_x64 = 644848
+rva_x86 = 471664
+stub_x64 = "4C8BD1B80B000000F604250803FE7F0175030F05"
+stub_x86 = "B80B000000BAF091304BFFD2C2100090B80C0000"
+
+[[syscall]]
+name = "NtReplyWaitReceivePortEx"
+ssn_x64 = 43
+ssn_x86 = 43
+arity_x86 = 5
+rva_x64 = 645872
+rva_x86 = 472208
+stub_x64 = "4C8BD1B82B000000F604250803FE7F0175030F05"
+stub_x86 = "B82B000000BAF091304BFFD2C2140090B82C0007"
+
+[[syscall]]
+name = "NtReplyWaitReplyPort"
+ssn_x64 = 376
+ssn_x86 = 376
+arity_x86 = 2
+rva_x64 = 656512
+rva_x86 = 477536
+stub_x64 = "4C8BD1B878010000F604250803FE7F0175030F05"
+stub_x86 = "B878010000BAF091304BFFD2C2080090B8790100"
+
+[[syscall]]
+name = "NtRequestPort"
+ssn_x64 = 377
+ssn_x86 = 377
+arity_x86 = 2
+rva_x64 = 656544
+rva_x86 = 477552
+stub_x64 = "4C8BD1B879010000F604250803FE7F0175030F05"
+stub_x86 = "B879010000BAF091304BFFD2C2080090B87A0107"
+
+[[syscall]]
+name = "NtRequestWaitReplyPort"
+ssn_x64 = 34
+ssn_x86 = 34
+arity_x86 = 3
+rva_x64 = 645584
+rva_x86 = 472064
+stub_x64 = "4C8BD1B822000000F604250803FE7F0175030F05"
+stub_x86 = "B822000000BAF091304BFFD2C20C0090B8230000"
+
+[[syscall]]
+name = "NtResetEvent"
+ssn_x64 = 378
+ssn_x86 = 459130
+arity_x86 = 2
+rva_x64 = 656576
+rva_x86 = 477568
+stub_x64 = "4C8BD1B87A010000F604250803FE7F0175030F05"
+stub_x86 = "B87A010700BAF091304BFFD2C2080090B87B010C"
+
+[[syscall]]
+name = "NtResetWriteWatch"
+ssn_x64 = 379
+ssn_x86 = 786811
+arity_x86 = 3
+rva_x64 = 656608
+rva_x86 = 477584
+stub_x64 = "4C8BD1B87B010000F604250803FE7F0175030F05"
+stub_x86 = "B87B010C00BAF091304BFFD2C20C0090B87C0100"
+
+[[syscall]]
+name = "NtRestoreKey"
+ssn_x64 = 380
+ssn_x86 = 380
+arity_x86 = 3
+rva_x64 = 656640
+rva_x86 = 477600
+stub_x64 = "4C8BD1B87C010000F604250803FE7F0175030F05"
+stub_x86 = "B87C010000BAF091304BFFD2C20C0090B87D0103"
+
+[[syscall]]
+name = "NtResumeProcess"
+ssn_x64 = 381
+ssn_x86 = 196989
+arity_x86 = 1
+rva_x64 = 656672
+rva_x86 = 477616
+stub_x64 = "4C8BD1B87D010000F604250803FE7F0175030F05"
+stub_x86 = "B87D010300BAF091304BFFD2C2040090B87E0100"
+
+[[syscall]]
+name = "NtResumeThread"
+ssn_x64 = 82
+ssn_x86 = 458834
+arity_x86 = 2
+rva_x64 = 647120
+rva_x86 = 472832
+stub_x64 = "4C8BD1B852000000F604250803FE7F0175030F05"
+stub_x86 = "B852000700BAF091304BFFD2C2080090B8530007"
+
+[[syscall]]
+name = "NtRevertContainerImpersonation"
+ssn_x64 = 382
+ssn_x86 = 382
+arity_x86 = 2
+rva_x64 = 656704
+rva_x86 = 477632
+stub_x64 = "4C8BD1B87E010000F604250803FE7F0175030F05"
+stub_x86 = "B87E010000BAF091304BFFD2C38D4900B87F0100"
+
+[[syscall]]
+name = "NtRollbackComplete"
+ssn_x64 = 383
+ssn_x86 = 383
+arity_x86 = 2
+rva_x64 = 656736
+rva_x86 = 477648
+stub_x64 = "4C8BD1B87F010000F604250803FE7F0175030F05"
+stub_x86 = "B87F010000BAF091304BFFD2C2080090B8800100"
+
+[[syscall]]
+name = "NtRollbackEnlistment"
+ssn_x64 = 384
+ssn_x86 = 384
+arity_x86 = 2
+rva_x64 = 656768
+rva_x86 = 477664
+stub_x64 = "4C8BD1B880010000F604250803FE7F0175030F05"
+stub_x86 = "B880010000BAF091304BFFD2C2080090B8810100"
+
+[[syscall]]
+name = "NtRollbackRegistryTransaction"
+ssn_x64 = 385
+ssn_x86 = 385
+arity_x86 = 2
+rva_x64 = 656800
+rva_x86 = 477680
+stub_x64 = "4C8BD1B881010000F604250803FE7F0175030F05"
+stub_x86 = "B881010000BAF091304BFFD2C2080090B8820100"
+
+[[syscall]]
+name = "NtRollbackTransaction"
+ssn_x64 = 386
+ssn_x86 = 386
+arity_x86 = 2
+rva_x64 = 656832
+rva_x86 = 477696
+stub_x64 = "4C8BD1B882010000F604250803FE7F0175030F05"
+stub_x86 = "B882010000BAF091304BFFD2C2080090B8830100"
+
+[[syscall]]
+name = "NtRollforwardTransactionManager"
+ssn_x64 = 387
+ssn_x86 = 387
+arity_x86 = 2
+rva_x64 = 656864
+rva_x86 = 477712
+stub_x64 = "4C8BD1B883010000F604250803FE7F0175030F05"
+stub_x86 = "B883010000BAF091304BFFD2C2080090B8840108"
+
+[[syscall]]
+name = "NtSaveKey"
+ssn_x64 = 388
+ssn_x86 = 524676
+arity_x86 = 2
+rva_x64 = 656896
+rva_x86 = 477728
+stub_x64 = "4C8BD1B884010000F604250803FE7F0175030F05"
+stub_x86 = "B884010800BAF091304BFFD2C2080090B885010E"
+
+[[syscall]]
+name = "NtSaveKeyEx"
+ssn_x64 = 389
+ssn_x86 = 917893
+arity_x86 = 3
+rva_x64 = 656928
+rva_x86 = 477744
+stub_x64 = "4C8BD1B885010000F604250803FE7F0175030F05"
+stub_x86 = "B885010E00BAF091304BFFD2C20C0090B886010B"
+
+[[syscall]]
+name = "NtSaveMergedKeys"
+ssn_x64 = 390
+ssn_x86 = 721286
+arity_x86 = 3
+rva_x64 = 656960
+rva_x86 = 477760
+stub_x64 = "4C8BD1B886010000F604250803FE7F0175030F05"
+stub_x86 = "B886010B00BAF091304BFFD2C20C0090B8870100"
+
+[[syscall]]
+name = "NtSecureConnectPort"
+ssn_x64 = 391
+ssn_x86 = 391
+arity_x86 = 9
+rva_x64 = 656992
+rva_x86 = 477776
+stub_x64 = "4C8BD1B887010000F604250803FE7F0175030F05"
+stub_x86 = "B887010000BAF091304BFFD2C2240090B8880100"
+
+[[syscall]]
+name = "NtSerializeBoot"
+ssn_x64 = 392
+ssn_x86 = 392
+arity_x86 = 2
+rva_x64 = 657024
+rva_x86 = 477792
+stub_x64 = "4C8BD1B888010000F604250803FE7F0175030F05"
+stub_x86 = "B888010000BAF091304BFFD2C38D4900B8890100"
+
+[[syscall]]
+name = "NtSetBootEntryOrder"
+ssn_x64 = 393
+ssn_x86 = 393
+arity_x86 = 2
+rva_x64 = 657056
+rva_x86 = 477808
+stub_x64 = "4C8BD1B889010000F604250803FE7F0175030F05"
+stub_x86 = "B889010000BAF091304BFFD2C2080090B88A0100"
+
+[[syscall]]
+name = "NtSetBootOptions"
+ssn_x64 = 394
+ssn_x86 = 394
+arity_x86 = 2
+rva_x64 = 657088
+rva_x86 = 477824
+stub_x64 = "4C8BD1B88A010000F604250803FE7F0175030F05"
+stub_x86 = "B88A010000BAF091304BFFD2C2080090B88B0100"
+
+[[syscall]]
+name = "NtSetCachedSigningLevel"
+ssn_x64 = 395
+ssn_x86 = 395
+arity_x86 = 5
+rva_x64 = 657120
+rva_x86 = 477840
+stub_x64 = "4C8BD1B88B010000F604250803FE7F0175030F05"
+stub_x86 = "B88B010000BAF091304BFFD2C2140090B88C0100"
+
+[[syscall]]
+name = "NtSetCachedSigningLevel2"
+ssn_x64 = 396
+ssn_x86 = 396
+arity_x86 = 6
+rva_x64 = 657152
+rva_x86 = 477856
+stub_x64 = "4C8BD1B88C010000F604250803FE7F0175030F05"
+stub_x86 = "B88C010000BAF091304BFFD2C2180090B88D0100"
+
+[[syscall]]
+name = "NtSetContextThread"
+ssn_x64 = 397
+ssn_x86 = 397
+arity_x86 = 2
+rva_x64 = 657184
+rva_x86 = 477872
+stub_x64 = "4C8BD1B88D010000F604250803FE7F0175030F05"
+stub_x86 = "B88D010000BAF091304BFFD2C2080090B88E010A"
+
+[[syscall]]
+name = "NtSetDebugFilterState"
+ssn_x64 = 398
+ssn_x86 = 655758
+arity_x86 = 3
+rva_x64 = 657216
+rva_x86 = 477888
+stub_x64 = "4C8BD1B88E010000F604250803FE7F0175030F05"
+stub_x86 = "B88E010A00BAF091304BFFD2C20C0090B88F0103"
+
+[[syscall]]
+name = "NtSetDefaultHardErrorPort"
+ssn_x64 = 399
+ssn_x86 = 197007
+arity_x86 = 1
+rva_x64 = 657248
+rva_x86 = 477904
+stub_x64 = "4C8BD1B88F010000F604250803FE7F0175030F05"
+stub_x86 = "B88F010300BAF091304BFFD2C2040090B8900105"
+
+[[syscall]]
+name = "NtSetDefaultLocale"
+ssn_x64 = 400
+ssn_x86 = 328080
+arity_x86 = 2
+rva_x64 = 657280
+rva_x86 = 477920
+stub_x64 = "4C8BD1B890010000F604250803FE7F0175030F05"
+stub_x86 = "B890010500BAF091304BFFD2C2080090B8910104"
+
+[[syscall]]
+name = "NtSetDefaultUILanguage"
+ssn_x64 = 401
+ssn_x86 = 262545
+arity_x86 = 1
+rva_x64 = 657312
+rva_x86 = 477936
+stub_x64 = "4C8BD1B891010000F604250803FE7F0175030F05"
+stub_x86 = "B891010400BAF091304BFFD2C2040090B8920100"
+
+[[syscall]]
+name = "NtSetDriverEntryOrder"
+ssn_x64 = 402
+ssn_x86 = 402
+arity_x86 = 2
+rva_x64 = 657344
+rva_x86 = 477952
+stub_x64 = "4C8BD1B892010000F604250803FE7F0175030F05"
+stub_x86 = "B892010000BAF091304BFFD2C2080090B8930100"
+
+[[syscall]]
+name = "NtSetEaFile"
+ssn_x64 = 403
+ssn_x86 = 403
+arity_x86 = 4
+rva_x64 = 657376
+rva_x86 = 477968
+stub_x64 = "4C8BD1B893010000F604250803FE7F0175030F05"
+stub_x86 = "B893010000BAF091304BFFD2C2100090B8940103"
+
+[[syscall]]
+name = "NtSetEvent"
+ssn_x64 = 14
+ssn_x86 = 458766
+arity_x86 = 2
+rva_x64 = 644944
+rva_x86 = 471712
+stub_x64 = "4C8BD1B80E000000F604250803FE7F0175030F05"
+stub_x86 = "B80E000700BAF091304BFFD2C2080090B80F0003"
+
+[[syscall]]
+name = "NtSetEventBoostPriority"
+ssn_x64 = 45
+ssn_x86 = 196653
+arity_x86 = 1
+rva_x64 = 645936
+rva_x86 = 472240
+stub_x64 = "4C8BD1B82D000000F604250803FE7F0175030F05"
+stub_x86 = "B82D000300BAF091304BFFD2C2040090B82E001A"
+
+[[syscall]]
+name = "NtSetHighEventPair"
+ssn_x64 = 404
+ssn_x86 = 197012
+arity_x86 = 1
+rva_x64 = 657408
+rva_x86 = 477984
+stub_x64 = "4C8BD1B894010000F604250803FE7F0175030F05"
+stub_x86 = "B894010300BAF091304BFFD2C2040090B8950103"
+
+[[syscall]]
+name = "NtSetHighWaitLowEventPair"
+ssn_x64 = 405
+ssn_x86 = 197013
+arity_x86 = 1
+rva_x64 = 657440
+rva_x86 = 478000
+stub_x64 = "4C8BD1B895010000F604250803FE7F0175030F05"
+stub_x86 = "B895010300BAF091304BFFD2C2040090B8960107"
+
+[[syscall]]
+name = "NtSetIRTimer"
+ssn_x64 = 406
+ssn_x86 = 459158
+arity_x86 = 2
+rva_x64 = 657472
+rva_x86 = 478016
+stub_x64 = "4C8BD1B896010000F604250803FE7F0175030F05"
+stub_x86 = "B896010700BAF091304BFFD2C2080090B8970100"
+
+[[syscall]]
+name = "NtSetInformationDebugObject"
+ssn_x64 = 407
+ssn_x86 = 407
+arity_x86 = 5
+rva_x64 = 657504
+rva_x86 = 478032
+stub_x64 = "4C8BD1B897010000F604250803FE7F0175030F05"
+stub_x86 = "B897010000BAF091304BFFD2C2140090B8980100"
+
+[[syscall]]
+name = "NtSetInformationEnlistment"
+ssn_x64 = 408
+ssn_x86 = 408
+arity_x86 = 4
+rva_x64 = 657536
+rva_x86 = 478048
+stub_x64 = "4C8BD1B898010000F604250803FE7F0175030F05"
+stub_x86 = "B898010000BAF091304BFFD2C2100090B8990100"
+
+[[syscall]]
+name = "NtSetInformationFile"
+ssn_x64 = 39
+ssn_x86 = 39
+arity_x86 = 5
+rva_x64 = 645744
+rva_x86 = 472144
+stub_x64 = "4C8BD1B827000000F604250803FE7F0175030F05"
+stub_x86 = "B827000000BAF091304BFFD2C2140090B8280000"
+
+[[syscall]]
+name = "NtSetInformationJobObject"
+ssn_x64 = 409
+ssn_x86 = 409
+arity_x86 = 4
+rva_x64 = 657568
+rva_x86 = 478064
+stub_x64 = "4C8BD1B899010000F604250803FE7F0175030F05"
+stub_x86 = "B899010000BAF091304BFFD2C2100090B89A0100"
+
+[[syscall]]
+name = "NtSetInformationKey"
+ssn_x64 = 410
+ssn_x86 = 410
+arity_x86 = 4
+rva_x64 = 657600
+rva_x86 = 478080
+stub_x64 = "4C8BD1B89A010000F604250803FE7F0175030F05"
+stub_x86 = "B89A010000BAF091304BFFD2C2100090B89B0100"
+
+[[syscall]]
+name = "NtSetInformationObject"
+ssn_x64 = 92
+ssn_x86 = 92
+arity_x86 = 4
+rva_x64 = 647424
+rva_x86 = 472992
+stub_x64 = "4C8BD1B85C000000F604250803FE7F0175030F05"
+stub_x86 = "B85C000000BAF091304BFFD2C2100090B85D0000"
+
+[[syscall]]
+name = "NtSetInformationProcess"
+ssn_x64 = 28
+ssn_x86 = 28
+arity_x86 = 4
+rva_x64 = 645392
+rva_x86 = 471968
+stub_x64 = "4C8BD1B81C000000F604250803FE7F0175030F05"
+stub_x86 = "B81C000000BAF091304BFFD2C2100090B81D0000"
+
+[[syscall]]
+name = "NtSetInformationResourceManager"
+ssn_x64 = 411
+ssn_x86 = 411
+arity_x86 = 4
+rva_x64 = 657632
+rva_x86 = 478096
+stub_x64 = "4C8BD1B89B010000F604250803FE7F0175030F05"
+stub_x86 = "B89B010000BAF091304BFFD2C2100090B89C0100"
+
+[[syscall]]
+name = "NtSetInformationSymbolicLink"
+ssn_x64 = 412
+ssn_x86 = 412
+arity_x86 = 4
+rva_x64 = 657664
+rva_x86 = 478112
+stub_x64 = "4C8BD1B89C010000F604250803FE7F0175030F05"
+stub_x86 = "B89C010000BAF091304BFFD2C2100090B89D0100"
+
+[[syscall]]
+name = "NtSetInformationThread"
+ssn_x64 = 13
+ssn_x86 = 13
+arity_x86 = 4
+rva_x64 = 644912
+rva_x86 = 471696
+stub_x64 = "4C8BD1B80D000000F604250803FE7F0175030F05"
+stub_x86 = "B80D000000BAF091304BFFD2C2100090B80E0007"
+
+[[syscall]]
+name = "NtSetInformationToken"
+ssn_x64 = 413
+ssn_x86 = 413
+arity_x86 = 4
+rva_x64 = 657696
+rva_x86 = 478128
+stub_x64 = "4C8BD1B89D010000F604250803FE7F0175030F05"
+stub_x86 = "B89D010000BAF091304BFFD2C2100090B89E0100"
+
+[[syscall]]
+name = "NtSetInformationTransaction"
+ssn_x64 = 414
+ssn_x86 = 414
+arity_x86 = 4
+rva_x64 = 657728
+rva_x86 = 478144
+stub_x64 = "4C8BD1B89E010000F604250803FE7F0175030F05"
+stub_x86 = "B89E010000BAF091304BFFD2C2100090B89F0100"
+
+[[syscall]]
+name = "NtSetInformationTransactionManager"
+ssn_x64 = 415
+ssn_x86 = 415
+arity_x86 = 4
+rva_x64 = 657760
+rva_x86 = 478160
+stub_x64 = "4C8BD1B89F010000F604250803FE7F0175030F05"
+stub_x86 = "B89F010000BAF091304BFFD2C2100090B8A00100"
+
+[[syscall]]
+name = "NtSetInformationVirtualMemory"
+ssn_x64 = 416
+ssn_x86 = 416
+arity_x86 = 6
+rva_x64 = 657792
+rva_x86 = 478176
+stub_x64 = "4C8BD1B8A0010000F604250803FE7F0175030F05"
+stub_x86 = "B8A0010000BAF091304BFFD2C2180090B8A10100"
+
+[[syscall]]
+name = "NtSetInformationWorkerFactory"
+ssn_x64 = 417
+ssn_x86 = 417
+arity_x86 = 4
+rva_x64 = 657824
+rva_x86 = 478192
+stub_x64 = "4C8BD1B8A1010000F604250803FE7F0175030F05"
+stub_x86 = "B8A1010000BAF091304BFFD2C2100090B8A20105"
+
+[[syscall]]
+name = "NtSetIntervalProfile"
+ssn_x64 = 418
+ssn_x86 = 328098
+arity_x86 = 2
+rva_x64 = 657856
+rva_x86 = 478208
+stub_x64 = "4C8BD1B8A2010000F604250803FE7F0175030F05"
+stub_x86 = "B8A2010500BAF091304BFFD2C2080090B8A30100"
+
+[[syscall]]
+name = "NtSetIoCompletion"
+ssn_x64 = 419
+ssn_x86 = 419
+arity_x86 = 5
+rva_x64 = 657888
+rva_x86 = 478224
+stub_x64 = "4C8BD1B8A3010000F604250803FE7F0175030F05"
+stub_x86 = "B8A3010000BAF091304BFFD2C2140090B8A40100"
+
+[[syscall]]
+name = "NtSetIoCompletionEx"
+ssn_x64 = 420
+ssn_x86 = 420
+arity_x86 = 6
+rva_x64 = 657920
+rva_x86 = 478240
+stub_x64 = "4C8BD1B8A4010000F604250803FE7F0175030F05"
+stub_x86 = "B8A4010000BAF091304BFFD2C2180090B8A50100"
+
+[[syscall]]
+name = "NtSetLdtEntries"
+ssn_x64 = 421
+ssn_x86 = 421
+arity_x86 = 6
+rva_x64 = 657952
+rva_x86 = 478256
+stub_x64 = "4C8BD1B8A5010000F604250803FE7F0175030F05"
+stub_x86 = "B8A5010000BAF091304BFFD2C2180090B8A60103"
+
+[[syscall]]
+name = "NtSetLowEventPair"
+ssn_x64 = 422
+ssn_x86 = 197030
+arity_x86 = 1
+rva_x64 = 657984
+rva_x86 = 478272
+stub_x64 = "4C8BD1B8A6010000F604250803FE7F0175030F05"
+stub_x86 = "B8A6010300BAF091304BFFD2C2040090B8A70103"
+
+[[syscall]]
+name = "NtSetLowWaitHighEventPair"
+ssn_x64 = 423
+ssn_x86 = 197031
+arity_x86 = 1
+rva_x64 = 658016
+rva_x86 = 478288
+stub_x64 = "4C8BD1B8A7010000F604250803FE7F0175030F05"
+stub_x86 = "B8A7010300BAF091304BFFD2C2040090B8A80100"
+
+[[syscall]]
+name = "NtSetQuotaInformationFile"
+ssn_x64 = 424
+ssn_x86 = 424
+arity_x86 = 4
+rva_x64 = 658048
+rva_x86 = 478304
+stub_x64 = "4C8BD1B8A8010000F604250803FE7F0175030F05"
+stub_x86 = "B8A8010000BAF091304BFFD2C2100090B8A90100"
+
+[[syscall]]
+name = "NtSetSecurityObject"
+ssn_x64 = 425
+ssn_x86 = 425
+arity_x86 = 3
+rva_x64 = 658080
+rva_x86 = 478320
+stub_x64 = "4C8BD1B8A9010000F604250803FE7F0175030F05"
+stub_x86 = "B8A9010000BAF091304BFFD2C20C0090B8AA0100"
+
+[[syscall]]
+name = "NtSetSystemEnvironmentValue"
+ssn_x64 = 426
+ssn_x86 = 426
+arity_x86 = 2
+rva_x64 = 658112
+rva_x86 = 478336
+stub_x64 = "4C8BD1B8AA010000F604250803FE7F0175030F05"
+stub_x86 = "B8AA010000BAF091304BFFD2C2080090B8AB0100"
+
+[[syscall]]
+name = "NtSetSystemEnvironmentValueEx"
+ssn_x64 = 427
+ssn_x86 = 427
+arity_x86 = 5
+rva_x64 = 658144
+rva_x86 = 478352
+stub_x64 = "4C8BD1B8AB010000F604250803FE7F0175030F05"
+stub_x86 = "B8AB010000BAF091304BFFD2C2140090B8AC0100"
+
+[[syscall]]
+name = "NtSetSystemInformation"
+ssn_x64 = 428
+ssn_x86 = 428
+arity_x86 = 3
+rva_x64 = 658176
+rva_x86 = 478368
+stub_x64 = "4C8BD1B8AC010000F604250803FE7F0175030F05"
+stub_x86 = "B8AC010000BAF091304BFFD2C20C0090B8AD0100"
+
+[[syscall]]
+name = "NtSetSystemPowerState"
+ssn_x64 = 429
+ssn_x86 = 429
+arity_x86 = 3
+rva_x64 = 658208
+rva_x86 = 478384
+stub_x64 = "4C8BD1B8AD010000F604250803FE7F0175030F05"
+stub_x86 = "B8AD010000BAF091304BFFD2C20C0090B8AE0105"
+
+[[syscall]]
+name = "NtSetSystemTime"
+ssn_x64 = 430
+ssn_x86 = 328110
+arity_x86 = 2
+rva_x64 = 658240
+rva_x86 = 478400
+stub_x64 = "4C8BD1B8AE010000F604250803FE7F0175030F05"
+stub_x86 = "B8AE010500BAF091304BFFD2C2080090B8AF0105"
+
+[[syscall]]
+name = "NtSetThreadExecutionState"
+ssn_x64 = 431
+ssn_x86 = 328111
+arity_x86 = 2
+rva_x64 = 658272
+rva_x86 = 478416
+stub_x64 = "4C8BD1B8AF010000F604250803FE7F0175030F05"
+stub_x86 = "B8AF010500BAF091304BFFD2C2080090B8B00100"
+
+[[syscall]]
+name = "NtSetTimer"
+ssn_x64 = 98
+ssn_x86 = 98
+arity_x86 = 7
+rva_x64 = 647616
+rva_x86 = 473088
+stub_x64 = "4C8BD1B862000000F604250803FE7F0175030F05"
+stub_x86 = "B862000000BAF091304BFFD2C21C0090B8630000"
+
+[[syscall]]
+name = "NtSetTimer2"
+ssn_x64 = 432
+ssn_x86 = 432
+arity_x86 = 4
+rva_x64 = 658304
+rva_x86 = 478432
+stub_x64 = "4C8BD1B8B0010000F604250803FE7F0175030F05"
+stub_x86 = "B8B0010000BAF091304BFFD2C2100090B8B10100"
+
+[[syscall]]
+name = "NtSetTimerEx"
+ssn_x64 = 433
+ssn_x86 = 433
+arity_x86 = 4
+rva_x64 = 658336
+rva_x86 = 478448
+stub_x64 = "4C8BD1B8B1010000F604250803FE7F0175030F05"
+stub_x86 = "B8B1010000BAF091304BFFD2C2100090B8B2010A"
+
+[[syscall]]
+name = "NtSetTimerResolution"
+ssn_x64 = 434
+ssn_x86 = 655794
+arity_x86 = 3
+rva_x64 = 658368
+rva_x86 = 478464
+stub_x64 = "4C8BD1B8B2010000F604250803FE7F0175030F05"
+stub_x86 = "B8B2010A00BAF091304BFFD2C20C0090B8B30104"
+
+[[syscall]]
+name = "NtSetUuidSeed"
+ssn_x64 = 435
+ssn_x86 = 262579
+arity_x86 = 1
+rva_x64 = 658400
+rva_x86 = 478480
+stub_x64 = "4C8BD1B8B3010000F604250803FE7F0175030F05"
+stub_x86 = "B8B3010400BAF091304BFFD2C2040090B8B40100"
+
+[[syscall]]
+name = "NtSetValueKey"
+ssn_x64 = 96
+ssn_x86 = 96
+arity_x86 = 6
+rva_x64 = 647552
+rva_x86 = 473056
+stub_x64 = "4C8BD1B860000000F604250803FE7F0175030F05"
+stub_x86 = "B860000000BAF091304BFFD2C2180090B8610007"
+
+[[syscall]]
+name = "NtSetVolumeInformationFile"
+ssn_x64 = 436
+ssn_x86 = 436
+arity_x86 = 5
+rva_x64 = 658432
+rva_x86 = 478496
+stub_x64 = "4C8BD1B8B4010000F604250803FE7F0175030F05"
+stub_x86 = "B8B4010000BAF091304BFFD2C2140090B8B50100"
+
+[[syscall]]
+name = "NtSetWnfProcessNotificationEvent"
+ssn_x64 = 437
+ssn_x86 = 437
+arity_x86 = 1
+rva_x64 = 658464
+rva_x86 = 478512
+stub_x64 = "4C8BD1B8B5010000F604250803FE7F0175030F05"
+stub_x86 = "B8B5010000BAF091304BFFD2C2040090B8B60104"
+
+[[syscall]]
+name = "NtShutdownSystem"
+ssn_x64 = 438
+ssn_x86 = 262582
+arity_x86 = 1
+rva_x64 = 658496
+rva_x86 = 478528
+stub_x64 = "4C8BD1B8B6010000F604250803FE7F0175030F05"
+stub_x86 = "B8B6010400BAF091304BFFD2C2040090B8B70100"
+
+[[syscall]]
+name = "NtShutdownWorkerFactory"
+ssn_x64 = 439
+ssn_x86 = 439
+arity_x86 = 2
+rva_x64 = 658528
+rva_x86 = 478544
+stub_x64 = "4C8BD1B8B7010000F604250803FE7F0175030F05"
+stub_x86 = "B8B7010000BAF091304BFFD2C2080090B8B80113"
+
+[[syscall]]
+name = "NtSignalAndWaitForSingleObject"
+ssn_x64 = 440
+ssn_x86 = 1245624
+arity_x86 = 4
+rva_x64 = 658560
+rva_x86 = 478560
+stub_x64 = "4C8BD1B8B8010000F604250803FE7F0175030F05"
+stub_x86 = "B8B8011300BAF091304BFFD2C2100090B8B90100"
+
+[[syscall]]
+name = "NtSinglePhaseReject"
+ssn_x64 = 441
+ssn_x86 = 441
+arity_x86 = 2
+rva_x64 = 658592
+rva_x86 = 478576
+stub_x64 = "4C8BD1B8B9010000F604250803FE7F0175030F05"
+stub_x86 = "B8B9010000BAF091304BFFD2C2080090B8BA0103"
+
+[[syscall]]
+name = "NtStartProfile"
+ssn_x64 = 442
+ssn_x86 = 197050
+arity_x86 = 1
+rva_x64 = 658624
+rva_x86 = 478592
+stub_x64 = "4C8BD1B8BA010000F604250803FE7F0175030F05"
+stub_x86 = "B8BA010300BAF091304BFFD2C2040090B8BB0103"
+
+[[syscall]]
+name = "NtStopProfile"
+ssn_x64 = 443
+ssn_x86 = 197051
+arity_x86 = 1
+rva_x64 = 658656
+rva_x86 = 478608
+stub_x64 = "4C8BD1B8BB010000F604250803FE7F0175030F05"
+stub_x86 = "B8BB010300BAF091304BFFD2C2040090B8BC0100"
+
+[[syscall]]
+name = "NtSubscribeWnfStateChange"
+ssn_x64 = 444
+ssn_x86 = 444
+arity_x86 = 4
+rva_x64 = 658688
+rva_x86 = 478624
+stub_x64 = "4C8BD1B8BC010000F604250803FE7F0175030F05"
+stub_x86 = "B8BC010000BAF091304BFFD2C2100090B8BD0103"
+
+[[syscall]]
+name = "NtSuspendProcess"
+ssn_x64 = 445
+ssn_x86 = 197053
+arity_x86 = 1
+rva_x64 = 658720
+rva_x86 = 478640
+stub_x64 = "4C8BD1B8BD010000F604250803FE7F0175030F05"
+stub_x86 = "B8BD010300BAF091304BFFD2C2040090B8BE0107"
+
+[[syscall]]
+name = "NtSuspendThread"
+ssn_x64 = 446
+ssn_x86 = 459198
+arity_x86 = 2
+rva_x64 = 658752
+rva_x86 = 478656
+stub_x64 = "4C8BD1B8BE010000F604250803FE7F0175030F05"
+stub_x86 = "B8BE010700BAF091304BFFD2C2080090B8BF0100"
+
+[[syscall]]
+name = "NtSystemDebugControl"
+ssn_x64 = 447
+ssn_x86 = 447
+arity_x86 = 6
+rva_x64 = 658784
+rva_x86 = 478672
+stub_x64 = "4C8BD1B8BF010000F604250803FE7F0175030F05"
+stub_x86 = "B8BF010000BAF091304BFFD2C2180090B8C00100"
+
+[[syscall]]
+name = "NtTerminateEnclave"
+ssn_x64 = 448
+ssn_x86 = 448
+arity_x86 = 2
+rva_x64 = 658816
+rva_x86 = 478688
+stub_x64 = "4C8BD1B8C0010000F604250803FE7F0175030F05"
+stub_x86 = "B8C0010000BAF091304BFFD2C2080090B8C10107"
+
+[[syscall]]
+name = "NtTerminateJobObject"
+ssn_x64 = 449
+ssn_x86 = 459201
+arity_x86 = 2
+rva_x64 = 658848
+rva_x86 = 478704
+stub_x64 = "4C8BD1B8C1010000F604250803FE7F0175030F05"
+stub_x86 = "B8C1010700BAF091304BFFD2C2080090B8C20102"
+
+[[syscall]]
+name = "NtTerminateProcess"
+ssn_x64 = 44
+ssn_x86 = 458796
+arity_x86 = 2
+rva_x64 = 645904
+rva_x86 = 472224
+stub_x64 = "4C8BD1B82C000000F604250803FE7F0175030F05"
+stub_x86 = "B82C000700BAF091304BFFD2C2080090B82D0003"
+
+[[syscall]]
+name = "NtTerminateThread"
+ssn_x64 = 83
+ssn_x86 = 458835
+arity_x86 = 2
+rva_x64 = 647152
+rva_x86 = 472848
+stub_x64 = "4C8BD1B853000000F604250803FE7F0175030F05"
+stub_x86 = "B853000700BAF091304BFFD2C2080090B8540000"
+
+[[syscall]]
+name = "NtTestAlert"
+ssn_x64 = 450
+ssn_x86 = 131522
+rva_x64 = 658880
+rva_x86 = 478720
+stub_x64 = "4C8BD1B8C2010000F604250803FE7F0175030F05"
+stub_x86 = "B8C2010200BAF091304BFFD2C38D4900B8C30100"
+
+[[syscall]]
+name = "NtThawRegistry"
+ssn_x64 = 451
+ssn_x86 = 451
+rva_x64 = 658912
+rva_x86 = 478736
+stub_x64 = "4C8BD1B8C3010000F604250803FE7F0175030F05"
+stub_x86 = "B8C3010000BAF091304BFFD2C38D4900B8C40100"
+
+[[syscall]]
+name = "NtThawTransactions"
+ssn_x64 = 452
+ssn_x86 = 452
+arity_x86 = 6
+rva_x64 = 658944
+rva_x86 = 478752
+stub_x64 = "4C8BD1B8C4010000F604250803FE7F0175030F05"
+stub_x86 = "B8C4010000BAF091304BFFD2C38D4900B8C50100"
+
+[[syscall]]
+name = "NtTraceControl"
+ssn_x64 = 453
+ssn_x86 = 453
+arity_x86 = 6
+rva_x64 = 658976
+rva_x86 = 478768
+stub_x64 = "4C8BD1B8C5010000F604250803FE7F0175030F05"
+stub_x86 = "B8C5010000BAF091304BFFD2C2180090B8C60111"
+
+[[syscall]]
+name = "NtTraceEvent"
+ssn_x64 = 94
+ssn_x86 = 94
+arity_x86 = 4
+rva_x64 = 647488
+rva_x86 = 473024
+stub_x64 = "4C8BD1B85E000000F604250803FE7F0175030F05"
+stub_x86 = "B85E000000BAF091304BFFD2C2100090B85F0000"
+
+[[syscall]]
+name = "NtTranslateFilePath"
+ssn_x64 = 454
+ssn_x86 = 1114566
+arity_x86 = 4
+rva_x64 = 659008
+rva_x86 = 478784
+stub_x64 = "4C8BD1B8C6010000F604250803FE7F0175030F05"
+stub_x86 = "B8C6011100BAF091304BFFD2C2100090B8C70100"
+
+[[syscall]]
+name = "NtUmsThreadYield"
+ssn_x64 = 455
+ssn_x86 = 455
+arity_x86 = 1
+rva_x64 = 659040
+rva_x86 = 478800
+stub_x64 = "4C8BD1B8C7010000F604250803FE7F0175030F05"
+stub_x86 = "B8C7010000BAF091304BFFD2C2040090B8C80100"
+
+[[syscall]]
+name = "NtUnloadDriver"
+ssn_x64 = 456
+ssn_x86 = 456
+arity_x86 = 1
+rva_x64 = 659072
+rva_x86 = 478816
+stub_x64 = "4C8BD1B8C8010000F604250803FE7F0175030F05"
+stub_x86 = "B8C8010000BAF091304BFFD2C2040090B8C90100"
+
+[[syscall]]
+name = "NtUnloadKey"
+ssn_x64 = 457
+ssn_x86 = 457
+arity_x86 = 1
+rva_x64 = 659104
+rva_x86 = 478832
+stub_x64 = "4C8BD1B8C9010000F604250803FE7F0175030F05"
+stub_x86 = "B8C9010000BAF091304BFFD2C2040090B8CA0100"
+
+[[syscall]]
+name = "NtUnloadKey2"
+ssn_x64 = 458
+ssn_x86 = 458
+arity_x86 = 2
+rva_x64 = 659136
+rva_x86 = 478848
+stub_x64 = "4C8BD1B8CA010000F604250803FE7F0175030F05"
+stub_x86 = "B8CA010000BAF091304BFFD2C2080090B8CB0100"
+
+[[syscall]]
+name = "NtUnloadKeyEx"
+ssn_x64 = 459
+ssn_x86 = 459
+arity_x86 = 2
+rva_x64 = 659168
+rva_x86 = 478864
+stub_x64 = "4C8BD1B8CB010000F604250803FE7F0175030F05"
+stub_x86 = "B8CB010000BAF091304BFFD2C2080090B8CC0100"
+
+[[syscall]]
+name = "NtUnlockFile"
+ssn_x64 = 460
+ssn_x86 = 460
+arity_x86 = 5
+rva_x64 = 659200
+rva_x86 = 478880
+stub_x64 = "4C8BD1B8CC010000F604250803FE7F0175030F05"
+stub_x86 = "B8CC010000BAF091304BFFD2C2140090B8CD0100"
+
+[[syscall]]
+name = "NtUnlockVirtualMemory"
+ssn_x64 = 461
+ssn_x86 = 461
+arity_x86 = 4
+rva_x64 = 659232
+rva_x86 = 478896
+stub_x64 = "4C8BD1B8CD010000F604250803FE7F0175030F05"
+stub_x86 = "B8CD010000BAF091304BFFD2C2100090B8CE0100"
+
+[[syscall]]
+name = "NtUnmapViewOfSection"
+ssn_x64 = 42
+ssn_x86 = 42
+arity_x86 = 2
+rva_x64 = 645840
+rva_x86 = 472192
+stub_x64 = "4C8BD1B82A000000F604250803FE7F0175030F05"
+stub_x86 = "B82A000000BAF091304BFFD2C2080090B82B0000"
+
+[[syscall]]
+name = "NtUnmapViewOfSectionEx"
+ssn_x64 = 462
+ssn_x86 = 462
+arity_x86 = 3
+rva_x64 = 659264
+rva_x86 = 478912
+stub_x64 = "4C8BD1B8CE010000F604250803FE7F0175030F05"
+stub_x86 = "B8CE010000BAF091304BFFD2C20C0090B8CF0100"
+
+[[syscall]]
+name = "NtUnsubscribeWnfStateChange"
+ssn_x64 = 463
+ssn_x86 = 463
+arity_x86 = 1
+rva_x64 = 659296
+rva_x86 = 478928
+stub_x64 = "4C8BD1B8CF010000F604250803FE7F0175030F05"
+stub_x86 = "B8CF010000BAF091304BFFD2C2040090B8D00100"
+
+[[syscall]]
+name = "NtUpdateWnfStateData"
+ssn_x64 = 464
+ssn_x86 = 464
+arity_x86 = 7
+rva_x64 = 659328
+rva_x86 = 478944
+stub_x64 = "4C8BD1B8D0010000F604250803FE7F0175030F05"
+stub_x86 = "B8D0010000BAF091304BFFD2C21C0090B8D10100"
+
+[[syscall]]
+name = "NtVdmControl"
+ssn_x64 = 465
+ssn_x86 = 465
+arity_x86 = 2
+rva_x64 = 659360
+rva_x86 = 478960
+stub_x64 = "4C8BD1B8D1010000F604250803FE7F0175030F05"
+stub_x86 = "B8D1010000BAF091304BFFD2C2080090B8D20106"
+
+[[syscall]]
+name = "NtWaitForAlertByThreadId"
+ssn_x64 = 466
+ssn_x86 = 393682
+arity_x86 = 2
+rva_x64 = 659392
+rva_x86 = 478976
+stub_x64 = "4C8BD1B8D2010000F604250803FE7F0175030F05"
+stub_x86 = "B8D2010600BAF091304BFFD2C2080090B8D30100"
+
+[[syscall]]
+name = "NtWaitForDebugEvent"
+ssn_x64 = 467
+ssn_x86 = 467
+arity_x86 = 4
+rva_x64 = 659424
+rva_x86 = 478992
+stub_x64 = "4C8BD1B8D3010000F604250803FE7F0175030F05"
+stub_x86 = "B8D3010000BAF091304BFFD2C2100090B8D40115"
+
+[[syscall]]
+name = "NtWaitForKeyedEvent"
+ssn_x64 = 468
+ssn_x86 = 1376724
+arity_x86 = 4
+rva_x64 = 659456
+rva_x86 = 479008
+stub_x64 = "4C8BD1B8D4010000F604250803FE7F0175030F05"
+stub_x86 = "B8D4011500BAF091304BFFD2C2100090B8D50100"
+
+[[syscall]]
+name = "NtWaitForMultipleObjects"
+ssn_x64 = 91
+ssn_x86 = 1900635
+arity_x86 = 5
+rva_x64 = 647392
+rva_x86 = 472976
+stub_x64 = "4C8BD1B85B000000F604250803FE7F0175030F05"
+stub_x86 = "B85B001D00BAF091304BFFD2C2140090B85C0000"
+
+[[syscall]]
+name = "NtWaitForMultipleObjects32"
+ssn_x64 = 26
+ssn_x86 = 1966106
+arity_x86 = 5
+rva_x64 = 645328
+rva_x86 = 471936
+stub_x64 = "4C8BD1B81A000000F604250803FE7F0175030F05"
+stub_x86 = "B81A001E00BAF091304BFFD2C2140090B81B001A"
+
+[[syscall]]
+name = "NtWaitForSingleObject"
+ssn_x64 = 4
+ssn_x86 = 851972
+arity_x86 = 3
+rva_x64 = 644624
+rva_x86 = 471552
+stub_x64 = "4C8BD1B804000000F604250803FE7F0175030F05"
+stub_x86 = "B804000D00BAF091304BFFD2C20C0090B8050000"
+
+[[syscall]]
+name = "NtWaitForWorkViaWorkerFactory"
+ssn_x64 = 469
+ssn_x86 = 469
+arity_x86 = 5
+rva_x64 = 659488
+rva_x86 = 479024
+stub_x64 = "4C8BD1B8D5010000F604250803FE7F0175030F05"
+stub_x86 = "B8D5010000BAF091304BFFD2C2140090B8D60103"
+
+[[syscall]]
+name = "NtWaitHighEventPair"
+ssn_x64 = 470
+ssn_x86 = 197078
+arity_x86 = 1
+rva_x64 = 659520
+rva_x86 = 479040
+stub_x64 = "4C8BD1B8D6010000F604250803FE7F0175030F05"
+stub_x86 = "B8D6010300BAF091304BFFD2C2040090B8D70100"
+
+[[syscall]]
+name = "NtWaitLowEventPair"
+ssn_x64 = 472
+ssn_x86 = 197080
+arity_x86 = 1
+rva_x64 = 659584
+rva_x86 = 479072
+stub_x64 = "4C8BD1B8D8010000F604250803FE7F0175030F05"
+stub_x86 = "B8D8010300BAF091304BFFD2C2040090B8D90100"
+
+[[syscall]]
+name = "NtWorkerFactoryWorkerReady"
+ssn_x64 = 1
+ssn_x86 = 196609
+arity_x86 = 1
+rva_x64 = 644528
+rva_x86 = 471504
+stub_x64 = "4C8BD1B801000000F604250803FE7F0175030F05"
+stub_x86 = "B801000300BAF091304BFFD2C2040090B8020000"
+
+[[syscall]]
+name = "NtWow64AllocateVirtualMemory64"
+ssn_x86 = 487
+arity_x86 = 7
+rva_x86 = 479312
+stub_x86 = "B8E7010000BAF091304BFFD2C21C0090B8E80100"
+
+[[syscall]]
+name = "NtWow64CallFunction64"
+ssn_x86 = 490
+arity_x86 = 7
+rva_x86 = 479360
+stub_x86 = "B8EA010000BAF091304BFFD2C21C0090B8EB0100"
+
+[[syscall]]
+name = "NtWow64CsrAllocateCaptureBuffer"
+ssn_x86 = 476
+arity_x86 = 2
+rva_x86 = 479136
+stub_x86 = "B8DC010000BAF091304BFFD2C2080090B8DD0100"
+
+[[syscall]]
+name = "NtWow64CsrAllocateMessagePointer"
+ssn_x86 = 478
+arity_x86 = 3
+rva_x86 = 479168
+stub_x86 = "B8DE010000BAF091304BFFD2C20C0090B8DF0100"
+
+[[syscall]]
+name = "NtWow64CsrCaptureMessageBuffer"
+ssn_x86 = 479
+arity_x86 = 4
+rva_x86 = 479184
+stub_x86 = "B8DF010000BAF091304BFFD2C2100090B8E00100"
+
+[[syscall]]
+name = "NtWow64CsrCaptureMessageString"
+ssn_x86 = 480
+arity_x86 = 5
+rva_x86 = 479200
+stub_x86 = "B8E0010000BAF091304BFFD2C2140090B8E10100"
+
+[[syscall]]
+name = "NtWow64CsrClientCallServer"
+ssn_x86 = 475
+arity_x86 = 4
+rva_x86 = 479120
+stub_x86 = "B8DB010000BAF091304BFFD2C2100090B8DC0100"
+
+[[syscall]]
+name = "NtWow64CsrClientConnectToServer"
+ssn_x86 = 473
+arity_x86 = 5
+rva_x86 = 479088
+stub_x86 = "B8D9010000BAF091304BFFD2C2140090B8DA0100"
+
+[[syscall]]
+name = "NtWow64CsrFreeCaptureBuffer"
+ssn_x86 = 477
+arity_x86 = 1
+rva_x86 = 479152
+stub_x86 = "B8DD010000BAF091304BFFD2C2040090B8DE0100"
+
+[[syscall]]
+name = "NtWow64CsrGetProcessId"
+ssn_x86 = 481
+arity_x86 = 2
+rva_x86 = 479216
+stub_x86 = "B8E1010000BAF091304BFFD2C38D4900B8E20100"
+
+[[syscall]]
+name = "NtWow64CsrIdentifyAlertableThread"
+ssn_x86 = 474
+arity_x86 = 4
+rva_x86 = 479104
+stub_x86 = "B8DA010000BAF091304BFFD2C38D4900B8DB0100"
+
+[[syscall]]
+name = "NtWow64CsrVerifyRegion"
+ssn_x86 = 482
+arity_x86 = 2
+rva_x86 = 479232
+stub_x86 = "B8E2010000BAF091304BFFD2C2080090B8E30100"
+
+[[syscall]]
+name = "NtWow64DebuggerCall"
+ssn_x86 = 483
+arity_x86 = 5
+rva_x86 = 479248
+stub_x86 = "B8E3010000BAF091304BFFD2C2140090B8E40100"
+
+[[syscall]]
+name = "NtWow64GetCurrentProcessorNumberEx"
+ssn_x86 = 484
+arity_x86 = 1
+rva_x86 = 479264
+stub_x86 = "B8E4010000BAF091304BFFD2C2040090B8E50100"
+
+[[syscall]]
+name = "NtWow64GetNativeSystemInformation"
+ssn_x86 = 485
+arity_x86 = 4
+rva_x86 = 479280
+stub_x86 = "B8E5010000BAF091304BFFD2C2100090B8E60100"
+
+[[syscall]]
+name = "NtWow64IsProcessorFeaturePresent"
+ssn_x86 = 491
+arity_x86 = 1
+rva_x86 = 479376
+stub_x86 = "B8EB010000BAF091304BFFD2C20400CC68305D28"
+
+[[syscall]]
+name = "NtWow64QueryInformationProcess64"
+ssn_x86 = 486
+arity_x86 = 5
+rva_x86 = 479296
+stub_x86 = "B8E6010000BAF091304BFFD2C2140090B8E70100"
+
+[[syscall]]
+name = "NtWow64ReadVirtualMemory64"
+ssn_x86 = 488
+arity_x86 = 7
+rva_x86 = 479328
+stub_x86 = "B8E8010000BAF091304BFFD2C21C0090B8E90100"
+
+[[syscall]]
+name = "NtWow64WriteVirtualMemory64"
+ssn_x86 = 489
+arity_x86 = 7
+rva_x86 = 479344
+stub_x86 = "B8E9010000BAF091304BFFD2C21C0090B8EA0100"
+
+[[syscall]]
+name = "NtWriteFile"
+ssn_x64 = 8
+ssn_x86 = 1703944
+arity_x86 = 9
+rva_x64 = 644752
+rva_x86 = 471616
+stub_x64 = "4C8BD1B808000000F604250803FE7F0175030F05"
+stub_x86 = "B808001A00BAF091304BFFD2C2240090B809001C"
+
+[[syscall]]
+name = "NtWriteFileGather"
+ssn_x64 = 27
+ssn_x86 = 1703963
+arity_x86 = 9
+rva_x64 = 645360
+rva_x86 = 471952
+stub_x64 = "4C8BD1B81B000000F604250803FE7F0175030F05"
+stub_x86 = "B81B001A00BAF091304BFFD2C2240090B81C0000"
+
+[[syscall]]
+name = "NtWriteRequestData"
+ssn_x64 = 87
+ssn_x86 = 87
+arity_x86 = 6
+rva_x64 = 647280
+rva_x86 = 472912
+stub_x64 = "4C8BD1B857000000F604250803FE7F0175030F05"
+stub_x86 = "B857000000BAF091304BFFD2C2180090B8580000"
+
+[[syscall]]
+name = "NtWriteVirtualMemory"
+ssn_x64 = 58
+ssn_x86 = 58
+arity_x86 = 5
+rva_x64 = 646352
+rva_x86 = 472448
+stub_x64 = "4C8BD1B83A000000F604250803FE7F0175030F05"
+stub_x86 = "B83A000000BAF091304BFFD2C2140090B83B0000"
+
+[[syscall]]
+name = "NtYieldExecution"
+ssn_x64 = 70
+ssn_x86 = 65606
+arity_x86 = 3
+rva_x64 = 646736
+rva_x86 = 472640
+stub_x64 = "4C8BD1B846000000F604250803FE7F0175030F05"
+stub_x86 = "B846000100BAF091304BFFD2C38D4900B847000A"
